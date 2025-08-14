@@ -1,7 +1,5 @@
 
 
-
-
 a{
     margin: 0;
     padding: 0;
@@ -99,8 +97,8 @@ header {
     background-color: white;
     display: flex;
     flex-direction: row;
-    width: stretch;
-    height: 100px;
+    width: 100%;
+    min-height: 100px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0px;
     padding: 0px;

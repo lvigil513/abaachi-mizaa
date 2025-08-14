@@ -1,0 +1,299 @@
+
+
+
+
+a{
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+.content-card {
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    background-color: #DCDCDC;
+    align-items: center;
+    line-height: 500px;
+    border-radius: 10px;
+    padding: 0px;
+    margin: 20px;
+}
+
+
+.content-game {
+    display: flex;
+    flex-direction: row;
+    background-color: #DCDCDC;
+    align-items: center;
+    height: 100px;
+    line-height: 100px;
+    border-radius: 10px;
+    padding: 0px;
+    margin: 20px;
+}
+
+
+.content-game-text {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+
+.content-resource {
+    display: flex;
+    flex-direction: row;
+    background-color: #D2D2D2;
+    align-items: center;
+    height: 160px;
+    line-height: 160px;
+    border-radius: 10px;
+    padding: 0px;
+    margin: 20px;
+}
+
+
+.content-resource-img {
+    width: 140px;
+    margin: 0;
+    padding: 10px;
+}
+
+
+.content-resource-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    padding: 10px;
+}
+
+
+footer {
+    background-color: white;
+    width: 100%;
+    min-height: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    line-height: 100px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0px;
+    padding: 10px;
+}
+
+
+header {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    width: stretch;
+    height: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.hidden {
+    display: block;
+}
+
+
+html{
+    width: 100%;
+    height: 100%;
+}
+
+
+.img-plant {
+    height: 400px;
+}
+
+
+.list-game-section {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.list-game-gametype {
+    text-align: left;
+    padding: 20px;
+}
+
+
+.link-header {
+    display: block;
+    padding: 10px;
+}
+
+
+.list-resource-section {
+    padding: 20px;
+}
+
+
+.list-resource-title {
+    text-align: left;
+    padding: 20px;
+}
+
+
+main {
+    background-color: #F0F0F0;
+    margin: 0;
+    padding: 1em;
+}
+
+
+p {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.text-general-large {
+    text-align: center;
+    color: black;
+    font-size: 2em;
+    margin: 0px;
+    padding: 2em;
+}
+
+
+.text-home-medium {
+    color: white;
+    font-size: 2em;
+    font-weight: normal;
+    text-align: center;
+    margin: 20px;
+    padding: 0px;
+}
+
+
+.text-home-large {
+    color: white;
+    font-size: 4em;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px;
+    padding: 0px;
+}
+
+
+.text-plant-description {
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    margin: 0;
+    position: center;
+    text-align: center;
+}
+
+
+.text-plant-title {
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    margin: 0;
+    position: center;
+    text-align: center;
+}
+
+
+.section-course {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 0;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+
+.section-course-item {
+    background-color: #DCDCDC;
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    line-height: 60px;
+    align-items: center;
+    text-align: left;
+    margin: 2px;
+    padding: 10px;
+}
+
+
+.section-course-title {
+    background-color: #C8C8C8;
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    line-height: 60px;
+    align-items: center;
+    text-align: left;
+    margin: 2px;
+    padding: 10px;
+}
+
+
+.section-plant-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    width: 200px;
+}
+
+
+.section-plant-info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    font-size: 1em;
+    margin: 1em;
+    padding: 1em;
+}
+
+
+.wrapper-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.wrapper-main-background {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+    background-image: url('../assets/backgrounds/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+}

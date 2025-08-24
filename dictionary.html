@@ -9,6 +9,7 @@
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/style_dictionary.css">
+    <script src="js/script.js"></script>
 </head>
 
 
@@ -42,13 +43,7 @@
         <h1 class="text-general-large">Dictionary</h1>
 
 
-        <div class="nav-dictionary">
-
-
-
-        </div>
-
-
+        <p class="text-list-revised">Revised 8/23/25</p>
 
 
         <div class="list-dictionary-section">
@@ -1219,6 +1214,42 @@
 
 
 
+
+
+        <div class="list-dictionary-section">
+
+
+            <div class="button-section" onclick="toggleSection('section-foods')">
+
+
+                <h2 class="text-vocab-section">Foods</h2>
+
+            </div>
+
+            <div id="section-foods">
+
+
+                <div class="content-vocab" onclick="playAudio('foods/cents.wav')">
+
+
+                    <h2 class="content-vocab-title">Cents</h2>
+                    <h2 class="content-vocab-description">Sindáo</h2>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+
+
         <div class="list-dictionary-section">
 
 
@@ -1807,6 +1838,309 @@
 
 
 
+        <div class="list-dictionary-section">
+
+
+            <div class="button-section" onclick="toggleSection('section-locations')">
+
+
+                <h2 class="text-vocab-section">Locations</h2>
+
+            </div>
+
+            <div id="section-locations">
+
+
+                <div class="content-vocab" onclick="playAudio('locations/albuquerque.wav')">
+
+
+                    <h2 class="content-vocab-title">Albuquerque, NM</h2>
+                    <h2 class="content-vocab-description">Dziłntsaa / Gołgéegi</h2>
+
+                </div>
+
+                <div class="content-vocab" onclick="playAudio('locations/burns_canyon.wav')">
+
+
+                    <h2 class="content-vocab-title">Burns Canyon</h2>
+                    <h2 class="content-vocab-description">Gayada</h2>
+
+                </div>
+
+                <div class="content-vocab" onclick="playAudio('locations/burro_canyon.wav')">
+
+
+                    <h2 class="content-vocab-title">Burro Canyon</h2>
+                    <h2 class="content-vocab-description">Dze siłka</h2>
+
+                </div>
+
+                <div class="content-vocab" onclick="playAudio('locations/casino.wav')">
+
+
+                    <h2 class="content-vocab-title">Casino</h2>
+                    <h2 class="content-vocab-description">Ishdika’ee</h2>
+
+                </div>
+
+                <div class="content-vocab" onclick="playAudio('locations/cedar_springs_canyon.wav')">
+
+
+                    <h2 class="content-vocab-title">Cedar Springs Canyon</h2>
+                    <h2 class="content-vocab-description">Kałdee i a’ / Kałdee ko’ii</h2>
+
+                </div>
+
+                <div class="content-vocab" onclick="playAudio('locations/clinic.wav')">
+
+
+                    <h2 class="content-vocab-title">Clinic</h2>
+                    <h2 class="content-vocab-description">Nzhónách’idle'ee</h2>
+
+                </div>
+
+                <div class="content-vocab" onclick="playAudio('locations/compasneros_canyon.wav')">
+
+
+                    <h2 class="content-vocab-title">Compasneros Canyon</h2>
+                    <h2 class="content-vocab-description">Gaa mii zhaał gu aah</h2>
+
+                </div>
+
+                <div class="content-vocab" onclick="playAudio('locations/dulce_lake.wav')">
+
+
+                    <h2 class="content-vocab-title">Dulce Lake</h2>
+                    <h2 class="content-vocab-description">Lóosi Kósiłká’ee</h2>
+
+                </div>
+
+                <div class="content-vocab" onclick="playAudio('locations/dulce_rock.wav')">
+
+
+                    <h2 class="content-vocab-title">Dulce Rock</h2>
+                    <h2 class="content-vocab-description">Lóosi Hik’a’ye</h2>
+
+                </div>
+
+                <div class="content-vocab" onclick="playAudio('locations/hillcrest.wav')">
+
+
+                    <h2 class="content-vocab-title">Hillcrest</h2>
+                    <h2 class="content-vocab-description">Toos sikaa</h2>
+
+                </div>
+
+                <div class="content-vocab" onclick="playAudio('locations/hole_in_the_rock.wav')">
+
+
+                    <h2 class="content-vocab-title">Hole in the Rock</h2>
+                    <h2 class="content-vocab-description">Tsé gha go an</h2>
+
+                </div>
+
+                <div class="content-vocab" onclick="playAudio('locations/hospital.wav')">
+
+
+                    <h2 class="content-vocab-title">Hospital</h2>
+                    <h2 class="content-vocab-description">Nzhónách’idle / Háasbila</h2>
+
+                </div>
+
+                <div class="content-vocab" onclick="playAudio('locations/ignacio.wav')">
+
+
+                    <h2 class="content-vocab-title">Ignacio, CO</h2>
+                    <h2 class="content-vocab-description">Ináaso</h2>
+
+                </div>
+
+                <div class="content-vocab" onclick="playAudio('locations/ihop.wav')">
+
+
+                    <h2 class="content-vocab-title">IHOP</h2>
+                    <h2 class="content-vocab-description">Dajiya’ee</h2>
+
+                </div>
+
+                <div class="content-vocab" onclick="playAudio('locations/la_jara.wav')">
+
+
+                    <h2 class="content-vocab-title">La Jara</h2>
+                    <h2 class="content-vocab-description">Hala</h2>
+
+                </div>
+
+                <div class="content-vocab" onclick="playAudio('locations/la_jara_lake.wav')">
+
+
+                    <h2 class="content-vocab-title">La Jara Lake</h2>
+                    <h2 class="content-vocab-description">Hala a’ Kósiłká’ee</h2>
+
+                </div>
+
+                <div class="content-vocab" onclick="playAudio('locations/lake.wav')">
+
+
+                    <h2 class="content-vocab-title">Lake</h2>
+                    <h2 class="content-vocab-description">Kósiłká</h2>
+
+                </div>
+
+                <div class="content-vocab" onclick="playAudio('locations/las_norias_canyon.wav')">
+
+
+                    <h2 class="content-vocab-title">Las Norias Canyon</h2>
+                    <h2 class="content-vocab-description">Kó Hagee</h2>
+
+                </div>
+
+                <div class="content-vocab" onclick="playAudio('locations/long_bridge.wav')">
+
+
+                    <h2 class="content-vocab-title">Long Bridge</h2>
+                    <h2 class="content-vocab-description">Naa in aii goo dees</h2>
+
+                </div>
+
+                <div class="content-vocab" onclick="playAudio('locations/martinez_pond.wav')">
+
+
+                    <h2 class="content-vocab-title">Martinez Pond</h2>
+                    <h2 class="content-vocab-description">Kóon Naasin’aa</h2>
+
+                </div>
+
+                <div class="content-vocab" onclick="playAudio('locations/mcdonalds.wav')">
+
+
+                    <h2 class="content-vocab-title">McDonald’s</h2>
+                    <h2 class="content-vocab-description">Náaki łitsóoye ił le naan aa’ee</h2>
+
+                </div>
+
+                <div class="content-vocab" onclick="playAudio('locations/navajo_river.wav')">
+
+
+                    <h2 class="content-vocab-title">Navajo River</h2>
+                    <h2 class="content-vocab-description">Lóonahó</h2>
+
+                </div>
+
+                <div class="content-vocab" onclick="playAudio('locations/pagosa.wav')">
+
+
+                    <h2 class="content-vocab-title">Pagosa, CO</h2>
+                    <h2 class="content-vocab-description">Bawóoso</h2>
+
+                </div>
+
+                <div class="content-vocab" onclick="playAudio('locations/pine_lake.wav')">
+
+
+                    <h2 class="content-vocab-title">Pine Lake</h2>
+                    <h2 class="content-vocab-description">Nóoshchi dezee kó</h2>
+
+                </div>
+
+                <div class="content-vocab" onclick="playAudio('locations/puerto_springs.wav')">
+
+
+                    <h2 class="content-vocab-title">Puerto Springs</h2>
+                    <h2 class="content-vocab-description">Gléesh mił kó ha li</h2>
+
+                </div>
+
+                <div class="content-vocab" onclick="playAudio('locations/red_lake.wav')">
+
+
+                    <h2 class="content-vocab-title">Red Lake</h2>
+                    <h2 class="content-vocab-description">Łichi Kósiłká’ee</h2>
+
+                </div>
+
+                <div class="content-vocab" onclick="playAudio('locations/restaurant.wav')">
+
+
+                    <h2 class="content-vocab-title">Restaurant</h2>
+                    <h2 class="content-vocab-description">Dajiya’ee</h2>
+
+                </div>
+
+
+
+
+                <div class="content-vocab" onclick="playAudio('locations/sandpit.wav')">
+
+
+                    <h2 class="content-vocab-title">Sandpit</h2>
+                    <h2 class="content-vocab-description">Tłeesh ha’daige a’</h2>
+
+                </div>
+
+                <div class="content-vocab" onclick="playAudio('locations/sawmill_canyon.wav')">
+
+
+                    <h2 class="content-vocab-title">Sawmill Canyon</h2>
+                    <h2 class="content-vocab-description">Igoo’aa’ye</h2>
+
+                </div>
+
+                <div class="content-vocab" onclick="playAudio('locations/school.wav')">
+
+
+                    <h2 class="content-vocab-title">School</h2>
+                    <h2 class="content-vocab-description">Isgwéela</h2>
+
+                </div>
+
+                <div class="content-vocab" onclick="playAudio('locations/senior_center.wav')">
+
+
+                    <h2 class="content-vocab-title">Senior Center</h2>
+                    <h2 class="content-vocab-description">Haskin da ii ya’ee</h2>
+
+                </div>
+
+                <div class="content-vocab" onclick="playAudio('locations/store.wav')">
+
+
+                    <h2 class="content-vocab-title">Store</h2>
+                    <h2 class="content-vocab-description">Denda / Na’échi’ee</h2>
+
+                </div>
+
+                <div class="content-vocab" onclick="playAudio('locations/taco_bell.wav')">
+
+
+                    <h2 class="content-vocab-title">Taco Bell</h2>
+                    <h2 class="content-vocab-description">Naakai mii daan naa mee chi’ee / Naakai daan a’daił i a’</h2>
+
+                </div>
+
+                <div class="content-vocab" onclick="playAudio('locations/tribal_building.wav')">
+
+
+                    <h2 class="content-vocab-title">Tribal Building</h2>
+                    <h2 class="content-vocab-description">Nant'áan dasida’ee</h2>
+
+                </div>
+
+                <div class="content-vocab" onclick="playAudio('locations/wild_horse_spring.wav')">
+
+
+                    <h2 class="content-vocab-title">Wild Horse Spring</h2>
+                    <h2 class="content-vocab-description">Tse yaa kó</h2>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+
 
 
 
@@ -2081,36 +2415,7 @@
     </div>
 
 
-    <script>
-
-
-        //Play Audio
-
-        function playAudio(url) {
-
-
-            new Audio("assets/sounds/" + url).play();
-
-        }
-
-
-        //Toggle Sections
-
-        function toggleSection(input) {
-
-
-            const element = document.getElementById(input);
-
-            if (element.style.display === 'block') {
-                element.style.display = 'none'; // Or 'flex', 'grid', etc.
-            } else {
-                element.style.display = 'block';
-            }
-
-        }
-
-
-    </script>
+    <script src="js/script.js"></script>
 
 
 </body>

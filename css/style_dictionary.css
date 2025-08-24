@@ -28,6 +28,10 @@
     display: none;
 }
 
+#section-foods {
+    display: none;
+}
+
 #section-fruits {
     display: none;
 }
@@ -41,6 +45,10 @@
 }
 
 #section-kinship {
+    display: none;
+}
+
+#section-locations {
     display: none;
 }
 

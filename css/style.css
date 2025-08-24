@@ -32,6 +32,11 @@ body {
 }
 
 
+.button-submit {
+    width: 80px;
+}
+
+
 .content-card {
     height: 500px;
     display: flex;
@@ -74,16 +79,45 @@ body {
 }
 
 
+.content-course {
+    width: stretch;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    cursor: pointer;
+    text-align: left;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+
+    .content-course a {
+        text-decoration: none;
+    }
+
+
+.content-course-title {
+    width: 100%;
+    height: 100%;
+    align-content: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+
 .content-game {
+    width: stretch;
+    height: 100px;
     display: flex;
     flex-direction: row;
-    background-color: #DCDCDC;
+    background-color: white;
     align-items: center;
-    height: 100px;
     line-height: 100px;
     border-radius: 10px;
+    margin: 10px;
     padding: 0px;
-    margin: 20px;
 }
 
 
@@ -106,6 +140,7 @@ body {
     margin: 10px;
     padding: 10px;
 }
+
 
 .content-resource:hover {
     background-color: #B51700;
@@ -225,6 +260,16 @@ header {
 }
 
 
+.header-course {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100px;
+
+}
+
+
 .header-img {
     display: block;
     object-fit: contain;
@@ -238,13 +283,14 @@ header {
     height: auto;
     display: flex;
     flex-wrap: wrap;
-    flex: 0 0 40%;
+    flex: 0 0 30%;
     list-style-type: none;
     font-size: 0.9em;
     align-content: center;
     justify-content: center;
     text-align: center;
-    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     padding: 0px;
 }
 
@@ -273,31 +319,92 @@ html{
 }
 
 
-.list-dictionary-section {
-    height: 100%;
+.input-question {
     display: flex;
     flex-direction: column;
-    background: gray;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+
+.list-course-section {
+    height: auto;
+    display: flex;
+    flex-direction: column;
     border-radius: 10px;
     margin: 10px;
     padding: 10px;
 }
 
 
-.list-game-section {
-    padding-top: 20px;
-    padding-bottom: 20px;
+.list-course-vocab {
+    margin: 20px;
+    padding: 0px;
 }
 
+
+.list-dictionary-section {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #C80000;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+    .list-dictionary-section:hover {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        background: #F00000;
+        border-radius: 10px;
+        margin: 10px;
+        padding: 10px;
+    }
+
+
 .list-game-gametype {
+    width: stretch;
+    height: 50px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 50px;
     text-align: left;
-    padding: 20px;
+    margin: 10px;
+    padding: 0px;
+}
+
+
+.list-game-section {
+    height: auto;
+    background: #3333FF;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
 }
 
 
 .link-header {
     display: block;
     padding: 10px;
+}
+
+
+.list-question-choices {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0px;
 }
 
 
@@ -345,11 +452,8 @@ p {
     display: flex;
     flex-direction: column;
     text-align: left;
-    margin: 0;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    padding-left: 2em;
-    padding-right: 2em;
+    margin: 20px;
+    padding: 20px;
 }
 
 
@@ -379,6 +483,11 @@ p {
 }
 
 
+#section-game-matching{
+    display: none;
+}
+
+
 .section-plant-img {
     display: flex;
     flex-direction: column;
@@ -394,15 +503,57 @@ p {
 }
 
 
+.text-answer {
+    display: none;
+    height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    line-height: 40px;
+    text-align: left;
+    margin-top: 20px;
+}
+
+
+.text-course-title {
+    width: stretch;
+    height: 50px;
+    color: #323232;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    font-style: normal;
+    font-weight: bold;
+    text-align: left;
+    line-height: 50px;
+    margin: 10px;
+    padding: 0px;
+}
+
+
 .text-general-large {
     width: stretch;
-    height: 140px;
+    height: 160px;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2em;
     font-weight: bold;
     line-height: 140px;
     text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.text-header {
+    width: 100%;
+    height: 100px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    font-weight: normal;
+    line-height: 100px;
+    text-align: left;
+    justify-content: center;
     margin: 0px;
     padding: 0px;
 }
@@ -443,6 +594,24 @@ p {
 }
 
 
+.text-italic {
+    font-style: italic;
+}
+
+
+.text-list-revised {
+    color: #646464;
+    height: 40px;
+    font-size: 1em;
+    font-style: italic;
+    font-weight: normal;
+    line-height: 40px;
+    text-align: center;
+    margin: 20px;
+    padding: 0px;
+}
+
+
 .text-plant-description {
     color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -463,6 +632,26 @@ p {
 }
 
 
+.text-question {
+    height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.25em;
+    font-weight: bold;
+    line-height: 30px;
+    text-align: left;
+}
+
+
+.text-vocab-list {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.25em;
+    font-style: normal;
+    text-align: left;
+    margin: 10px;
+    padding: 0px;
+}
+
+
 .text-vocab-section {
     width: stretch;
     height: 50px;
@@ -473,17 +662,19 @@ p {
     font-weight: bold;
     text-align: left;
     line-height: 50px;
-    margin: 20px;
+    margin: 10px;
     padding: 0px;
 }
 
 
 .wrapper-content {
-    background-color: #E6E6E6;
     width: 100%;
-    height: stretch;
+    height: auto;
+    background-color: #DCDCDC;
     display: flex;
     flex-direction: column;
+    margin: 0px;
+    padding: 0px;
 }
 
 

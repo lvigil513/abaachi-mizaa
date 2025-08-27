@@ -11,13 +11,8 @@ a {
 body {
     width: 100%;
     height: 100%;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    display: flex;
-    flex-direction: column;
-    background-color: white;
     margin: 0;
     padding: 0;
-    text-align: center;
 }
 
 
@@ -102,6 +97,8 @@ body {
     height: 100%;
     align-content: center;
     justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
     margin: 10px;
     padding: 10px;
 }
@@ -260,16 +257,6 @@ header {
 }
 
 
-.header-course {
-    background-color: white;
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: 100px;
-
-}
-
-
 .header-img {
     display: block;
     object-fit: contain;
@@ -357,17 +344,6 @@ html{
 }
 
 
-    .list-dictionary-section:hover {
-        height: auto;
-        display: flex;
-        flex-direction: column;
-        background: #F00000;
-        border-radius: 10px;
-        margin: 10px;
-        padding: 10px;
-    }
-
-
 .list-game-gametype {
     width: stretch;
     height: 50px;
@@ -415,6 +391,7 @@ html{
 
 .list-resource-title {
     height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
     line-height: 40px;
     font-size: 1.5em;
     text-align: left;
@@ -531,15 +508,15 @@ p {
 
 
 .text-general-large {
-    width: stretch;
-    height: 160px;
+    width: 100%;
+    height: 180px;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2em;
     font-weight: bold;
-    line-height: 140px;
     text-align: center;
-    margin: 0px;
+    align-content: center;
+    margin: auto;
     padding: 0px;
 }
 
@@ -561,6 +538,7 @@ p {
 
 .text-home-medium {
     color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 2em;
     font-weight: normal;
     text-align: center;
@@ -571,7 +549,8 @@ p {
 
 .text-home-large {
     color: white;
-    font-size: 4em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 3.5em;
     font-weight: bold;
     text-align: center;
     margin: 20px;
@@ -601,13 +580,13 @@ p {
 
 .text-list-revised {
     color: #646464;
-    height: 40px;
+    height: 100px;
     font-size: 1em;
     font-style: italic;
     font-weight: normal;
-    line-height: 40px;
+    line-height: 100px;
     text-align: center;
-    margin: 20px;
+    margin: 0px;
     padding: 0px;
 }
 
@@ -670,7 +649,7 @@ p {
 .wrapper-content {
     width: 100%;
     height: auto;
-    background-color: #DCDCDC;
+    background-color: #E6E6E6;
     display: flex;
     flex-direction: column;
     margin: 0px;

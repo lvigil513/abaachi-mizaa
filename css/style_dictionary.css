@@ -36,6 +36,10 @@
     display: none;
 }
 
+#section-geography {
+    display: none;
+}
+
 #section-gojiiya {
     display: none;
 }
@@ -52,7 +56,19 @@
     display: none;
 }
 
+#section-miscellaneous {
+    display: none;
+}
+
 #section-months {
+    display: none;
+}
+
+#section-numbers {
+    display: none;
+}
+
+#section-pronouns {
     display: none;
 }
 

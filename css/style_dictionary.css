@@ -64,11 +64,23 @@
     display: none;
 }
 
+#section-nature {
+    display: none;
+}
+
 #section-numbers {
     display: none;
 }
 
+#section-plants {
+    display: none;
+}
+
 #section-pronouns {
+    display: none;
+}
+
+#section-seasons {
     display: none;
 }
 

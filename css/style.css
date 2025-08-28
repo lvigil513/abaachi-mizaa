@@ -178,11 +178,6 @@ body {
     padding: 10px;
 }
 
-    .content-vocab:hover {
-        background-color: #E6E6E6;
-        color: black;
-    }
-
     .content-vocab:active {
         background-color: #C8C8C8;
         color: black;
@@ -337,7 +332,7 @@ html{
     height: auto;
     display: flex;
     flex-direction: column;
-    background-color: #C80000;
+    background-color: #C12121;
     border-radius: 10px;
     margin: 10px;
     padding: 10px;

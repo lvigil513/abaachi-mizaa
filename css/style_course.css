@@ -1,0 +1,11 @@
+
+
+.wrapper-content-course {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+}

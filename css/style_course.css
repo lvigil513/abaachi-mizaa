@@ -1,11 +1,105 @@
 
 
+.header-course {
+    background-color: #C0DCEE;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100px;
+}
+
+
+.input-question {
+    display: flex;
+    flex-direction: column;
+    background-color: #E6E6E6;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+
+.input-textfield {
+    width: auto;
+    border: 1px solid gray;
+    border-radius: 4px;
+    margin: 10px 0px;
+    padding: 10px;
+}
+
+
+.list-question-choices {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px 0px;
+    padding: 0px;
+}
+
+
+.nav-course {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    text-align: left;
+}
+
+
+.section-course {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    text-align: left;
+    border-radius: 10px;
+    margin: 40px 10px;
+    padding: 10px;
+}
+
+
+.text-course-sentence {
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    font-style: normal;
+    text-align: left;
+    margin: 10px 0px;
+}
+
+
+.text-course-question {
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    font-style: normal;
+    font-weight: bold;
+    text-align: left;
+    margin: 20px 0px;
+}
+
+
+.text-header-title {
+    width: 100%;
+    height: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    font-style: normal;
+    
+    text-align: left;
+    align-content: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+
 .wrapper-content-course {
     width: 100%;
     height: auto;
-    background-color: white;
     display: flex;
     flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
     padding: 0px;
 }

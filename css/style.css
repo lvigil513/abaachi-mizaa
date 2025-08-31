@@ -256,7 +256,7 @@ header {
     display: block;
     object-fit: contain;
     width: 100%;
-    height: 80px;
+    height: 100px;
 }
 
 
@@ -298,17 +298,6 @@ html{
 
 .img-plant {
     height: 400px;
-}
-
-
-.input-question {
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    border-radius: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding: 20px;
 }
 
 
@@ -369,13 +358,14 @@ html{
 }
 
 
-.list-question-choices {
+.list-phrases-section {
+    height: auto;
     display: flex;
     flex-direction: column;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding: 0px;
+    background-color: #F08A00;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
 }
 
 
@@ -420,13 +410,7 @@ p {
 }
 
 
-.section-course {
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    margin: 20px;
-    padding: 20px;
-}
+
 
 
 .section-course-item {
@@ -484,6 +468,16 @@ p {
     line-height: 40px;
     text-align: left;
     margin-top: 20px;
+}
+
+
+.text-course-sentence {
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    font-style: normal;
+    text-align: left;
+    margin: 20px 10px;
 }
 
 

@@ -1,5 +1,7 @@
 
 
+
+
 //Play Audio
 
 function playAudio(url) {
@@ -21,5 +23,35 @@ function toggleSection(input) {
     } else {
         element.style.display = 'block';
     }
+
+}
+
+
+///Check Text
+
+function inputText(id, out, prefix, suffix) {
+
+
+    const input = document.getElementById(id);
+    const output = document.getElementById("output");
+    const placeholder = "Enter text here...";
+    
+
+    input.addEventListener("input", () => {
+
+
+        if (input == "") {
+
+
+            output.textContent = placeholder;
+
+        } else {
+
+
+            output.textContent = prefix + input.value + suffix;
+
+        }
+
+    });
 
 }

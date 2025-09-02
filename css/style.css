@@ -19,8 +19,8 @@ body {
 .button-header {
     cursor: pointer;
     justify-items: center;
-    margin: 10px;
-    padding: 10px;
+    margin: 10px 20px;
+    padding: 0px;
 }
 
 
@@ -156,13 +156,12 @@ body {
     border-radius: 10px;
     cursor: pointer;
     margin: 10px;
-    padding: 10px;
+    padding: 0px;
 }
 
 
 
 .content-resource-img {
-    
     object-fit: contain;
     margin: 10px;
     padding: 0px;
@@ -229,11 +228,13 @@ body {
 }
 
 
+
+
 .content-vocab-title {
     display: flex;
     width: 100%;
     height: auto;
-    font-weight: 500;
+    font-weight: 600;
     margin: 10px;
     padding: 0px;
 }
@@ -243,7 +244,7 @@ body {
     display: flex;
     width: 100%;
     height: auto;
-    font-weight: 300;
+    font-weight: 400;
     margin: 10px;
     padding: 0px;
 }
@@ -442,7 +443,7 @@ html{
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
-    margin: 0px;
+    margin: 10px;
     padding: 0px;
 }
 
@@ -644,14 +645,6 @@ p {
 }
 
 
-.text-content-card-title{
-
-
-
-
-}
-
-
 .text-course-sentence {
     width: 100%;
     font-family: Arial, Helvetica, sans-serif;
@@ -812,8 +805,6 @@ p {
     align-content: center;
     text-align: left;
     margin: 10px;
-
-
 }
 
 
@@ -840,7 +831,7 @@ p {
 
 
 .text-section-title-dictionary {
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-weight: 500;
     color: white;
     font-size: 1.5em;
@@ -851,7 +842,7 @@ p {
 
 
 .text-section-title-games {
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-weight: 500;
     color: white;
     font-size: 1.5em;
@@ -862,7 +853,7 @@ p {
 
 
 .text-section-title-phrases {
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-weight: 500;
     color: white;
     font-size: 1.5em;
@@ -873,7 +864,7 @@ p {
 
 
 .text-section-title-resources {
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-weight: 500;
     color: white;
     font-size: 1.5em;

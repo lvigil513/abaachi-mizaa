@@ -16,12 +16,21 @@ body {
 }
 
 
+.button-header {
+    cursor: pointer;
+    justify-items: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+
 .button-section {
     display: flex;
     flex-direction: row;
     width: stretch;
     height: stretch;
     cursor: pointer;
+    align-items:center;
     margin: 0px;
     padding: 0px;
 }
@@ -33,17 +42,23 @@ body {
 
 
 .content-card {
-    height: 500px;
-    display: flex;
-    flex-direction: row;
-    background-color: #DCDCDC;
-    align-items: center;
-    line-height: 500px;
+    width: 500px;
+    height: 300px;
     border-radius: 10px;
+    box-shadow: 4px 4px 1px black;
+    overflow: hidden;
+    margin: 0px;
     padding: 0px;
-    margin: 20px;
 }
 
+
+.content-card-overlay{
+    width: 100%;
+    height: 100px;
+    margin-top: 200px;
+    background-color: white;
+
+}
 
 .content-card-information {
     width: 300px;
@@ -124,31 +139,33 @@ body {
 }
 
 
+.content-game-img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+
 .content-resource {
+    width: stretch;
+    height: 100px;
     display: flex;
     flex-direction: row;
-    background-color: #C8C8C8;
-    color: #323232;
-    height: 120px;
-    align-items: center;
-    text-decoration: none;
-    line-height: 120px;
+    background-color: white;
+    justify-content: center;
     border-radius: 10px;
+    cursor: pointer;
     margin: 10px;
     padding: 10px;
 }
 
 
-.content-resource:hover {
-    background-color: #B51700;
-    color: white;
-}
-
 
 .content-resource-img {
-    width: 100px;
-    margin: 0px;
-    padding: 10px;
+    
+    object-fit: contain;
+    margin: 10px;
+    padding: 0px;
 }
 
 
@@ -165,6 +182,24 @@ body {
 
 
 .content-vocab {
+    width: stretch;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    font-family: Roboto, sans-serif;
+    font-size: 1em;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+.content-vocab1 {
     display: flex;
     flex-direction: column;
     background-color: white;
@@ -178,7 +213,7 @@ body {
     padding: 10px;
 }
 
-    .content-vocab:active {
+    .content-vocab1:active {
         background-color: #C8C8C8;
         color: black;
     }
@@ -197,6 +232,28 @@ body {
 .content-vocab-title {
     display: flex;
     width: 100%;
+    height: auto;
+    font-weight: 500;
+    margin: 10px;
+    padding: 0px;
+}
+
+
+.content-vocab-description {
+    display: flex;
+    width: 100%;
+    height: auto;
+    font-weight: 300;
+    margin: 10px;
+    padding: 0px;
+}
+
+
+
+
+.content-vocab-title1 {
+    display: flex;
+    width: 100%;
     height: 60px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1.25em;
@@ -209,8 +266,7 @@ body {
     padding: 0px;
 }
 
-
-.content-vocab-description {
+.content-vocab-description1 {
     display: flex;
     width: 100%;
     height: 60px;
@@ -226,9 +282,35 @@ body {
 }
 
 
+
+
+
+@font-face {
+    font-family: 'Merriweather'; /*a name to be used later*/
+    src: url('../assets/fonts/Merriweather/Merriweather-VariableFont_opsz,wdth,wght.ttf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'Playfair Display'; /*a name to be used later*/
+    src: url('../assets/fonts/PlayfairDisplay/PlayfairDisplay-VariableFont_wght.ttf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'Roboto'; /*a name to be used later*/
+    src: url('../assets/fonts/Roboto/Roboto-VariableFont_wdth,wght.ttf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'Roboto (Condensed)'; /*a name to be used later*/
+    src: url('../assets/fonts/Roboto_(Condensed)/RobotoCondensed-VariableFont_wght.ttf'); /*URL to font*/
+}
+
+
+
+
 footer {
     background-color: white;
-    width: 100%;
+    width: auto;
     min-height: 100px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1em;
@@ -246,7 +328,9 @@ header {
     display: block;
     width: 100%;
     height: auto;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-bottom: solid;
+    border-bottom-color: #C8C8C8;
+    border-bottom-width: 1px;
     margin: 0px;
     padding: 0px;
 }
@@ -358,6 +442,27 @@ html{
 }
 
 
+.list-header {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.list-horizontal {
+    width: auto;
+    display: grid;
+    grid-auto-flow: column;
+    gap: 40px;
+    overflow: auto;
+    margin: 10px;
+    padding: 30px;
+}
+
+
 .list-phrases-section {
     height: auto;
     display: flex;
@@ -382,6 +487,8 @@ html{
     text-align: left;
     padding: 10px;
 }
+
+
 
 
 main {
@@ -409,6 +516,73 @@ p {
     padding: 0px;
 }
 
+
+
+
+.section-content {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+.section-content-list {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #E6E6E6;
+    border-radius: 10px;
+    margin: 10px 20px;
+    padding: 0px;
+}
+
+
+
+
+.section-content-list-dictionary {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #FF3232;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 0px;
+}
+
+
+.section-content-list-games {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #0078C8;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 0px;
+}
+
+
+.section-content-list-phrases {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #FF9600;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 0px;
+}
+
+
+.section-content-list-resources {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #B369E8;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 0px;
+}
 
 
 
@@ -443,6 +617,10 @@ p {
     display: none;
 }
 
+#section-menu {
+    display: none;
+}
+
 
 .section-plant-img {
     display: flex;
@@ -468,6 +646,14 @@ p {
     line-height: 40px;
     text-align: left;
     margin-top: 20px;
+}
+
+
+.text-content-card-title{
+
+
+
+
 }
 
 
@@ -511,17 +697,11 @@ p {
 
 
 .text-header {
-    width: 100%;
-    height: 100px;
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.5em;
-    font-weight: normal;
-    line-height: 100px;
-    text-align: left;
-    justify-content: center;
-    margin: 0px;
-    padding: 0px;
+    color: #0032C8;
+    font-family: Roboto, sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    text-align: center;
 }
 
 
@@ -580,6 +760,34 @@ p {
 }
 
 
+.text-page-title {
+    height: 160px;
+    color: black;
+    font-family: Roboto;
+    font-weight: 500;
+    text-align: center;
+    align-content: center;
+}
+
+
+.text-page-heading {
+    font-family: Roboto;
+    font-weight: bold;
+    color: black;
+    align-content: center;
+    margin: 40px 10px;
+}
+
+
+.text-page-paragraph {
+    font-family: Roboto;
+    font-weight: normal;
+    color: black;
+    align-content: center;
+    margin: 20px 10px;
+}
+
+
 .text-plant-description {
     color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -594,20 +802,92 @@ p {
     color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1em;
-    margin: 0;
+    margin: 10px;
     position: center;
     text-align: center;
 }
 
 
-.text-question {
-    height: 30px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.25em;
-    font-weight: bold;
-    line-height: 30px;
+.text-resource-title{
+    width: 100%;
+    height: auto;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    color: black;
+    align-content: center;
     text-align: left;
+    margin: 10px;
+
+
 }
+
+
+.text-section-general {
+    font-family: Roboto;
+    font-weight: normal;
+    color: black;
+    align-content: center;
+    margin: 20px 10px;
+    padding: 0px;
+}
+
+
+.text-section-title {
+    font-family: Roboto;
+    font-weight: 500;
+    color: black;
+    align-content: center;
+    margin: 20px;
+    padding: 0px;
+}
+
+
+
+
+.text-section-title-dictionary {
+    font-family: Roboto;
+    font-weight: 500;
+    color: white;
+    font-size: 1.5em;
+    align-content: center;
+    margin: 20px;
+    padding: 0px;
+}
+
+
+.text-section-title-games {
+    font-family: Roboto;
+    font-weight: 500;
+    color: white;
+    font-size: 1.5em;
+    align-content: center;
+    margin: 20px;
+    padding: 0px;
+}
+
+
+.text-section-title-phrases {
+    font-family: Roboto;
+    font-weight: 500;
+    color: white;
+    font-size: 1.5em;
+    align-content: center;
+    margin: 20px;
+    padding: 0px;
+}
+
+
+.text-section-title-resources {
+    font-family: Roboto;
+    font-weight: 500;
+    color: white;
+    font-size: 1.5em;
+    align-content: center;
+    margin: 20px;
+    padding: 0px;
+}
+
+
 
 
 .text-vocab-list {
@@ -638,7 +918,6 @@ p {
 .wrapper-content {
     width: 100%;
     height: auto;
-    background-color: #E6E6E6;
     display: flex;
     flex-direction: column;
     margin: 0px;

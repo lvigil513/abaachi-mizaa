@@ -10,7 +10,7 @@
     <link rel="icon" href="assets/favicon/favicon_o.png">
     <link rel="apple-touch-icon" href="assets/favicon/favicon_o_apple.png">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/style_dictionary.css">
+    <link rel="stylesheet" href="css/style_section.css">
     <script src="js/script.js"></script>
 </head>
 
@@ -23,17 +23,7 @@
 
         <img src="assets/header/header_logo.png" class="header-img">
 
-        <ul class="header-list">
-
-            <li><a href="index.html" class="link-header">Home</a></li>
-            <li><a href="courses.html" class="link-header">Courses</a></li>
-            <li><a href="dictionary.html" class="link-header">Dictionary</a></li>
-            <li><a href="phrases.html" class="link-header">Phrases</a></li>
-            <li><a href="games.html" class="link-header">Games</a></li>
-            <li><a href="information.html" class="link-header">Information</a></li>
-            <li><a href="resources.html" class="link-header">Resources</a></li>
-
-        </ul>
+        <div id="nav-header" class="list-header"></div>
 
     </header>
 
@@ -43,21 +33,23 @@
 
 
 
-        <h1 class="text-general-large">Dictionary</h1>
-
-        <p class="text-list-revised">Revised 8/29/25</p>
-
-        <div class="list-dictionary-section">
+        <h1 class="text-page-title">Dictionary</h1>
 
 
-            <div class="button-section" onclick="toggleSection('section-animals')">
+        <p class="text-list-revised">Revised 9/1/25</p>
 
 
-                <h2 class="text-vocab-section">Animals</h2>
+        <div class="section-content-list-dictionary">
+
+
+            <div class="button-section" onclick="toggleSection('section-dictionary-animals')">
+
+
+                <h2 class="text-section-title-dictionary">Animals</h2>
 
             </div>
 
-            <div id="section-animals">
+            <div id="section-dictionary-animals">
 
 
                 <div class="content-vocab" onclick="playAudio('animals/ant.wav')">
@@ -251,17 +243,17 @@
 
 
 
-        <div class="list-dictionary-section">
+        <div class="section-content-list-dictionary">
 
 
-            <div class="button-section" onclick="toggleSection('section-beverages')">
+            <div class="button-section" onclick="toggleSection('section-dictionary-beverages')">
 
 
-                <h2 class="text-vocab-section">Beverages</h2>
+                <h2 class="text-section-title-dictionary">Beverages</h2>
 
             </div>
 
-            <div id="section-beverages">
+            <div id="section-dictionary-beverages">
 
 
                 <div class="content-vocab" onclick="playAudio('beverages/apple_juice.wav')">
@@ -399,17 +391,17 @@
 
 
 
-        <div class="list-dictionary-section">
+        <div class="section-content-list-dictionary">
 
 
-            <div class="button-section" onclick="toggleSection('section-bodyparts')">
+            <div class="button-section" onclick="toggleSection('section-dictionary-bodyparts')">
 
 
-                <h2 class="text-vocab-section">Body Parts</h2>
+                <h2 class="text-section-title-dictionary">Body Parts</h2>
 
             </div>
 
-            <div id="section-bodyparts">
+            <div id="section-dictionary-bodyparts">
 
 
                 <div class="content-vocab" onclick="playAudio('body_parts/ankle.wav')">
@@ -747,17 +739,17 @@
 
 
 
-        <div class="list-dictionary-section">
+        <div class="section-content-list-dictionary">
 
 
-            <div class="button-section" onclick="toggleSection('section-clothing')">
+            <div class="button-section" onclick="toggleSection('section-dictionary-clothing')">
 
 
-                <h2 class="text-vocab-section">Clothing</h2>
+                <h2 class="text-section-title-dictionary">Clothing</h2>
 
             </div>
 
-            <div id="section-clothing">
+            <div id="section-dictionary-clothing">
 
 
                 <div class="content-vocab" onclick="playAudio('clothing/anklet.wav')">
@@ -927,17 +919,17 @@
 
 
 
-        <div class="list-dictionary-section">
+        <div class="section-content-list-dictionary">
 
 
-            <div class="button-section" onclick="toggleSection('section-colors')">
+            <div class="button-section" onclick="toggleSection('section-dictionary-colors')">
 
 
-                <h2 class="text-vocab-section">Colors</h2>
+                <h2 class="text-section-title-dictionary">Colors</h2>
 
             </div>
 
-            <div id="section-colors">
+            <div id="section-dictionary-colors">
 
 
                 <div class="content-vocab" onclick="playAudio('colors/black.wav')">
@@ -1075,17 +1067,17 @@
 
 
 
-        <div class="list-dictionary-section">
+        <div class="section-content-list-dictionary">
 
 
-            <div class="button-section" onclick="toggleSection('section-days-of-the-week')">
+            <div class="button-section" onclick="toggleSection('section-dictionary-days-of-the-week')">
 
 
-                <h2 class="text-vocab-section">Days of the Week</h2>
+                <h2 class="text-section-title-dictionary">Days of the Week</h2>
 
             </div>
 
-            <div id="section-days-of-the-week">
+            <div id="section-dictionary-days-of-the-week">
 
 
                 <div class="content-vocab" onclick="playAudio('days_of_the_week/sunday.wav')">
@@ -1156,17 +1148,17 @@
 
 
 
-        <div class="list-dictionary-section">
+        <div class="section-content-list-dictionary">
 
 
-            <div class="button-section" onclick="toggleSection('section-finance')">
+            <div class="button-section" onclick="toggleSection('section-dictionary-finance')">
 
 
-                <h2 class="text-vocab-section">Finance</h2>
+                <h2 class="text-section-title-dictionary">Finance</h2>
 
             </div>
 
-            <div id="section-finance">
+            <div id="section-dictionary-finance">
 
 
                 <div class="content-vocab" onclick="playAudio('finance/cents.wav')">
@@ -1240,17 +1232,17 @@
 
 
 
-        <div class="list-dictionary-section">
+        <div class="section-content-list-dictionary">
 
 
-            <div class="button-section" onclick="toggleSection('section-foods')">
+            <div class="button-section" onclick="toggleSection('section-dictionary-foods')">
 
 
-                <h2 class="text-vocab-section">Foods</h2>
+                <h2 class="text-section-title-dictionary">Foods</h2>
 
             </div>
 
-            <div id="section-foods">
+            <div id="section-dictionary-foods">
 
 
                 <div class="content-vocab" onclick="playAudio('foods/apple.wav')">
@@ -1860,17 +1852,17 @@
 
 
 
-        <div class="list-dictionary-section">
+        <div class="section-content-list-dictionary">
 
 
-            <div class="button-section" onclick="toggleSection('section-fruits')">
+            <div class="button-section" onclick="toggleSection('section-dictionary-fruits')">
 
 
-                <h2 class="text-vocab-section">Fruits</h2>
+                <h2 class="text-section-title-dictionary">Fruits</h2>
 
             </div>
 
-            <div id="section-fruits">
+            <div id="section-dictionary-fruits">
 
 
                 <div class="content-vocab" onclick="playAudio('fruits/apple.wav')">
@@ -1992,17 +1984,17 @@
 
 
 
-        <div class="list-dictionary-section">
+        <div class="section-content-list-dictionary">
 
 
-            <div class="button-section" onclick="toggleSection('section-geography')">
+            <div class="button-section" onclick="toggleSection('section-dictionary-geography')">
 
 
-                <h2 class="text-vocab-section">Geography</h2>
+                <h2 class="text-section-title-dictionary">Geography</h2>
 
             </div>
 
-            <div id="section-geography">
+            <div id="section-dictionary-geography">
 
 
                 <div class="content-vocab" onclick="playAudio('geography/arroyo.wav')">
@@ -2180,17 +2172,17 @@
 
 
 
-        <div class="list-dictionary-section">
+        <div class="section-content-list-dictionary">
 
 
-            <div class="button-section" onclick="toggleSection('section-gojiiya')">
+            <div class="button-section" onclick="toggleSection('section-dictionary-gojiiya')">
 
 
-                <h2 class="text-vocab-section">Gojiiya</h2>
+                <h2 class="text-section-title-dictionary">Gojiiya</h2>
 
             </div>
 
-            <div id="section-gojiiya">
+            <div id="section-dictionary-gojiiya">
 
 
                 <div class="content-vocab" onclick="playAudio('gojiiya/bird_feathers.wav')">
@@ -2360,17 +2352,17 @@
 
 
 
-        <div class="list-dictionary-section">
+        <div class="section-content-list-dictionary">
 
 
-            <div class="button-section" onclick="toggleSection('section-interrogatives')">
+            <div class="button-section" onclick="toggleSection('section-dictionary-interrogatives')">
 
 
-                <h2 class="text-vocab-section">Interrogatives</h2>
+                <h2 class="text-section-title-dictionary">Interrogatives</h2>
 
             </div>
 
-            <div id="section-interrogatives">
+            <div id="section-dictionary-interrogatives">
 
 
                 <div class="content-vocab" onclick="playAudio('interrogatives/who.wav')">
@@ -2453,17 +2445,17 @@
 
 
 
-        <div class="list-dictionary-section">
+        <div class="section-content-list-dictionary">
 
 
-            <div class="button-section" onclick="toggleSection('section-kinship')">
+            <div class="button-section" onclick="toggleSection('section-dictionary-kinship')">
 
 
-                <h2 class="text-vocab-section">Kinship</h2>
+                <h2 class="text-section-title-dictionary">Kinship</h2>
 
             </div>
 
-            <div id="section-kinship">
+            <div id="section-dictionary-kinship">
 
 
                 <div class="content-vocab" onclick="playAudio('kinship/aunt.wav')">
@@ -2570,9 +2562,6 @@
 
                 </div>
 
-
-
-
                 <div class="content-vocab" onclick="playAudio('kinship/mother.wav')">
 
 
@@ -2636,17 +2625,17 @@
 
 
 
-        <div class="list-dictionary-section">
+        <div class="section-content-list-dictionary">
 
 
-            <div class="button-section" onclick="toggleSection('section-locations')">
+            <div class="button-section" onclick="toggleSection('section-dictionary-locations')">
 
 
-                <h2 class="text-vocab-section">Locations</h2>
+                <h2 class="text-section-title-dictionary">Locations</h2>
 
             </div>
 
-            <div id="section-locations">
+            <div id="section-dictionary-locations">
 
 
                 <div class="content-vocab" onclick="playAudio('locations/albuquerque_nm.wav')">
@@ -2942,17 +2931,17 @@
 
 
 
-        <div class="list-dictionary-section">
+        <div class="section-content-list-dictionary">
 
 
-            <div class="button-section" onclick="toggleSection('section-miscellaneous')">
+            <div class="button-section" onclick="toggleSection('section-dictionary-miscellaneous')">
 
 
-                <h2 class="text-vocab-section">Miscellaneous</h2>
+                <h2 class="text-section-title-dictionary">Miscellaneous</h2>
 
             </div>
 
-            <div id="section-miscellaneous">
+            <div id="section-dictionary-miscellaneous">
 
 
                 <div class="content-vocab" onclick="playAudio('miscellaneous/bigfoot.wav')">
@@ -2976,17 +2965,17 @@
 
 
 
-        <div class="list-dictionary-section">
+        <div class="section-content-list-dictionary">
 
 
-            <div class="button-section" onclick="toggleSection('section-months')">
+            <div class="button-section" onclick="toggleSection('section-dictionary-months')">
 
 
-                <h2 class="text-vocab-section">Months</h2>
+                <h2 class="text-section-title-dictionary">Months</h2>
 
             </div>
 
-            <div id="section-months">
+            <div id="section-dictionary-months">
 
 
                 <div class="content-vocab" onclick="playAudio('months/january.wav')">
@@ -3092,17 +3081,17 @@
 
 
 
-        <div class="list-dictionary-section">
+        <div class="section-content-list-dictionary">
 
 
-            <div class="button-section" onclick="toggleSection('section-nature')">
+            <div class="button-section" onclick="toggleSection('section-dictionary-nature')">
 
 
-                <h2 class="text-vocab-section">Nature</h2>
+                <h2 class="text-section-title-dictionary">Nature</h2>
 
             </div>
 
-            <div id="section-nature">
+            <div id="section-dictionary-nature">
 
 
                 <div class="content-vocab" onclick="playAudio('nature/moon.wav')">
@@ -3152,17 +3141,17 @@
 
 
 
-        <div class="list-dictionary-section">
+        <div class="section-content-list-dictionary">
 
 
-            <div class="button-section" onclick="toggleSection('section-numbers')">
+            <div class="button-section" onclick="toggleSection('section-dictionary-numbers')">
 
 
-                <h2 class="text-vocab-section">Numbers</h2>
+                <h2 class="text-section-title-dictionary">Numbers</h2>
 
             </div>
 
-            <div id="section-numbers">
+            <div id="section-dictionary-numbers">
 
 
                 <div class="content-vocab" onclick="playAudio('numbers/one.wav')">
@@ -3475,17 +3464,17 @@
 
 
 
-        <div class="list-dictionary-section">
+        <div class="section-content-list-dictionary">
 
 
-            <div class="button-section" onclick="toggleSection('section-plants')">
+            <div class="button-section" onclick="toggleSection('section-dictionary-plants')">
 
 
-                <h2 class="text-vocab-section">Plants</h2>
+                <h2 class="text-section-title-dictionary">Plants</h2>
 
             </div>
 
-            <div id="section-plants">
+            <div id="section-dictionary-plants">
 
 
                 <div class="content-vocab" onclick="playAudio('plants/bone_medicine.wav')">
@@ -3586,17 +3575,17 @@
 
 
 
-        <div class="list-dictionary-section">
+        <div class="section-content-list-dictionary">
 
 
-            <div class="button-section" onclick="toggleSection('section-pronouns')">
+            <div class="button-section" onclick="toggleSection('section-dictionary-pronouns')">
 
 
-                <h2 class="text-vocab-section">Pronouns</h2>
+                <h2 class="text-section-title-dictionary">Pronouns</h2>
 
             </div>
 
-            <div id="section-pronouns">
+            <div id="section-dictionary-pronouns">
 
 
                 <div class="content-vocab" onclick="playAudio('pronouns/i.wav')">
@@ -3630,17 +3619,17 @@
 
 
 
-        <div class="list-dictionary-section">
+        <div class="section-content-list-dictionary">
 
 
-            <div class="button-section" onclick="toggleSection('section-seasons')">
+            <div class="button-section" onclick="toggleSection('section-dictionary-seasons')">
 
 
-                <h2 class="text-vocab-section">Seasons</h2>
+                <h2 class="text-section-title-dictionary">Seasons</h2>
 
             </div>
 
-            <div id="section-seasons">
+            <div id="section-dictionary-seasons">
 
 
                 <div class="content-vocab" onclick="playAudio('seasons/fall.wav')">
@@ -3695,17 +3684,17 @@
 
 
 
-        <div class="list-dictionary-section">
+        <div class="section-content-list-dictionary">
 
 
-            <div class="button-section" onclick="toggleSection('section-weather')">
+            <div class="button-section" onclick="toggleSection('section-dictionary-weather')">
 
 
-                <h2 class="text-vocab-section">Weather</h2>
+                <h2 class="text-section-title-dictionary">Weather</h2>
 
             </div>
 
-            <div id="section-weather">
+            <div id="section-dictionary-weather">
 
 
                 <div class="content-vocab" onclick="playAudio('weather/blizzard.wav')">
@@ -3803,17 +3792,17 @@
 
 
 
-        <div class="list-dictionary-section">
+        <div class="section-content-list-dictionary">
 
 
-            <div class="button-section" onclick="toggleSection('section-vegetables')">
+            <div class="button-section" onclick="toggleSection('section-dictionary-vegetables')">
 
 
-                <h2 class="text-vocab-section">Vegetables</h2>
+                <h2 class="text-section-title-dictionary">Vegetables</h2>
 
             </div>
 
-            <div id="section-vegetables">
+            <div id="section-dictionary-vegetables">
 
 
                 <div class="content-vocab" onclick="playAudio('vegetables/cabbage.wav')">
@@ -3917,12 +3906,12 @@
         </div>
 
 
-        <p class="text-list-revised">Revised 8/29/25</p>
+        <p class="text-list-revised">Revised 9/1/25</p>
 
     </div>
 
 
-    <footer>2025 - Abáachi Mizaa</footer>
+    <footer></footer>
 
 
     <script src="js/script.js"></script>

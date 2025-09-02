@@ -286,23 +286,18 @@ body {
 
 
 @font-face {
-    font-family: 'Merriweather'; /*a name to be used later*/
-    src: url('../assets/fonts/Merriweather/Merriweather-VariableFont_opsz,wdth,wght.ttf'); /*URL to font*/
+    font-family: 'Merriweather';
+    src: url('../assets/fonts/Merriweather/Merriweather.ttf');
 }
 
 @font-face {
-    font-family: 'Playfair Display'; /*a name to be used later*/
-    src: url('../assets/fonts/PlayfairDisplay/PlayfairDisplay-VariableFont_wght.ttf'); /*URL to font*/
+    font-family: 'Playfair Display';
+    src: url('../assets/fonts/PlayfairDisplay/PlayfairDisplay.ttf');
 }
 
 @font-face {
-    font-family: 'Roboto'; /*a name to be used later*/
-    src: url('../assets/fonts/Roboto/Roboto-VariableFont_wdth,wght.ttf'); /*URL to font*/
-}
-
-@font-face {
-    font-family: 'Roboto (Condensed)'; /*a name to be used later*/
-    src: url('../assets/fonts/Roboto_(Condensed)/RobotoCondensed-VariableFont_wght.ttf'); /*URL to font*/
+    font-family: 'Roboto';
+    src: url('../assets/fonts/Roboto/Roboto.ttf');
 }
 
 

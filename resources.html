@@ -6,8 +6,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Abáachi Mizaa - Resources</title>
-    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="assets/favicon/favicon.ico">
+    <link rel="icon" href="assets/favicon/favicon_o.png">
+    <link rel="apple-touch-icon" href="assets/favicon/favicon_o_apple.png">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style_section.css">
+    <script src="js/script.js"></script>
 </head>
 
 
@@ -19,479 +23,496 @@
 
         <img src="assets/header/header_logo.png" class="header-img">
 
-        <ul class="header-list">
-
-            <li><a href="index.html" class="link-header">Home</a></li>
-            <li><a href="courses.html" class="link-header">Courses</a></li>
-            <li><a href="dictionary.html" class="link-header">Dictionary</a></li>
-            <li><a href="games.html" class="link-header">Games</a></li>
-            <li><a href="information.html" class="link-header">Information</a></li>
-            <li><a href="resources.html" class="link-header">Resources</a></li>
-
-        </ul>
+        <div id="nav-header" class="list-header"></div>
 
     </header>
 
 
-    <main>
+    <div class="wrapper-content">
 
 
 
 
-        <h1 class="text-general-large">Resources</h1>
+        <h1 class="text-page-title">Resources</h1>
 
 
-        <div class="list-resource-section">
+        <div class="section-content-list-resources">
 
 
-            <h1 class="list-resource-title">Language Books</h1>
-
-            <a href="https://drive.google.com/file/d/1Z6aMFuUdCdXXoEol6Hn3wCDtDbC0yp1c/view?usp=sharing">
+            <div class="button-section" onclick="toggleSection('section-resources-languagebooks')">
 
 
-                <div class="content-resource">
+                <h2 class="text-section-title-resources">Language Books</h2>
+
+            </div>
+
+            <div id="section-resources-languagebooks">
+
+
+                <div class="content-resource" onclick="openLink('https://drive.google.com/file/d/146EnpgbyJcV2sSEb1PBWv1sgKttR-Gta/view?usp=sharing')">
 
 
                     <img class="content-resource-img" src="assets/thumbnails/language_books/cover_language_book_beginner.svg">
 
-                    <h2 class="content-resource-text">Abáachi Mizaa Naałtsoozii - Beginner</h2>
+                    <h2 class="text-resource-title">Abáachi Mizaa Naałtsoozii - Beginner</h2>
 
                 </div>
 
-            </a>
-
-            <a href="https://drive.google.com/file/d/1Z6aMFuUdCdXXoEol6Hn3wCDtDbC0yp1c/view?usp=sharing">
-
-
-                <div class="content-resource">
+                <div class="content-resource" onclick="openLink('https://drive.google.com/file/d/146EnpgbyJcV2sSEb1PBWv1sgKttR-Gta/view?usp=sharing')">
 
 
                     <img class="content-resource-img" src="assets/thumbnails/language_books/cover_language_book_advanced.svg">
 
-                    <h2 class="content-resource-text">Abáachi Mizaa Naałtsoozii - Advanced</h2>
+                    <h2 class="text-resource-title">Abáachi Mizaa Naałtsoozii - Advanced</h2>
 
                 </div>
 
-            </a>
+            </div>
 
         </div>
 
 
-        <div class="list-resource-section">
 
 
-            <h1 class="list-resource-title">Books</h1>
-
-            <a href="https://drive.google.com/file/d/1fnyJd5XWRZg-Z5nQGVzWCtRv36mGud61/view?usp=sharing">
+        <div class="section-content-list-resources">
 
 
-                <div class="content-resource">
+            <div class="button-section" onclick="toggleSection('section-resources-books')">
+
+
+                <h2 class="text-section-title-resources">Books</h2>
+
+            </div>
+
+            <div id="section-resources-books">
+
+
+                <div class="content-resource" onclick="openLink('https://drive.google.com/file/d/1fnyJd5XWRZg-Z5nQGVzWCtRv36mGud61/view?usp=sharing')">
 
 
                     <img class="content-resource-img" src="assets/thumbnails/books/cover_jicarilla_apache_texts.png">
 
-                    <h2 class="content-resource-text">Jicarilla Apache Texts</h2>
+                    <h2 class="text-resource-title">Jicarilla Apache Texts</h2>
 
                 </div>
 
-            </a>
-
-
-            <a href="https://drive.google.com/file/d/1IXVikflG6qADkiZUbLLoLjW7JNef62mR/view?usp=sharing">
-
-
-                <div class="content-resource">
+                <div class="content-resource" onclick="openLink('https://drive.google.com/file/d/1IXVikflG6qADkiZUbLLoLjW7JNef62mR/view?usp=sharing')">
 
 
                     <img class="content-resource-img" src="assets/thumbnails/books/cover_jicarilla_medicinal_plant_project.png">
 
-                    <h2 class="content-resource-text">Jicarilla Medicinal Plant Project</h2>
+                    <h2 class="text-resource-title">Jicarilla Medicinal Plant Project</h2>
 
                 </div>
 
-            </a>
-
-
-            <a href="https://drive.google.com/file/d/1OgV--Soa-SQM3ZF0vIjXGqHkONFFGsaX/view?usp=sharing">
-
-
-                <div class="content-resource">
+                <div class="content-resource" onclick="openLink('https://drive.google.com/file/d/1OgV--Soa-SQM3ZF0vIjXGqHkONFFGsaX/view?usp=sharing')">
 
 
                     <img class="content-resource-img" src="assets/thumbnails/books/cover_jicarilla_verbs.png">
 
-                    <h2 class="content-resource-text">Jicarilla Verbs</h2>
+                    <h2 class="text-resource-title">Jicarilla Verbs</h2>
 
                 </div>
 
-            </a>
+            </div>
 
         </div>
 
 
 
 
-        <div class="list-resource-section">
+        <div class="section-content-list-resources">
 
 
-            <h1 class="list-resource-title">Dictionaries</h1>
-
-            <a href="https://drive.google.com/file/d/1Lq0s2e1SuJKZz_ypuV7hX0e3vJ8UOfNm/view?usp=sharing">
+            <div class="button-section" onclick="toggleSection('section-resources-dictionaries')">
 
 
-                <div class="content-resource">
+                <h2 class="text-section-title-resources">Dictionaries</h2>
+
+            </div>
+
+            <div id="section-resources-dictionaries">
+
+
+                <div class="content-resource" onclick="openLink('https://drive.google.com/file/d/1Lq0s2e1SuJKZz_ypuV7hX0e3vJ8UOfNm/view?usp=sharing')">
 
 
                     <img class="content-resource-img" src="assets/thumbnails/dictionaries/cover_dictionary_pink.png">
 
-                    <h2 class="content-resource-text">Apache (Jicarilla)</h2>
+                    <h2 class="text-resource-title">Apache (Jicarilla)</h2>
 
                 </div>
 
-            </a>
-
-
-            <a href="https://drive.google.com/file/d/1bStuiEp_QNtRlRG0SSyU9TzVOuXw5nRM/view?usp=sharing">
-
-
-                <div class="content-resource">
+                <div class="content-resource" onclick="openLink('https://drive.google.com/file/d/1bStuiEp_QNtRlRG0SSyU9TzVOuXw5nRM/view?usp=sharing')">
 
 
                     <img class="content-resource-img" src="assets/thumbnails/dictionaries/cover_dictionary_pink_index.png">
 
-                    <h2 class="content-resource-text">Apache (Jicarilla) - Index</h2>
+                    <h2 class="text-resource-title">Apache (Jicarilla) - Index</h2>
 
                 </div>
 
-            </a>
-
-
-            <a href="https://drive.google.com/file/d/1sDiem_aYVHOC2L-jOT7lbfw1Li5vkOBY/view?usp=sharing">
-
-
-                <div class="content-resource">
+                <div class="content-resource" onclick="openLink('https://drive.google.com/file/d/1sDiem_aYVHOC2L-jOT7lbfw1Li5vkOBY/view?usp=sharing')">
 
 
                     <img class="content-resource-img" src="assets/thumbnails/dictionaries/cover_dictionary_blue_thematic_lexicon.png">
 
-                    <h2 class="content-resource-text">Dictionary of Jicarilla Apache - Thematic Lexicon</h2>
+                    <h2 class="text-resource-title">Dictionary of Jicarilla Apache - Thematic Lexicon</h2>
 
                 </div>
 
-            </a>
-
-
-            <a href="https://drive.google.com/file/d/1jtbS3unKY8yvH_rDERzk2SPjfqu8jFqG/view?usp=sharing">
-
-
-                <div class="content-resource">
+                <div class="content-resource" onclick="openLink('https://drive.google.com/file/d/1jtbS3unKY8yvH_rDERzk2SPjfqu8jFqG/view?usp=sharing')">
 
 
                     <img class="content-resource-img" src="assets/thumbnails/dictionaries/cover_dictionary_white.png">
 
-
-                    <h2 class="content-resource-text">Jicarilla Apache Dictionary</h2>
+                    <h2 class="text-resource-title">Jicarilla Apache Dictionary</h2>
 
                 </div>
 
-            </a>
-
+            </div>
 
         </div>
 
 
 
 
-        <div class="list-resource-section">
+        <div class="section-content-list-resources">
 
 
-            <h1 class="list-resource-title">Information Cards</h1>
-
-            <a href="https://drive.google.com/file/d/1GjImL6dXT8SSRmN4B84VVpp227_I3-06/view?usp=sharing">
+            <div class="button-section" onclick="toggleSection('section-resources-information-cards')">
 
 
-                <div class="content-resource">
+                <h2 class="text-section-title-resources">Information Cards</h2>
+
+            </div>
+
+            <div id="section-resources-information-cards">
 
 
-                    <img class="content-resource-img" src="assets/thumbnails/icon_document.png">
-
-                    <h2 class="content-resource-text">Information - Colors</h2>
-
-                </div>
-
-            </a>
+                <div class="content-resource" onclick="openLink('https://drive.google.com/file/d/1Lq0s2e1SuJKZz_ypuV7hX0e3vJ8UOfNm/view?usp=sharing')">
 
 
-            <a href="https://drive.google.com/file/d/1b_VMkId1giHFjxiAXK5Ou-RepxHTvPyM/view?usp=sharing">
+                    <img class="content-resource-img" src="assets/icons/icon_document.png">
 
-
-                <div class="content-resource">
-
-
-                    <img class="content-resource-img" src="assets/thumbnails/icon_document.png">
-
-                    <h2 class="content-resource-text">Information - Days of the Week</h2>
+                    <h2 class="text-resource-title">Information - Assembling a Tipi</h2>
 
                 </div>
 
-            </a>
+                <div class="content-resource" onclick="openLink('https://drive.google.com/file/d/1qkLTqJBT9UQoWJleLRksUGd1Vfmd-v4E/view?usp=sharing')">
 
 
-            <a href="https://drive.google.com/file/d/1wNYlQLpls8lBFEamKRAQaBcuTjcDCwne/view?usp=sharing">
+                    <img class="content-resource-img" src="assets/icons/icon_document.png">
 
-
-                <div class="content-resource">
-
-
-                    <img class="content-resource-img" src="assets/thumbnails/icon_document.png">
-
-                    <h2 class="content-resource-text">Information - Introductions</h2>
+                    <h2 class="text-resource-title">Information - Beverages</h2>
 
                 </div>
 
-            </a>
+                <div class="content-resource" onclick="openLink('https://drive.google.com/file/d/1GjImL6dXT8SSRmN4B84VVpp227_I3-06/view?usp=sharing')">
 
 
-            <a href="https://drive.google.com/file/d/1ZwOVt45Kf2XGq_U8GPAK05nlRI1kLqNq/view?usp=sharing">
+                    <img class="content-resource-img" src="assets/icons/icon_document.png">
 
-
-                <div class="content-resource">
-
-
-                    <img class="content-resource-img" src="assets/thumbnails/icon_document.png">
-
-                    <h2 class="content-resource-text">Information - Months</h2>
+                    <h2 class="text-resource-title">Information - Colors</h2>
 
                 </div>
 
-            </a>
+                <div class="content-resource" onclick="openLink('https://drive.google.com/file/d/1b_VMkId1giHFjxiAXK5Ou-RepxHTvPyM/view?usp=sharing')">
 
 
-            <a href="https://drive.google.com/file/d/1zA0rJJfBhWbaw0t3AzWy4uOeQDzIh8us/view?usp=sharing">
+                    <img class="content-resource-img" src="assets/icons/icon_document.png">
 
-
-                <div class="content-resource">
-
-
-                    <img class="content-resource-img" src="assets/thumbnails/icon_document.png">
-
-                    <h2 class="content-resource-text">Information - The Pledge of Allegiance</h2>
+                    <h2 class="text-resource-title">Information - Days of the Week</h2>
 
                 </div>
 
-            </a>
+                <div class="content-resource" onclick="openLink('https://drive.google.com/file/d/1JDfTR3PE66jlM06n8t9i2G5-mfMXdyDY/view?usp=sharing')">
 
 
-            <a href="https://drive.google.com/file/d/1lrt6UmNh9sWbnEK885QKu5aPiuHMTbjW/view?usp=sharing">
+                    <img class="content-resource-img" src="assets/icons/icon_document.png">
 
-
-                <div class="content-resource">
-
-
-                    <img class="content-resource-img" src="assets/thumbnails/icon_document.png">
-
-                    <h2 class="content-resource-text">Information - Time of Day</h2>
+                    <h2 class="text-resource-title">Information - Fruits</h2>
 
                 </div>
 
-            </a>
+                <div class="content-resource" onclick="openLink('https://drive.google.com/file/d/1Lq0s2e1SuJKZz_ypuV7hX0e3vJ8UOfNm/view?usp=sharing')">
 
 
-            <a href="https://drive.google.com/file/d/1QHqeqYyH-lMSBK9Z4T0DzYpQ8Q-OVega/view?usp=sharing">
+                    <img class="content-resource-img" src="assets/icons/icon_document.png">
 
-
-                <div class="content-resource">
-
-
-                    <img class="content-resource-img" src="assets/thumbnails/icon_document.png">
-
-                    <h2 class="content-resource-text">Information - Timeline</h2>
+                    <h2 class="text-resource-title">Information - Gojiiya</h2>
 
                 </div>
 
-            </a>
+                <div class="content-resource" onclick="openLink('https://drive.google.com/file/d/10j5M1mxZB6Gke2EsnmyCJ-bp73bnouAS/view?usp=sharing')">
 
 
-            <a href="https://drive.google.com/file/d/17SOV_G7726w-9kYlp_bHSa9PE7nZFjgm/view?usp=sharing">
+                    <img class="content-resource-img" src="assets/icons/icon_document.png">
 
-
-                <div class="content-resource">
-
-
-                    <img class="content-resource-img" src="assets/thumbnails/icon_document.png">
-
-                    <h2 class="content-resource-text">Information - Useful Phrases</h2>
+                    <h2 class="text-resource-title">Information - Gojiiya (Overview)</h2>
 
                 </div>
 
-            </a>
+                <div class="content-resource" onclick="openLink('https://drive.google.com/file/d/1RxLP0CgtHc3Bu2BzRpkCTHJ0-iAyTPBe/view?usp=sharing')">
+
+
+                    <img class="content-resource-img" src="assets/icons/icon_document.png">
+
+                    <h2 class="text-resource-title">Information - Hygiene</h2>
+
+                </div>
+
+                <div class="content-resource" onclick="openLink('https://drive.google.com/file/d/1msBfSbI7X6EdRfKHd18Dnut2BRDXrBlv/view?usp=sharing')">
+
+
+                    <img class="content-resource-img" src="assets/icons/icon_document.png">
+
+                    <h2 class="text-resource-title">Information - Interrogatives</h2>
+
+                </div>
+
+                <div class="content-resource" onclick="openLink('https://drive.google.com/file/d/1Lq0s2e1SuJKZz_ypuV7hX0e3vJ8UOfNm/view?usp=sharing')">
+
+
+                    <img class="content-resource-img" src="assets/icons/icon_document.png">
+
+                    <h2 class="text-resource-title">Information - Introductions</h2>
+
+                </div>
+
+                <div class="content-resource" onclick="openLink('https://drive.google.com/file/d/1xk91gGFUb6VeaOseGRg8Vz09ibTYZIN7/view?usp=sharing')">
+
+
+                    <img class="content-resource-img" src="assets/icons/icon_document.png">
+
+                    <h2 class="text-resource-title">Information - Kinship</h2>
+
+                </div>
+
+                <div class="content-resource" onclick="openLink('https://drive.google.com/drive/folders/1cC6Ryf5UZ6OMapH5Et3BmczKAQqldngF?usp=sharing')">
+
+
+                    <img class="content-resource-img" src="assets/icons/icon_document.png">
+
+                    <h2 class="text-resource-title">Information - Locations</h2>
+
+                </div>
+
+                <div class="content-resource" onclick="openLink('https://drive.google.com/file/d/1wQA1Kv3sQ3A2W0jbrtuZrTR8N4iozI6N/view?usp=sharing')">
+
+
+                    <img class="content-resource-img" src="assets/icons/icon_document.png">
+
+                    <h2 class="text-resource-title">Information - Making Tiswin</h2>
+
+                </div>
+
+                <div class="content-resource" onclick="openLink('https://drive.google.com/file/d/1zA0rJJfBhWbaw0t3AzWy4uOeQDzIh8us/view?usp=sharing')">
+
+
+                    <img class="content-resource-img" src="assets/icons/icon_document.png">
+
+                    <h2 class="text-resource-title">Information - The Pledge of Allegiance</h2>
+
+                </div>
+
+                <div class="content-resource" onclick="openLink('https://drive.google.com/file/d/1lrt6UmNh9sWbnEK885QKu5aPiuHMTbjW/view?usp=sharing')">
+
+
+                    <img class="content-resource-img" src="assets/icons/icon_document.png">
+
+                    <h2 class="text-resource-title">Information - Time of Day</h2>
+
+                </div>
+
+                <div class="content-resource" onclick="openLink('https://drive.google.com/file/d/1QHqeqYyH-lMSBK9Z4T0DzYpQ8Q-OVega/view?usp=sharing')">
+
+
+                    <img class="content-resource-img" src="assets/icons/icon_document.png">
+
+                    <h2 class="text-resource-title">Information - Timeline</h2>
+
+                </div>
+
+                <div class="content-resource" onclick="openLink('https://drive.google.com/file/d/1grOoCnmBHPZJBbV7--eMW2gSzSfJVJSk/view?usp=sharing')">
+
+
+                    <img class="content-resource-img" src="assets/icons/icon_document.png">
+
+                    <h2 class="text-resource-title">Information - Useful Phrases</h2>
+
+                </div>
+
+                <div class="content-resource" onclick="openLink('https://drive.google.com/file/d/1gHAhYnpEm6oO9VfjrQ6DO7m3CR8ETaIc/view?usp=sharing')">
+
+
+                    <img class="content-resource-img" src="assets/icons/icon_document.png">
+
+                    <h2 class="text-resource-title">Information - Vegetables</h2>
+
+                </div>
+
+                <div class="content-resource" onclick="openLink('https://drive.google.com/file/d/1u-7j-1z6hjqqWui_9Xd1LD89_ZxHKky4/view?usp=sharing')">
+
+
+                    <img class="content-resource-img" src="assets/icons/icon_document.png">
+
+                    <h2 class="text-resource-title">Information - Weather</h2>
+
+                </div>
+
+            </div>
 
         </div>
 
 
 
 
-        <div class="list-resource-section">
+        <div class="section-content-list-resources">
 
 
+            <div class="button-section" onclick="toggleSection('section-resources-maps')">
 
 
-            <h1 class="list-resource-title">Maps</h1>
+                <h2 class="text-section-title-resources">Maps</h2>
+
+            </div>
+
+            <div id="section-resources-maps">
 
 
-            <a href="https://drive.google.com/file/d/1dA08JEaBeUgcF2TTTwXQsqnRWjYr6Ypl/view?usp=share_link">
+                <div class="content-resource" onclick="openLink('https://drive.google.com/file/d/1Lq0s2e1SuJKZz_ypuV7hX0e3vJ8UOfNm/view?usp=sharing')">
 
 
-                <div class="content-resource">
+                    <img class="content-resource-img" src="assets/icons/icon_map.png">
 
-
-                    <img class="content-resource-img" src="assets/thumbnails/icon_document.png">
-
-                    <h2 class="content-resource-text">Jicarilla Apache Reservation Map</h2>
-
-                </div>
-
-
-            </a>
-
-
-            <a href="https://drive.google.com/file/d/1W4poJ82x9cKOQCka0bqFRRc2zNYXMlfU/view?usp=sharing">
-
-
-                <div class="content-resource">
-
-
-                    <img class="content-resource-img" src="assets/thumbnails/icon_document.png">
-
-                    <h2 class="content-resource-text">Jicarilla Apache Reservation Map - Medicines</h2>
+                    <h2 class="text-resource-title">Jicarilla Apache Reservation Map</h2>
 
                 </div>
 
-            </a>
+            </div>
 
         </div>
 
 
 
 
-        <div class="list-resource-section">
+        <div class="section-content-list-resources">
 
 
+            <div class="button-section" onclick="toggleSection('section-resources-printouts')">
 
 
-            <h1 class="list-resource-title">Coyote Stories</h1>
+                <h2 class="text-section-title-resources">Printouts</h2>
+
+            </div>
+
+            <div id="section-resources-printouts">
 
 
-            <a href="https://drive.google.com/file/d/1iC_-zIS8anqPGGVbbAFR2bUu6dp_pSKW/view?usp=sharing">
+                <div class="content-resource" onclick="openLink('https://drive.google.com/file/d/1Lq0s2e1SuJKZz_ypuV7hX0e3vJ8UOfNm/view?usp=sharing')">
 
 
-                <div class="content-resource">
+                    <img class="content-resource-img" src="assets/thumbnails/icon_document.png">
 
-
-                    <img class="content-resource-img" src="assets/thumbnails/coyote_stories/cover_coyote_and_the_medicine_man.svg">
-
-                    <h2 class="content-resource-text">Coyote and the Medicine Man</h2>
-
-                </div>
-
-            </a>
-
-
-            <a href="https://drive.google.com/file/d/1okLzXXr-LCtE3dvz_ZbORtoKiQaIDMKX/view?usp=sharing">
-
-
-                <div class="content-resource">
-
-
-                    <img class="content-resource-img" src="assets/thumbnails/coyote_stories/cover_how_coyote_lost_his_fur.svg">
-
-                    <h2 class="content-resource-text">How Coyote Lost His Fur</h2>
+                    <h2 class="text-resource-title">Useful Phrases</h2>
 
                 </div>
 
-            </a>
+            </div>
+
+        </div>
 
 
-            <a href="https://drive.google.com/file/d/1HRziVgN9bjdEjXljr2viHMmfTZgnt-nM/view?usp=sharing">
 
 
-                <div class="content-resource">
+        <div class="section-content-list-resources">
 
 
-                    <img class="content-resource-img" src="assets/thumbnails/coyote_stories/cover_how_coyote_tricked_the_prairie_dogs.svg">
-
-                    <h2 class="content-resource-text">How Coyote Tricked The Prairie Dogs</h2>
-
-                </div>
-
-            </a>
+            <div class="button-section" onclick="toggleSection('section-resources-coyote-stories')">
 
 
-            <a href="https://drive.google.com/file/d/1RRX4Ht9qQWbsHNe94u4KBoCQ3eAVZY1D/view?usp=sharing">
+                <h2 class="text-section-title-resources">Coyote Stories</h2>
+
+            </div>
+
+            <div id="section-resources-coyote-stories">
 
 
-                <div class="content-resource">
+                <div class="content-resource" onclick="openLink('https://drive.google.com/file/d/1iC_-zIS8anqPGGVbbAFR2bUu6dp_pSKW/view?usp=sharing')">
 
 
-                    <img class="content-resource-img" src="assets/thumbnails/coyote_stories/cover_how_coyote_tricked_the_squirrels.svg">
+                    <img class="content-resource-img" src="assets/icons/icon_coyote_story.png">
 
-                    <h2 class="content-resource-text">How Coyote Tricked The Squirrels</h2>
-
-                </div>
-
-            </a>
-
-
-            <a href="https://drive.google.com/file/d/1ijWUeMQM93swncSVGX9FbeO35tT8i07K/view?usp=sharing">
-
-
-                <div class="content-resource">
-
-
-                    <img class="content-resource-img" src="assets/thumbnails/coyote_stories/cover_how_the_beaver_tricked_coyote.svg">
-
-                    <h2 class="content-resource-text">How The Beaver Tricked Coyote</h2>
+                    <h2 class="text-resource-title">Coyote and the Medicine Man</h2>
 
                 </div>
 
-            </a>
+                <div class="content-resource" onclick="openLink('https://drive.google.com/file/d/1okLzXXr-LCtE3dvz_ZbORtoKiQaIDMKX/view?usp=sharing')">
 
 
-            <a href="https://drive.google.com/file/d/1QwJc9z7L29MpHco-TdMQd_mxqr1x2-vb/view?usp=sharing">
+                    <img class="content-resource-img" src="assets/icons/icon_coyote_story.png">
 
-
-                <div class="content-resource">
-
-
-                    <img class="content-resource-img" src="assets/thumbnails/coyote_stories/cover_how_the_people_tricked_coyote.svg">
-
-                    <h2 class="content-resource-text">How The People Tricked Coyote</h2>
+                    <h2 class="text-resource-title">How Coyote Lost His Fur</h2>
 
                 </div>
 
-            </a>
+                <div class="content-resource" onclick="openLink('https://drive.google.com/file/d/1Lq0s2e1SuJKZz_ypuV7hX0e3vJ8UOfNm/view?usp=sharing')">
 
 
-            <a href="https://drive.google.com/file/d/10SnJSAelnxhqArO1bMreYvUMZaIEn5D8/view?usp=sharing">
+                    <img class="content-resource-img" src="assets/icons/icon_coyote_story.png">
 
-
-                <div class="content-resource">
-
-
-                    <img class="content-resource-img" src="assets/thumbnails/coyote_stories/cover_three_coyote_tales.svg">
-
-                    <h2 class="content-resource-text">Three Coyote Tales</h2>
+                    <h2 class="text-resource-title">How Coyote Tricked The Prairie Dogs</h2>
 
                 </div>
 
-            </a>
+                <div class="content-resource" onclick="openLink('https://drive.google.com/file/d/1Lq0s2e1SuJKZz_ypuV7hX0e3vJ8UOfNm/view?usp=sharing')">
+
+
+                    <img class="content-resource-img" src="assets/icons/icon_coyote_story.png">
+
+                    <h2 class="text-resource-title">How Coyote Tricked The Squirrels</h2>
+
+                </div>
+
+                <div class="content-resource" onclick="openLink('https://drive.google.com/file/d/1Lq0s2e1SuJKZz_ypuV7hX0e3vJ8UOfNm/view?usp=sharing')">
+
+
+                    <img class="content-resource-img" src="assets/icons/icon_coyote_story.png">
+
+                    <h2 class="text-resource-title">How The Beaver Tricked Coyote</h2>
+
+                </div>
+
+                <div class="content-resource" onclick="openLink('https://drive.google.com/file/d/1Lq0s2e1SuJKZz_ypuV7hX0e3vJ8UOfNm/view?usp=sharing')">
+
+
+                    <img class="content-resource-img" src="assets/icons/icon_coyote_story.png">
+
+                    <h2 class="text-resource-title">How The People Tricked Coyote</h2>
+
+                </div>
+
+                <div class="content-resource" onclick="openLink('https://drive.google.com/file/d/1Lq0s2e1SuJKZz_ypuV7hX0e3vJ8UOfNm/view?usp=sharing')">
+
+
+                    <img class="content-resource-img" src="assets/icons/icon_coyote_story.png">
+
+                    <h2 class="text-resource-title">Three Coyote Tales</h2>
+
+                </div>
+
+
+            </div>
 
 
         </div>
 
 
-    </main>
+    </div>
 
+
+    <footer></footer>
 
 </body>
 

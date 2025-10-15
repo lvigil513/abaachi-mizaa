@@ -920,12 +920,27 @@ function updateEntriesCount() {
 }
 
 
+///Screen Size
+
+function getScreenSize() {
+
+
+    const element = document.getElementById('output-screensize');
+
+    element.innerHTML = window.innerWidth + " / " + window.innerHeight;
+
+}
+
+
 ///Run Functions
 
 window.onload = function () {
 
 
     loadHeader();
+
+
+    getScreenSize();
 
 
     changeType(currentType);

@@ -31,48 +31,6 @@
         <h1 class="text-page-title">Dictionary</h1>
 
 
-        <div class="section-search" style="display:none;">
-
-
-            <form>
-
-
-                <div>
-
-
-                    <label for="site-search">Search:</label>
-
-                    <input type="search" id="input-search" name="q" />
-
-                </div>
-
-
-                <input type="radio" id="option1" name="searchIndex" value="word">
-                <label for="option1">Words</label><br>
-
-                <input type="radio" id="option2" name="searchIndex" value="phrase">
-                <label for="option2">Phrases</label><br>
-
-                <input type="radio" id="option3" name="searchIndex" value="verb">
-                <label for="option3">Verbs</label><br>
-
-
-                <button type="button" onclick="search()">Search</button>
-
-            </form>
-
-
-            <p id="output-search"></p>
-
-
-            <p id="text-date-revised" class="text-list-revised"></p>
-
-        </div>
-
-
-        <p id="output-screensize"></p>
-
-
         <div class="section-categories">
 
 
@@ -117,6 +75,28 @@
 
 
                 <p id="data-index-count"></p>
+
+            </div>
+
+
+            <div class="section-list-search">
+
+
+                <input id="input-search" class="input-searchfield" placeholder="Enter text to search..." />
+
+                <div class="button-search" onclick="clearSearch()">
+
+
+                    <p>Clear</p>
+
+                </div>
+
+                <div class="button-search" onclick="loadSearch()">
+
+
+                    <p>Search</p>
+
+                </div>
 
             </div>
 
@@ -193,7 +173,13 @@
     </div>
 
 
-    <footer></footer>
+    <footer>
+
+
+        <p id="text-date-revised" class="text-list-revised"></p>
+
+
+    </footer>
 
 </body>
 

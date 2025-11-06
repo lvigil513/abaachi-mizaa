@@ -9,6 +9,13 @@ const index = [
 
 
 
+    ///
+    ///Words
+    ///
+
+
+
+
     ///Words: Animals
 
     { type: "word", category: "animals", english: "Animal", jicarilla: "Alimáał", audioFile: "d/animals/animal.wav" },
@@ -96,6 +103,15 @@ const index = [
     { type: "word", category: "animals", english: "Wolf", jicarilla: "Bai’sts’o", audioFile: "d/animals/wolf.wav" },
     { type: "word", category: "animals", english: "Woodpecker", jicarilla: "Chishkaałdi", audioFile: "d/animals/woodpecker.wav" },
     { type: "word", category: "animals", english: "Zebra", jicarilla: "Łii łikish’ii", audioFile: "d/animals/zebra.wav" },
+
+
+
+
+    ///Words: Appliances
+
+    { type: "word", category: "appliances", english: "Oven", jicarilla: "ółno / óołno", audioFile: "d/appliances/oven.wav" },
+    { type: "word", category: "appliances", english: "Refrigerator", jicarilla: "daan’meesik’as’í", audioFile: "d/appliances/refrigerator.wav" },
+    { type: "word", category: "appliances", english: "Television / TV", jicarilla: "máagina dashniłii’ii", audioFile: "d/appliances/television.wav" },
 
 
 
@@ -188,10 +204,10 @@ const index = [
 
     ///Words: Ceremonial
 
-    { type: "word", category: "ceremonial", english: "Black Paint", jicarilla: "gléeshchish", audioFile: "d/ceremonial/black_paint.wav" },
+    { type: "word", category: "ceremonial", english: "Black Ochre", jicarilla: "gléeshchish", audioFile: "d/ceremonial/black_ochre.wav" },
     { type: "word", category: "ceremonial", english: "Corn Pollen", jicarilla: "kad’ndin", audioFile: "d/ceremonial/corn_pollen.wav" },
     { type: "word", category: "ceremonial", english: "Feast", jicarilla: "kéesda", audioFile: "d/ceremonial/feast.wav" },
-    { type: "word", category: "ceremonial", english: "Red Paint", jicarilla: "chísh", audioFile: "d/ceremonial/red_paint.wav" },
+    { type: "word", category: "ceremonial", english: "Red Ochre", jicarilla: "chísh", audioFile: "d/ceremonial/red_ochre.wav" },
     { type: "word", category: "ceremonial", english: "White Clay", jicarilla: "gléesh", audioFile: "d/ceremonial/white_clay.wav" },
 
 
@@ -228,23 +244,23 @@ const index = [
 
     ///Words: Colors
 
-    { type: "word", category: "colors", english: "Black", jicarilla: "Łizhi", audioFile: "d/colors/black.wav" },
-    { type: "word", category: "colors", english: "Blue", jicarilla: "Daatł’ish", audioFile: "d/colors/blue.wav" },
-    { type: "word", category: "colors", english: "Brown", jicarilla: "Dinizhi", audioFile: "d/colors/brown.wav" },
-    { type: "word", category: "colors", english: "Gray", jicarilla: "Łiba", audioFile: "d/colors/gray.wav" },
-    { type: "word", category: "colors", english: "Green", jicarilla: "Daatł’iijee", audioFile: "d/colors/green.wav" },
-    { type: "word", category: "colors", english: "Multicolored", jicarilla: "Łikish", audioFile: "d/colors/multicolored.wav" },
-    { type: "word", category: "colors", english: "Orange", jicarilla: "Łitso", audioFile: "d/colors/orange.wav" },
-    { type: "word", category: "colors", english: "Pink", jicarilla: "Diniłchi / Łichiidé", audioFile: "d/colors/pink.wav" },
-    { type: "word", category: "colors", english: "Purple", jicarilla: "Daatł’ish go łizhi", audioFile: "d/colors/purple.wav" },
-    { type: "word", category: "colors", english: "Red", jicarilla: "Łichi", audioFile: "d/colors/red.wav" },
-    { type: "word", category: "colors", english: "Shiny / Sparkly", jicarilla: "K’ets’iłi", audioFile: "d/colors/shiny.wav" },
-    { type: "word", category: "colors", english: "Striped", jicarilla: "Nees’tee", audioFile: "d/colors/striped.wav" },
-    { type: "word", category: "colors", english: "Turquoise", jicarilla: "Daatł’iiji", audioFile: "d/colors/turquoise.wav" },
-    { type: "word", category: "colors", english: "White", jicarilla: "Łigai", audioFile: "d/colors/white.wav" },
-    { type: "word", category: "colors", english: "Yellow", jicarilla: "Łitsóoye", audioFile: "d/colors/yellow.wav" },
+    { type: "word", category: "colors", english: "Black", jicarilla: "łizhi", audioFile: "d/colors/black.wav" },
+    { type: "word", category: "colors", english: "Blue", jicarilla: "daatł’ish", audioFile: "d/colors/blue.wav" },
+    { type: "word", category: "colors", english: "Brown", jicarilla: "dinizhi", audioFile: "d/colors/brown.wav" },
+    { type: "word", category: "colors", english: "Gray", jicarilla: "łiba", audioFile: "d/colors/gray.wav" },
+    { type: "word", category: "colors", english: "Green", jicarilla: "daatł’iijee", audioFile: "d/colors/green.wav" },
+    { type: "word", category: "colors", english: "Multicolored", jicarilla: "łikish", audioFile: "d/colors/multicolored.wav" },
+    { type: "word", category: "colors", english: "Orange", jicarilla: "łitso", audioFile: "d/colors/orange.wav" },
+    { type: "word", category: "colors", english: "Pink", jicarilla: "diniłchi / łichiidé", audioFile: "d/colors/pink.wav" },
+    { type: "word", category: "colors", english: "Purple", jicarilla: "daatł’ish go łizhi", audioFile: "d/colors/purple.wav" },
+    { type: "word", category: "colors", english: "Red", jicarilla: "łichi", audioFile: "d/colors/red.wav" },
+    { type: "word", category: "colors", english: "Shiny / Sparkly", jicarilla: "k’ets’iłi", audioFile: "d/colors/shiny.wav" },
+    { type: "word", category: "colors", english: "Striped", jicarilla: "nees’tee", audioFile: "d/colors/striped.wav" },
+    { type: "word", category: "colors", english: "Turquoise", jicarilla: "daatł’iiji", audioFile: "d/colors/turquoise.wav" },
+    { type: "word", category: "colors", english: "White", jicarilla: "łigai", audioFile: "d/colors/white.wav" },
+    { type: "word", category: "colors", english: "Yellow", jicarilla: "łitsóoye", audioFile: "d/colors/yellow.wav" },
 
-
+    
 
 
     ///Words: Days of the Week
@@ -276,104 +292,104 @@ const index = [
 
     ///Words: Foods
 
-    { type: "word", category: "foods", english: "Acorn", jicarilla: "Na’da ka tsi", audioFile: "d/foods/acorn.wav" },
-    { type: "word", category: "foods", english: "Apple", jicarilla: "Mansaana", audioFile: "d/foods/apple.wav" },
-    { type: "word", category: "foods", english: "Apple Pie", jicarilla: "Mansaana masdéeł", audioFile: "d/foods/apple_pie.wav" },
-    { type: "word", category: "foods", english: "Bacon", jicarilla: "Ní’gotł’its’íí mitsi sit’e i", audioFile: "d/foods/bacon.wav" },
-    { type: "word", category: "foods", english: "Baking Powder", jicarilla: "Mił kao nii", audioFile: "d/foods/baking_powder.wav" },
-    { type: "word", category: "foods", english: "Banana", jicarilla: "Goshk’an", audioFile: "d/foods/banana.wav" },
-    { type: "word", category: "foods", english: "Beans", jicarilla: "Naa’oléé", audioFile: "d/foods/beans.wav" },
-    { type: "word", category: "foods", english: "Beef", jicarilla: "Boo mitsi", audioFile: "d/foods/beef.wav" },
-    { type: "word", category: "foods", english: "Berry", jicarilla: "Dzé", audioFile: "d/foods/berry.wav" },
-    { type: "word", category: "foods", english: "Blue Corn Meal", jicarilla: "Adóoli", audioFile: "d/foods/blue_corn_meal.wav" },
-    { type: "word", category: "foods", english: "Blueberry", jicarilla: "Dzédnshtł’iijee", audioFile: "d/foods/blueberry.wav" },
-    { type: "word", category: "foods", english: "Blueberry Pie", jicarilla: "Dzédnshtł’iijee masdéeł", audioFile: "d/foods/blueberry_pie.wav" },
-    { type: "word", category: "foods", english: "Boiled Eggs", jicarilla: "Oohaiyee mizhaa shi besh i", audioFile: "d/foods/boiled_eggs.wav" },
-    { type: "word", category: "foods", english: "Bread", jicarilla: "Łeet’aan", audioFile: "d/foods/bread.wav" },
-    { type: "word", category: "foods", english: "Butter", jicarilla: "Mandagiiya", audioFile: "d/foods/butter.wav" },
-    { type: "word", category: "foods", english: "Cabbage", jicarilla: "Tło łi ba ii", audioFile: "d/foods/cabbage.wav" },
-    { type: "word", category: "foods", english: "Cake", jicarilla: "Łeet’aan lika’ii", audioFile: "d/foods/cake.wav" },
-    { type: "word", category: "foods", english: "Candy", jicarilla: "Lóosi", audioFile: "d/foods/candy.wav" },
-    { type: "word", category: "foods", english: "Candy Corn", jicarilla: "Lóosi naada aya ii ", audioFile: "d/foods/candy_corn.wav" },
-    { type: "word", category: "foods", english: "Carrot", jicarilla: "Iletse", audioFile: "d/foods/carrot.wav" },
-    { type: "word", category: "foods", english: "Cereal", jicarilla: "Nnłdá’goch’ina’i", audioFile: "d/foods/cereal.wav" },
-    { type: "word", category: "foods", english: "Cheese", jicarilla: "Ibé’neesdo’i", audioFile: "d/foods/cheese.wav" },
-    { type: "word", category: "foods", english: "Chili", jicarilla: "Jiili", audioFile: "d/foods/chili.wav" },
-    { type: "word", category: "foods", english: "Chokecherry", jicarilla: "Dzé", audioFile: "d/foods/chokecherry.wav" },
-    { type: "word", category: "foods", english: "Cookie", jicarilla: "Łeet’aan lika’ii", audioFile: "d/foods/cookie.wav" },
-    { type: "word", category: "foods", english: "Corn", jicarilla: "Naada", audioFile: "d/foods/corn.wav" },
-    { type: "word", category: "foods", english: "Crackers / Salted Crackers", jicarilla: "Łeet’aan digo’tsee’", audioFile: "d/foods/crackers.wav" },
-    { type: "word", category: "foods", english: "Deer Meat", jicarilla: "Bii mitsi", audioFile: "d/foods/deer_meat.wav" },
-    { type: "word", category: "foods", english: "Doughnut", jicarilla: "Łeet’aan hisbas łika’ii", audioFile: "d/foods/doughnut.wav" },
-    { type: "word", category: "foods", english: "Dry Meat", jicarilla: "Its’i hiłtsai í", audioFile: "d/foods/dry_meat.wav" },
-    { type: "word", category: "foods", english: "Egg", jicarilla: "Oohaiyee mizhaa", audioFile: "d/foods/egg.wav" },
-    { type: "word", category: "foods", english: "Elk Meat", jicarilla: "Dzées mitsi", audioFile: "d/foods/elk_meat.wav" },
-    { type: "word", category: "foods", english: "Fat / Lard", jicarilla: "Ik’a", audioFile: "d/foods/fat.wav" },
-    { type: "word", category: "foods", english: "Flour", jicarilla: "Ik’an", audioFile: "d/foods/flour.wav" },
-    { type: "word", category: "foods", english: "Fried Eggs", jicarilla: "Oohaiyee mizhaa sit’e i", audioFile: "d/foods/fried_eggs.wav" },
-    { type: "word", category: "foods", english: "Fried Meat and Potatoes", jicarilla: "Itsi shi baba sit’e i", audioFile: "d/foods/fried_meat_and_potatoes.wav" },
-    { type: "word", category: "foods", english: "Fruit", jicarilla: "Neestaan", audioFile: "d/foods/fruit.wav" },
-    { type: "word", category: "foods", english: "Frybread", jicarilla: "Ts’iiłiłi", audioFile: "d/foods/frybread.wav" },
-    { type: "word", category: "foods", english: "Frying Meat", jicarilla: "Itsi dał ji tes", audioFile: "d/foods/frying_meat.wav" },
-    { type: "word", category: "foods", english: "Grapes", jicarilla: "Dałtse i / Óoba", audioFile: "d/foods/grapes.wav" },
-    { type: "word", category: "foods", english: "Honey", jicarilla: "Ts’osdaishhtł’ich’i", audioFile: "d/foods/honey.wav" },
-    { type: "word", category: "foods", english: "Ice Cream", jicarilla: "Yiilo ibé", audioFile: "d/foods/ice_cream.wav" },
-    { type: "word", category: "foods", english: "Jicarilla Dumplings", jicarilla: "Tłesh bejee", audioFile: "d/foods/jicarilla_dumplings.wav" },
-    { type: "word", category: "foods", english: "Mashed Potatoes", jicarilla: "Nigokats’i histłish i", audioFile: "d/foods/mashed_potatoes.wav" },
-    { type: "word", category: "foods", english: "Meat", jicarilla: "Itsi", audioFile: "d/foods/meat.wav" },
-    { type: "word", category: "foods", english: "Melon", jicarilla: "K’éch’iya’éé", audioFile: "d/foods/melon.wav" },
-    { type: "word", category: "foods", english: "Mutton", jicarilla: "Dibé mitsi", audioFile: "d/foods/mutton.wav" },
-    { type: "word", category: "foods", english: "Oatmeal", jicarilla: "Nał ka di", audioFile: "d/foods/oatmeal.wav" },
-    { type: "word", category: "foods", english: "Onion", jicarilla: "Tł’oshchinii", audioFile: "d/foods/onion.wav" },
-    { type: "word", category: "foods", english: "Oranges", jicarilla: "Mansaana łitso i", audioFile: "d/foods/oranges.wav" },
-    { type: "word", category: "foods", english: "Peach", jicarilla: "Mansaana detłooi", audioFile: "d/foods/peach.wav" },
-    { type: "word", category: "foods", english: "Peach Pie", jicarilla: "Mansaana detłooi masdéeł", audioFile: "d/foods/peach_pie.wav" },
-    { type: "word", category: "foods", english: "Pear", jicarilla: "Béela", audioFile: "d/foods/pear.wav" },
-    { type: "word", category: "foods", english: "Pinons", jicarilla: "Nóoshch’i", audioFile: "d/foods/pinons.wav" },
-    { type: "word", category: "foods", english: "Plum", jicarilla: "Dzétsoh", audioFile: "d/foods/plum.wav" },
-    { type: "word", category: "foods", english: "Popcorn", jicarilla: "Naada hishchił i", audioFile: "d/foods/popcorn.wav" },
-    { type: "word", category: "foods", english: "Pork", jicarilla: "Ní’gotł’its’íí mitsi", audioFile: "d/foods/pork.wav" },
-    { type: "word", category: "foods", english: "Potato", jicarilla: "Nigokats’i / Baba", audioFile: "d/foods/potato.wav" },
-    { type: "word", category: "foods", english: "Potato Chips", jicarilla: "Nigokats’i digo’tsee’", audioFile: "d/foods/potato_chips.wav" },
-    { type: "word", category: "foods", english: "Pueblo Bread", jicarilla: "Łeet’aan chi zhee", audioFile: "d/foods/pueblo_bread.wav" },
-    { type: "word", category: "foods", english: "Pumpkin", jicarilla: "Náayiizéé", audioFile: "d/foods/pumpkin.wav" },
-    { type: "word", category: "foods", english: "Pumpkin Pie", jicarilla: "Náayiizéé masdéeł", audioFile: "d/foods/pumpkin_pie.wav" },
-    { type: "word", category: "foods", english: "Rice", jicarilla: "Alóos", audioFile: "d/foods/rice.wav" },
-    { type: "word", category: "foods", english: "Salt", jicarilla: "Íshoosh", audioFile: "d/foods/salt.wav" },
-    { type: "word", category: "foods", english: "Soup / Stew", jicarilla: "Kaził", audioFile: "d/foods/soup.wav" },
-    { type: "word", category: "foods", english: "Squash", jicarilla: "Náayiizéé", audioFile: "d/foods/squash.wav" },
-    { type: "word", category: "foods", english: "Strawberry", jicarilla: "Dałje’", audioFile: "d/foods/strawberry.wav" },
-    { type: "word", category: "foods", english: "Strawberry Pie", jicarilla: "Dałje’ masdéeł", audioFile: "d/foods/strawberry_pie.wav" },
-    { type: "word", category: "foods", english: "Sugar", jicarilla: "Isóogala / Shugee", audioFile: "d/foods/sugar.wav" },
-    { type: "word", category: "foods", english: "Tomato", jicarilla: "Domáadi", audioFile: "d/foods/tomato.wav" },
-    { type: "word", category: "foods", english: "Tortilla", jicarilla: "Łeet’aanł kijee", audioFile: "d/foods/tortilla.wav" },
-    { type: "word", category: "foods", english: "Vegetables", jicarilla: "Neestaan", audioFile: "d/foods/vegetables.wav" },
-    { type: "word", category: "foods", english: "Venison", jicarilla: "Bii mitsi", audioFile: "d/foods/venison.wav" },
-    { type: "word", category: "foods", english: "Watermelon", jicarilla: "K’éch’iya’éé", audioFile: "d/foods/watermelon.wav" },
-    { type: "word", category: "foods", english: "Wheat", jicarilla: "Tł’onadá", audioFile: "d/foods/wheat.wav" },
-    { type: "word", category: "foods", english: "Wild Onion", jicarilla: "Tł’oshchinii", audioFile: "d/foods/wild_onion.wav" },
-    { type: "word", category: "foods", english: "Wild Parsley", jicarilla: "Ch’ibaa’a", audioFile: "d/foods/wild_parsley.wav" },
-    { type: "word", category: "foods", english: "Wild Spinach", jicarilla: "Nish bi ye", audioFile: "d/foods/wild_spinach.wav" },
+    { type: "word", category: "foods", english: "Acorn", jicarilla: "na’da ka tsi", audioFile: "d/foods/acorn.wav" },
+    { type: "word", category: "foods", english: "Apple", jicarilla: "mansaana", audioFile: "d/foods/apple.wav" },
+    { type: "word", category: "foods", english: "Apple Pie", jicarilla: "mansaana masdéeł", audioFile: "d/foods/apple_pie.wav" },
+    { type: "word", category: "foods", english: "Bacon", jicarilla: "ní’gotł’its’íí mitsi sit’e i", audioFile: "d/foods/bacon.wav" },
+    { type: "word", category: "foods", english: "Baking Powder", jicarilla: "mił kao nii", audioFile: "d/foods/baking_powder.wav" },
+    { type: "word", category: "foods", english: "Banana", jicarilla: "goshk’an", audioFile: "d/foods/banana.wav" },
+    { type: "word", category: "foods", english: "Beans", jicarilla: "naa’oléé", audioFile: "d/foods/beans.wav" },
+    { type: "word", category: "foods", english: "Beef", jicarilla: "boo mitsi", audioFile: "d/foods/beef.wav" },
+    { type: "word", category: "foods", english: "Berry", jicarilla: "dzé", audioFile: "d/foods/berry.wav" },
+    { type: "word", category: "foods", english: "Blue Corn Meal", jicarilla: "adóoli", audioFile: "d/foods/blue_corn_meal.wav" },
+    { type: "word", category: "foods", english: "Blueberry", jicarilla: "dzédnshtł’iijee", audioFile: "d/foods/blueberry.wav" },
+    { type: "word", category: "foods", english: "Blueberry Pie", jicarilla: "dzédnshtł’iijee masdéeł", audioFile: "d/foods/blueberry_pie.wav" },
+    { type: "word", category: "foods", english: "Boiled Eggs", jicarilla: "oohaiyee mizhaa shi besh i", audioFile: "d/foods/boiled_eggs.wav" },
+    { type: "word", category: "foods", english: "Bread", jicarilla: "łeet’aan", audioFile: "d/foods/bread.wav" },
+    { type: "word", category: "foods", english: "Butter", jicarilla: "mandagiiya", audioFile: "d/foods/butter.wav" },
+    { type: "word", category: "foods", english: "Cabbage", jicarilla: "tło łi ba ii", audioFile: "d/foods/cabbage.wav" },
+    { type: "word", category: "foods", english: "Cake", jicarilla: "łeet’aan lika’ii", audioFile: "d/foods/cake.wav" },
+    { type: "word", category: "foods", english: "Candy", jicarilla: "lóosi", audioFile: "d/foods/candy.wav" },
+    { type: "word", category: "foods", english: "Candy Corn", jicarilla: "lóosi naada aya ii ", audioFile: "d/foods/candy_corn.wav" },
+    { type: "word", category: "foods", english: "Carrot", jicarilla: "iletse", audioFile: "d/foods/carrot.wav" },
+    { type: "word", category: "foods", english: "Cereal", jicarilla: "nnłdá’goch’ina’i", audioFile: "d/foods/cereal.wav" },
+    { type: "word", category: "foods", english: "Cheese", jicarilla: "ibé’neesdo’i", audioFile: "d/foods/cheese.wav" },
+    { type: "word", category: "foods", english: "Chili", jicarilla: "jiili", audioFile: "d/foods/chili.wav" },
+    { type: "word", category: "foods", english: "Chokecherry", jicarilla: "dzé", audioFile: "d/foods/chokecherry.wav" },
+    { type: "word", category: "foods", english: "Cookie", jicarilla: "łeet’aan lika’ii", audioFile: "d/foods/cookie.wav" },
+    { type: "word", category: "foods", english: "Corn", jicarilla: "naada", audioFile: "d/foods/corn.wav" },
+    { type: "word", category: "foods", english: "Crackers / Salted Crackers", jicarilla: "łeet’aan digo’tsee’", audioFile: "d/foods/crackers.wav" },
+    { type: "word", category: "foods", english: "Deer Meat", jicarilla: "bii mitsi", audioFile: "d/foods/deer_meat.wav" },
+    { type: "word", category: "foods", english: "Doughnut", jicarilla: "łeet’aan hisbas łika’ii", audioFile: "d/foods/doughnut.wav" },
+    { type: "word", category: "foods", english: "Dry Meat", jicarilla: "its’i hiłtsai í", audioFile: "d/foods/dry_meat.wav" },
+    { type: "word", category: "foods", english: "Egg", jicarilla: "oohaiyee mizhaa", audioFile: "d/foods/egg.wav" },
+    { type: "word", category: "foods", english: "Elk Meat", jicarilla: "dzées mitsi", audioFile: "d/foods/elk_meat.wav" },
+    { type: "word", category: "foods", english: "Fat / Lard", jicarilla: "ik’a", audioFile: "d/foods/fat.wav" },
+    { type: "word", category: "foods", english: "Flour", jicarilla: "ik’an", audioFile: "d/foods/flour.wav" },
+    { type: "word", category: "foods", english: "Fried Eggs", jicarilla: "oohaiyee mizhaa sit’e i", audioFile: "d/foods/fried_eggs.wav" },
+    { type: "word", category: "foods", english: "Fried Meat and Potatoes", jicarilla: "itsi shi baba sit’e i", audioFile: "d/foods/fried_meat_and_potatoes.wav" },
+    { type: "word", category: "foods", english: "Fruit", jicarilla: "neestaan", audioFile: "d/foods/fruit.wav" },
+    { type: "word", category: "foods", english: "Frybread", jicarilla: "ts’iiłiłi", audioFile: "d/foods/frybread.wav" },
+    { type: "word", category: "foods", english: "Frying Meat", jicarilla: "itsi dał ji tes", audioFile: "d/foods/frying_meat.wav" },
+    { type: "word", category: "foods", english: "Grapes", jicarilla: "dałtse i / óoba", audioFile: "d/foods/grapes.wav" },
+    { type: "word", category: "foods", english: "Honey", jicarilla: "ts’osdaishhtł’ich’i", audioFile: "d/foods/honey.wav" },
+    { type: "word", category: "foods", english: "Ice Cream", jicarilla: "yiilo ibé", audioFile: "d/foods/ice_cream.wav" },
+    { type: "word", category: "foods", english: "Jicarilla Dumplings", jicarilla: "tłesh bejee", audioFile: "d/foods/jicarilla_dumplings.wav" },
+    { type: "word", category: "foods", english: "Mashed Potatoes", jicarilla: "nigokats’i histłish i", audioFile: "d/foods/mashed_potatoes.wav" },
+    { type: "word", category: "foods", english: "Meat", jicarilla: "itsi", audioFile: "d/foods/meat.wav" },
+    { type: "word", category: "foods", english: "Melon", jicarilla: "k’éch’iya’éé", audioFile: "d/foods/melon.wav" },
+    { type: "word", category: "foods", english: "Mutton", jicarilla: "dibé mitsi", audioFile: "d/foods/mutton.wav" },
+    { type: "word", category: "foods", english: "Oatmeal", jicarilla: "nał ka di", audioFile: "d/foods/oatmeal.wav" },
+    { type: "word", category: "foods", english: "Onion", jicarilla: "tł’oshchinii", audioFile: "d/foods/onion.wav" },
+    { type: "word", category: "foods", english: "Oranges", jicarilla: "mansaana łitso i", audioFile: "d/foods/oranges.wav" },
+    { type: "word", category: "foods", english: "Peach", jicarilla: "mansaana detłooi", audioFile: "d/foods/peach.wav" },
+    { type: "word", category: "foods", english: "Peach Pie", jicarilla: "mansaana detłooi masdéeł", audioFile: "d/foods/peach_pie.wav" },
+    { type: "word", category: "foods", english: "Pear", jicarilla: "béela", audioFile: "d/foods/pear.wav" },
+    { type: "word", category: "foods", english: "Pinons", jicarilla: "nóoshch’i", audioFile: "d/foods/pinons.wav" },
+    { type: "word", category: "foods", english: "Plum", jicarilla: "dzétsoh", audioFile: "d/foods/plum.wav" },
+    { type: "word", category: "foods", english: "Popcorn", jicarilla: "naada hishchił i", audioFile: "d/foods/popcorn.wav" },
+    { type: "word", category: "foods", english: "Pork", jicarilla: "ní’gotł’its’íí mitsi", audioFile: "d/foods/pork.wav" },
+    { type: "word", category: "foods", english: "Potato", jicarilla: "nigokats’i / naba", audioFile: "d/foods/potato.wav" },
+    { type: "word", category: "foods", english: "Potato Chips", jicarilla: "nigokats’i digo’tsee’", audioFile: "d/foods/potato_chips.wav" },
+    { type: "word", category: "foods", english: "Pueblo Bread", jicarilla: "łeet’aan chi zhee", audioFile: "d/foods/pueblo_bread.wav" },
+    { type: "word", category: "foods", english: "Pumpkin", jicarilla: "náayiizéé", audioFile: "d/foods/pumpkin.wav" },
+    { type: "word", category: "foods", english: "Pumpkin Pie", jicarilla: "náayiizéé masdéeł", audioFile: "d/foods/pumpkin_pie.wav" },
+    { type: "word", category: "foods", english: "Rice", jicarilla: "alóos", audioFile: "d/foods/rice.wav" },
+    { type: "word", category: "foods", english: "Salt", jicarilla: "íshoosh", audioFile: "d/foods/salt.wav" },
+    { type: "word", category: "foods", english: "Soup / Stew", jicarilla: "kaził", audioFile: "d/foods/soup.wav" },
+    { type: "word", category: "foods", english: "Squash", jicarilla: "náayiizéé", audioFile: "d/foods/squash.wav" },
+    { type: "word", category: "foods", english: "Strawberry", jicarilla: "dałje’", audioFile: "d/foods/strawberry.wav" },
+    { type: "word", category: "foods", english: "Strawberry Pie", jicarilla: "dałje’ masdéeł", audioFile: "d/foods/strawberry_pie.wav" },
+    { type: "word", category: "foods", english: "Sugar", jicarilla: "isóogala / shugee", audioFile: "d/foods/sugar.wav" },
+    { type: "word", category: "foods", english: "Tomato", jicarilla: "domáadi", audioFile: "d/foods/tomato.wav" },
+    { type: "word", category: "foods", english: "Tortilla", jicarilla: "łeet’aanł kijee", audioFile: "d/foods/tortilla.wav" },
+    { type: "word", category: "foods", english: "Vegetables", jicarilla: "neestaan", audioFile: "d/foods/vegetables.wav" },
+    { type: "word", category: "foods", english: "Venison", jicarilla: "bii mitsi", audioFile: "d/foods/venison.wav" },
+    { type: "word", category: "foods", english: "Watermelon", jicarilla: "k’éch’iya’éé", audioFile: "d/foods/watermelon.wav" },
+    { type: "word", category: "foods", english: "Wheat", jicarilla: "tł’onadá", audioFile: "d/foods/wheat.wav" },
+    { type: "word", category: "foods", english: "Wild Onion", jicarilla: "tł’oshchinii", audioFile: "d/foods/wild_onion.wav" },
+    { type: "word", category: "foods", english: "Wild Parsley", jicarilla: "ch’ibaa’a", audioFile: "d/foods/wild_parsley.wav" },
+    { type: "word", category: "foods", english: "Wild Spinach", jicarilla: "nish bi ye", audioFile: "d/foods/wild_spinach.wav" },
 
 
 
 
     ///Words: Fruits
 
-    { type: "word", category: "fruits", english: "Apple", jicarilla: "Mansaana", audioFile: "d/fruits/apple.wav" },
-    { type: "word", category: "fruits", english: "Banana", jicarilla: "Goshk’an", audioFile: "d/fruits/banana.wav" },
-    { type: "word", category: "fruits", english: "Berry", jicarilla: "Dzé", audioFile: "d/fruits/berry.wav" },
-    { type: "word", category: "fruits", english: "Blueberry", jicarilla: "Dzédnshtł’iijee", audioFile: "d/fruits/blueberry.wav" },
-    { type: "word", category: "fruits", english: "Chokecherry", jicarilla: "Dzé", audioFile: "d/fruits/chokecherry.wav" },
-    { type: "word", category: "fruits", english: "Fruit", jicarilla: "Neestaan", audioFile: "d/fruits/fruit.wav" },
-    { type: "word", category: "fruits", english: "Grapes", jicarilla: "Dałtse i / Óoba", audioFile: "d/fruits/grapes.wav" },
-    { type: "word", category: "fruits", english: "Melon", jicarilla: "K’éch’iya’éé", audioFile: "d/fruits/melon.wav" },
-    { type: "word", category: "fruits", english: "Orange", jicarilla: "Mansaana łitso i", audioFile: "d/fruits/orange.wav" },
-    { type: "word", category: "fruits", english: "Peach", jicarilla: "Mansaana detłooi", audioFile: "d/fruits/peach.wav" },
-    { type: "word", category: "fruits", english: "Pear", jicarilla: "Béela", audioFile: "d/fruits/pear.wav" },
-    { type: "word", category: "fruits", english: "Plum", jicarilla: "Dzétsoh", audioFile: "d/fruits/plum.wav" },
-    { type: "word", category: "fruits", english: "Strawberry", jicarilla: "Dałje’", audioFile: "d/fruits/strawberry.wav" },
-    { type: "word", category: "fruits", english: "Watermelon", jicarilla: "K’éch’iya’éé", audioFile: "d/fruits/watermelon.wav" },
+    { type: "word", category: "fruits", english: "Apple", jicarilla: "mansaana", audioFile: "d/fruits/apple.wav" },
+    { type: "word", category: "fruits", english: "Banana", jicarilla: "goshk’an", audioFile: "d/fruits/banana.wav" },
+    { type: "word", category: "fruits", english: "Berry", jicarilla: "dzé", audioFile: "d/fruits/berry.wav" },
+    { type: "word", category: "fruits", english: "Blueberry", jicarilla: "dzédnshtł’iijee", audioFile: "d/fruits/blueberry.wav" },
+    { type: "word", category: "fruits", english: "Chokecherry", jicarilla: "dzé", audioFile: "d/fruits/chokecherry.wav" },
+    { type: "word", category: "fruits", english: "Fruit", jicarilla: "neestaan", audioFile: "d/fruits/fruit.wav" },
+    { type: "word", category: "fruits", english: "Grapes", jicarilla: "dałtse i / óoba", audioFile: "d/fruits/grapes.wav" },
+    { type: "word", category: "fruits", english: "Melon", jicarilla: "k’éch’iya’éé", audioFile: "d/fruits/melon.wav" },
+    { type: "word", category: "fruits", english: "Orange", jicarilla: "mansaana łitso i", audioFile: "d/fruits/orange.wav" },
+    { type: "word", category: "fruits", english: "Peach", jicarilla: "mansaana detłooi", audioFile: "d/fruits/peach.wav" },
+    { type: "word", category: "fruits", english: "Pear", jicarilla: "béela", audioFile: "d/fruits/pear.wav" },
+    { type: "word", category: "fruits", english: "Plum", jicarilla: "dzétsoh", audioFile: "d/fruits/plum.wav" },
+    { type: "word", category: "fruits", english: "Strawberry", jicarilla: "dałje’", audioFile: "d/fruits/strawberry.wav" },
+    { type: "word", category: "fruits", english: "Watermelon", jicarilla: "k’éch’iya’éé", audioFile: "d/fruits/watermelon.wav" },
 
 
 
@@ -409,7 +425,6 @@ const index = [
     { type: "word", category: "furniture", english: "Shelf", jicarilla: "iya dee da na ji gish ee", audioFile: "d/furniture/shelf.wav" },
     { type: "word", category: "furniture", english: "Sofa", jicarilla: "k’edasdayii ndees’ii", audioFile: "d/furniture/sofa.wav" },
     { type: "word", category: "furniture", english: "Table", jicarilla: "mika’shi’da’ji’ya’ii / miká’chida’chiya’i", audioFile: "d/furniture/table.wav" },
-    { type: "word", category: "furniture", english: "Television / TV", jicarilla: "máagina dashniłii’ii", audioFile: "d/furniture/television.wav" },
     { type: "word", category: "furniture", english: "Wardrobe", jicarilla: "go édi", audioFile: "d/furniture/wardrobe.wav" },
     { type: "word", category: "furniture", english: "Workbench", jicarilla: "k’edasdayii ndees’ii yika shi daji’sdaii na’jii’zi go", audioFile: "d/furniture/workbench.wav" },
 
@@ -446,7 +461,6 @@ const index = [
     ///Words: Gojiiya
 
     { type: "word", category: "gojiiya", english: "Bird feathers", jicarilla: "Tsidéé mit’a", audioFile: "d/gojiiya/bird_feathers.wav" },
-    { type: "word", category: "gojiiya", english: "Black paint", jicarilla: "Gléeshchish", audioFile: "d/gojiiya/black_paint.wav" },
     { type: "word", category: "gojiiya", english: "Cliff Swallow", jicarilla: "Bis nał kis", audioFile: "d/gojiiya/cliff_swallow.wav" },
     { type: "word", category: "gojiiya", english: "Day before the race.", jicarilla: "Yiishbila.", audioFile: "d/gojiiya/day_before_the_race.wav" },
     { type: "word", category: "gojiiya", english: "Eagle", jicarilla: "Itsá", audioFile: "d/gojiiya/eagle.wav" },
@@ -464,7 +478,6 @@ const index = [
     { type: "word", category: "gojiiya", english: "Sandhill Crane", jicarilla: "T’a’łbai", audioFile: "d/gojiiya/sandhill_crane.wav" },
     { type: "word", category: "gojiiya", english: "September", jicarilla: "Gojiiya", audioFile: "d/gojiiya/september.wav" },
     { type: "word", category: "gojiiya", english: "White Clan", jicarilla: "Ollero", audioFile: "d/gojiiya/white_clan.wav" },
-    { type: "word", category: "gojiiya", english: "White Clay", jicarilla: "Gléesh", audioFile: "d/gojiiya/white_clay.wav" },
 
 
 
@@ -509,7 +522,12 @@ const index = [
     { type: "word", category: "kinship", english: "Son", jicarilla: "yí’íí", audioFile: "d/kinship/son.wav" },
     { type: "word", category: "kinship", english: "Uncle", jicarilla: "dá’áá", audioFile: "d/kinship/uncle.wav" },
     { type: "word", category: "kinship", english: "Wife", jicarilla: "isdzanii", audioFile: "d/kinship/wife.wav" },
-    { type: "word", category: "kinship", english: "My Younger Sibling", jicarilla: "shishdázhá", audioFile: "d/kinship/my_younger_sibling.wav" },
+    { type: "word", category: "kinship", english: "My Younger Brother", jicarilla: "shishdázhá", audioFile: "d/kinship/my_younger_sibling.wav" },
+    { type: "word", category: "kinship", english: "My Younger Sister", jicarilla: "shishdázhá", audioFile: "d/kinship/my_younger_sibling.wav" },
+    { type: "word", category: "kinship", english: "Your Younger Brother", jicarilla: "nshdázhá", audioFile: "d/kinship/your_younger_sibling.wav" },
+    { type: "word", category: "kinship", english: "Your Younger Sister", jicarilla: "nshdázhá", audioFile: "d/kinship/your_younger_sibling.wav" },
+    { type: "word", category: "kinship", english: "His / Her Younger Brother", jicarilla: "miłdázhá", audioFile: "d/kinship/his_younger_sibling.wav" },
+    { type: "word", category: "kinship", english: "His / Her Younger Sister", jicarilla: "miłdázhá", audioFile: "d/kinship/his_younger_sibling.wav" },
 
 
 
@@ -519,6 +537,7 @@ const index = [
     { type: "word", category: "locations", english: "Albuquerque, NM", jicarilla: "Dziłntsaa / Gołgéegi", audioFile: "d/locations/albuquerque_nm.wav" },
     { type: "word", category: "locations", english: "Burns Canyon", jicarilla: "Gayada", audioFile: "d/locations/burns_canyon.wav" },
     { type: "word", category: "locations", english: "Burro Canyon", jicarilla: "Dze siłka", audioFile: "d/locations/burro_canyon.wav" },
+    { type: "word", category: "locations", english: "Camp", jicarilla: "kogha", audioFile: "d/locations/camp.wav" },
     { type: "word", category: "locations", english: "Casino", jicarilla: "Ishdika’ee", audioFile: "d/locations/casino.wav" },
     { type: "word", category: "locations", english: "Cedar Springs Canyon", jicarilla: "Kałdee i a’ / Kałdee ko’ii", audioFile: "d/locations/cedar_springs_canyon.wav" },
     { type: "word", category: "locations", english: "Clinic", jicarilla: "Nzhónách’idle'ee", audioFile: "d/locations/clinic.wav" },
@@ -527,6 +546,7 @@ const index = [
     { type: "word", category: "locations", english: "Dulce Rock", jicarilla: "Lóosi Hik’a’ye", audioFile: "d/locations/dulce_rock.wav" },
     { type: "word", category: "locations", english: "Hillcrest", jicarilla: "Toos sikaa", audioFile: "d/locations/hillcrest.wav" },
     { type: "word", category: "locations", english: "Hole in the Rock", jicarilla: "Tsé gha go an", audioFile: "d/locations/hole_in_the_rock.wav" },
+    { type: "word", category: "locations", english: "Home", jicarilla: "kogha", audioFile: "d/locations/home.wav" },
     { type: "word", category: "locations", english: "Hospital", jicarilla: "Nzhónách’idle / Háasbila", audioFile: "d/locations/hospital.wav" },
     { type: "word", category: "locations", english: "Ignacio, CO", jicarilla: "Ináaso", audioFile: "d/locations/ignacio_co.wav" },
     { type: "word", category: "locations", english: "IHOP", jicarilla: "Dajiya’ee", audioFile: "d/locations/ihop.wav" },
@@ -582,11 +602,22 @@ const index = [
 
     ///Words: Nature
 
+    { type: "word", category: "nature", english: "Comet", jicarilla: "yat’áá’ye soos nadatai’ii", audioFile: "d/nature/comet.wav" },
+
+    { type: "word", category: "nature", english: "Milky Way", jicarilla: "soos bai", audioFile: "d/nature/milky_way.wav" },
     { type: "word", category: "nature", english: "Moon", jicarilla: "tł’e’na’ai", audioFile: "d/nature/moon.wav" },
     { type: "word", category: "nature", english: "Morning star", jicarilla: "soostsoh", audioFile: "d/nature/morning_star.wav" },
+    { type: "word", category: "nature", english: "Outer Space", jicarilla: "yat’áá ye", audioFile: "d/nature/outer_space.wav" },
     { type: "word", category: "nature", english: "Rainbow", jicarilla: "itsaatł’oli", audioFile: "d/nature/rainbow.wav" },
+    { type: "word", category: "nature", english: "Rock", jicarilla: "tsé", audioFile: "d/nature/rock.wav" },
+    { type: "word", category: "nature", english: "The Sky", jicarilla: "ya’táá", audioFile: "d/nature/sky.wav" },
     { type: "word", category: "nature", english: "Star", jicarilla: "soos", audioFile: "d/nature/star.wav" },
+    { type: "word", category: "nature", english: "Stone", jicarilla: "tsé", audioFile: "d/nature/stone.wav" },
     { type: "word", category: "nature", english: "Sun", jicarilla: "jóona’ai", audioFile: "d/nature/sun.wav" },
+
+    { type: "word", category: "nature", english: "Universe", jicarilla: "yat’áá / ya ha'ee ye", audioFile: "d/nature/universe.wav" },
+
+    { type: "word", category: "nature", english: "Wood", jicarilla: "chish", audioFile: "d/nature/wood.wav" },
 
 
 
@@ -639,6 +670,102 @@ const index = [
 
 
 
+    ///Words: Objects
+
+    { type: "word", category: "objects", english: "Abalone Shell", jicarilla: "di chił dee", audioFile: "d/objects/abalone_shell.wav" },
+    { type: "word", category: "objects", english: "Almanac", jicarilla: "manáagi", audioFile: "d/objects/almanac.wav" },
+    { type: "word", category: "objects", english: "Arrow", jicarilla: "k’á", audioFile: "d/objects/arrow.wav" },
+    { type: "word", category: "objects", english: "Ball", jicarilla: "jooł", audioFile: "d/objects/ball.wav" },
+    { type: "word", category: "objects", english: "Basket", jicarilla: "its’eizis", audioFile: "d/objects/basket.wav" },
+    { type: "word", category: "objects", english: "Beads", jicarilla: "yoo", audioFile: "d/objects/beads.wav" },
+    { type: "word", category: "objects", english: "Blanket", jicarilla: "biili", audioFile: "d/objects/blanket.wav" },
+    { type: "word", category: "objects", english: "Book", jicarilla: "naałtsoozii", audioFile: "d/objects/book.wav" },
+    { type: "word", category: "objects", english: "Bottle", jicarilla: "godéeya’íiye", audioFile: "d/objects/bottle.wav" },
+    { type: "word", category: "objects", english: "Bowl", jicarilla: "its’ai", audioFile: "d/objects/bowl.wav" },
+    { type: "word", category: "objects", english: "Box", jicarilla: "gahóon", audioFile: "d/objects/box.wav" },
+    { type: "word", category: "objects", english: "Broom", jicarilla: "begozho íí", audioFile: "d/objects/broom.wav" },
+    { type: "word", category: "objects", english: "Calendar", jicarilla: "manáagi", audioFile: "d/objects/calendar.wav" },
+
+    { type: "word", category: "objects", english: "Car Battery", jicarilla: "biił miijéé", audioFile: "d/objects/car_battery.wav" },
+    { type: "word", category: "objects", english: "Car Oil", jicarilla: "biił miik’a", audioFile: "d/objects/car_oil.wav" },
+    { type: "word", category: "objects", english: "Car Tire", jicarilla: "biił miikee", audioFile: "d/objects/car_tire.wav" },
+
+    { type: "word", category: "objects", english: "Chalk", jicarilla: "gléesh meek’ e’ ch’ił chíi", audioFile: "d/objects/chalk.wav" },
+    { type: "word", category: "objects", english: "Cigarette", jicarilla: "nat’odi", audioFile: "d/objects/cigarette.wav" },
+    { type: "word", category: "objects", english: "Clock", jicarilla: "jóona’ai", audioFile: "d/objects/clock.wav" },
+    { type: "word", category: "objects", english: "Coal", jicarilla: "tsé łizhi’í", audioFile: "d/objects/coal.wav" },
+
+    { type: "word", category: "objects", english: "Coffee Filter", jicarilla: "naałtsoozii / naałtsoozii gahee me’ajile’íí", audioFile: "d/objects/coffee_filter.wav" },
+    { type: "word", category: "objects", english: "Coffee Maker", jicarilla: "gahee me’ibesh’íí", audioFile: "d/objects/coffee_maker.wav" },
+
+    { type: "word", category: "objects", english: "Comb", jicarilla: "go tsii me ji shó ii", audioFile: "d/objects/comb.wav" },
+    { type: "word", category: "objects", english: "Computer", jicarilla: "máagina saa nyinił’íí", audioFile: "d/objects/computer.wav" },
+    { type: "word", category: "objects", english: "Coupon", jicarilla: "gabóon", audioFile: "d/objects/coupon.wav" },
+    { type: "word", category: "objects", english: "Crayon", jicarilla: "me’iichíshíí", audioFile: "d/objects/crayon.wav" },
+    { type: "word", category: "objects", english: "Cup", jicarilla: "dáasa / idee", audioFile: "d/objects/cup.wav" },
+    { type: "word", category: "objects", english: "Dish", jicarilla: "its’ai", audioFile: "d/objects/dish.wav" },
+    { type: "word", category: "objects", english: "Door", jicarilla: "danadeenkaan", audioFile: "d/objects/door.wav" },
+
+    { type: "word", category: "objects", english: "Engine Oil", jicarilla: "biił miikoo / aseidi", audioFile: "d/objects/engine_oil.wav" },
+
+    { type: "word", category: "objects", english: "Fireplace", jicarilla: "koh magosa’ii", audioFile: "d/objects/fireplace.wav" },
+    { type: "word", category: "objects", english: "Firewood", jicarilla: "chish", audioFile: "d/objects/firewood.wav" },
+
+    { type: "word", category: "objects", english: "Fishing Pole", jicarilla: "łógee mehadloo’íí", audioFile: "d/objects/fishing_pole.wav" },
+    { type: "word", category: "objects", english: "Flag", jicarilla: "mandéela", audioFile: "d/objects/flag.wav" },
+    { type: "word", category: "objects", english: "Fork", jicarilla: "me’dijashíí", audioFile: "d/objects/fork.wav" },
+    { type: "word", category: "objects", english: "Frying pan", jicarilla: "mets’ił t’ees í", audioFile: "d/objects/frying_pan.wav" },
+    { type: "word", category: "objects", english: "Gasoline", jicarilla: "biił miikoo / aseidi", audioFile: "d/objects/gasoline.wav" },
+    { type: "word", category: "objects", english: "Guitar", jicarilla: "disoos tł’oł naadańt’i’i", audioFile: "d/objects/guitar.wav" },
+    { type: "word", category: "objects", english: "Hammer", jicarilla: "małdíiyo", audioFile: "d/objects/hammer.wav" },
+    { type: "word", category: "objects", english: "Horseshoe", jicarilla: "łiikeebesh / łíikeebesh", audioFile: "d/objects/horseshoe.wav" },
+    { type: "word", category: "objects", english: "Ice", jicarilla: "iloo", audioFile: "d/objects/ice.wav" },
+    { type: "word", category: "objects", english: "Jar", jicarilla: "godéeya’íiye", audioFile: "d/objects/jar.wav" },
+    { type: "word", category: "objects", english: "Jump rope", jicarilla: "tł’ół meenkeishdit’i", audioFile: "d/objects/jump_rope.wav" },
+    { type: "word", category: "objects", english: "Kerosene", jicarilla: "aseidi / aseiti / iseidi", audioFile: "d/objects/kerosene.wav" },
+    { type: "word", category: "objects", english: "Key", jicarilla: "yáabi", audioFile: "d/objects/key.wav" },
+    { type: "word", category: "objects", english: "Knife", jicarilla: "besh", audioFile: "d/objects/knife.wav" },
+    { type: "word", category: "objects", english: "Ladder", jicarilla: "háasaii", audioFile: "d/objects/ladder.wav" },
+    { type: "word", category: "objects", english: "Loom", jicarilla: "mekach’i’ch’itł’ołi", audioFile: "d/objects/loom.wav" },
+    { type: "word", category: "objects", english: "Machine", jicarilla: "máagina", audioFile: "d/objects/machine.wav" },
+    { type: "word", category: "objects", english: "Mail", jicarilla: "goléelo", audioFile: "d/objects/mail.wav" },
+    { type: "word", category: "objects", english: "Mattress", jicarilla: "gołjóon", audioFile: "d/objects/mattress.wav" },
+    { type: "word", category: "objects", english: "Medicine", jicarilla: "iizee / izee’ / díí’izee", audioFile: "d/objects/medicine.wav" },
+    { type: "word", category: "objects", english: "Metal", jicarilla: "besh", audioFile: "d/objects/metal.wav" },
+    { type: "word", category: "objects", english: "Needle", jicarilla: "abóoha / awóoha", audioFile: "d/objects/needle.wav" },
+    { type: "word", category: "objects", english: "Oil", jicarilla: "aséidi / iséidi", audioFile: "d/objects/oil.wav" },
+    { type: "word", category: "objects", english: "Paper", jicarilla: "naałtsoozii", audioFile: "d/objects/paper.wav" },
+    { type: "word", category: "objects", english: "Pelt / Hide", jicarilla: "keeł", audioFile: "d/objects/pelt.wav" },
+
+    { type: "word", category: "objects", english: "Pencil", jicarilla: "mek’echii’í", audioFile: "d/objects/pencil.wav" },
+    { type: "word", category: "objects", english: "Pencil sharpener", jicarilla: "mek’echii’í mekanats’iłts’os’í", audioFile: "d/objects/pencil_sharpener.wav" },
+    { type: "word", category: "objects", english: "Pen", jicarilla: "mek’echii’í", audioFile: "d/objects/pen.wav" },
+
+    { type: "word", category: "objects", english: "Plate", jicarilla: "kełts’aii / kełts’eii / k’eełts’ai", audioFile: "d/objects/plate.wav" },
+    { type: "word", category: "objects", english: "Playing Cards", jicarilla: "baláaha / maláaha", audioFile: "d/objects/playing_cards.wav" },
+    { type: "word", category: "objects", english: "Pot", jicarilla: "ísei / isai", audioFile: "d/objects/pot.wav" },
+    { type: "word", category: "objects", english: "Pottery", jicarilla: "ísei goshtł’ish", audioFile: "d/objects/pottery.wav" },
+    { type: "word", category: "objects", english: "Printer", jicarilla: "naałtsoozii k’e’iishchí’íí łágo nyinił’íí", audioFile: "d/objects/printer.wav" },
+
+    { type: "word", category: "objects", english: "Quilt", jicarilla: "góołja", audioFile: "d/objects/quilt.wav" },
+
+    { type: "word", category: "objects", english: "Rope", jicarilla: "tł’oł", audioFile: "d/objects/rope.wav" },
+
+
+    { type: "word", category: "objects", english: "Shovel", jicarilla: "báala", audioFile: "d/objects/shovel.wav" },
+
+
+    { type: "word", category: "objects", english: "Spoon", jicarilla: "gojáala", audioFile: "d/objects/spoon.wav" },
+
+
+    { type: "word", category: "objects", english: "Window", jicarilla: "mandáana", audioFile: "d/objects/window.wav" },
+
+
+    { type: "word", category: "objects", english: "text", jicarilla: "text", audioFile: "d/objects/text.wav" },
+
+
+
+
     ///Words: Plants
 
     { type: "word", category: "plants", english: "Bone Medicine", jicarilla: "iizee łigai’ii", audioFile: "d/plants/bone_medicine.wav" },
@@ -678,9 +805,11 @@ const index = [
 
     ///Words: Time
 
-    { type: "word", category: "time", english: "Today", jicarilla: "Díiji", audioFile: "d/time/today.wav" },
-    { type: "word", category: "time", english: "Tomorrow", jicarilla: "Yiskao", audioFile: "d/time/tomorrow.wav" },
-    { type: "word", category: "time", english: "Yesterday", jicarilla: "Adádá", audioFile: "d/time/yesterday.wav" },
+    { type: "word", category: "time", english: "Today", jicarilla: "díiji", audioFile: "d/time/today.wav" },
+    { type: "word", category: "time", english: "Tomorrow", jicarilla: "yiskao", audioFile: "d/time/tomorrow.wav" },
+    { type: "word", category: "time", english: "Yesterday", jicarilla: "adádá", audioFile: "d/time/yesterday.wav" },
+
+    { type: "word", category: "time", english: "Wait", jicarilla: "íłtsé", audioFile: "d/time/wait.wav" },
 
 
 
@@ -790,7 +919,16 @@ const index = [
     ///Words: Vehicles
 
     { type: "word", category: "vehicles", english: "Airplane", jicarilla: "besh náat’ai’í", audioFile: "d/vehicles/airplane.wav" },
+    { type: "word", category: "vehicles", english: "Bicycle", jicarilla: "baas mił’iłkeshdiłkał’í", audioFile: "d/vehicles/bicycle.wav" },
+    { type: "word", category: "vehicles", english: "Boat", jicarilla: "náakon", audioFile: "d/vehicles/boat.wav" },
+    { type: "word", category: "vehicles", english: "Canoe", jicarilla: "náakon", audioFile: "d/vehicles/canoe.wav" },
     { type: "word", category: "vehicles", english: "Car", jicarilla: "biił / biili", audioFile: "d/vehicles/car.wav" },
+    { type: "word", category: "vehicles", english: "School Bus", jicarilla: "biił iłchin nai jei’í", audioFile: "d/vehicles/school_bus.wav" },
+    { type: "word", category: "vehicles", english: "Sled", jicarilla: "alíisa / meenada’ch’íshoo’í", audioFile: "d/vehicles/sled.wav" },
+    { type: "word", category: "vehicles", english: "Train", jicarilla: "haziił", audioFile: "d/vehicles/train.wav" },
+    { type: "word", category: "vehicles", english: "Truck", jicarilla: "biił / biili / droga", audioFile: "d/vehicles/truck.wav" },
+    { type: "word", category: "vehicles", english: "Vehicle", jicarilla: "biił / biili", audioFile: "d/vehicles/vehicle.wav" },
+    { type: "word", category: "vehicles", english: "Wagon", jicarilla: "baas", audioFile: "d/vehicles/wagon.wav" },
 
 
 
@@ -799,15 +937,9 @@ const index = [
 
 
 
-
-
-
-
-
-
-
-
-
+    ///
+    ///Phrases
+    ///
 
 
 
@@ -872,7 +1004,7 @@ const index = [
 
     ///Phrases: Body Parts
 
-    { type: "phrase", category: "body-parts", english: "text", jicarilla: "text", audioFile: "p/body_parts/text.wav" },
+    { type: "phrase", category: "body-parts", english: "My head is aching.", jicarilla: "text", audioFile: "p/body_parts/text.wav" },
 
 
 
@@ -1383,9 +1515,17 @@ const index = [
 
     ///Phrases: Weather
 
-    { type: "phrase", category: "weather", english: "text", jicarilla: "text", audioFile: "p/weather/text.wav" },
-    { type: "phrase", category: "weather", english: "text", jicarilla: "text", audioFile: "p/weather/text.wav" },
-    { type: "phrase", category: "weather", english: "text", jicarilla: "text", audioFile: "p/weather/text.wav" },
+    { type: "phrase", category: "weather", english: "It is hot. (Weather)", jicarilla: "Goosdo. / Dágoosdo’e.", audioFile: "p/weather/it_is_hot.wav" },
+    { type: "phrase", category: "weather", english: "It is cold. (Weather)", jicarilla: "Goosk’as.", audioFile: "p/weather/it_is_cold.wav" },
+    { type: "phrase", category: "weather", english: "It is slippery.", jicarilla: "Godiłkooh.", audioFile: "p/weather/it_is_slippery.wav" },
+
+    { type: "phrase", category: "weather", english: "It is going to rain.", jicarilla: "Naagołkii.", audioFile: "p/weather/it_is_going_to_rain.wav" },
+    { type: "phrase", category: "weather", english: "It is going to snow.", jicarilla: "Zas naałkii.", audioFile: "p/weather/it_is_going_to_snow.wav" },
+
+
+    { type: "phrase", category: "weather", english: "It is hot outside.", jicarilla: "Tłoyé goosdo. / Tłoyé dágoosdo’e.", audioFile: "p/weather/it_is_hot_outside.wav" },
+    { type: "phrase", category: "weather", english: "It is cold outside.", jicarilla: "Tłoyé goosk’as.", audioFile: "p/weather/it_is_cold_outside.wav" },
+    { type: "phrase", category: "weather", english: "It is slippery outside.", jicarilla: "Tłoyé godiłkooh.", audioFile: "p/weather/it_is_slippery_outside.wav" },
 
 
     { type: "phrase", category: "weather", english: "I like winter.", jicarilla: "Hai da shił hooyee.", audioFile: "p/weather/i_like_winter.wav" },
@@ -1394,10 +1534,7 @@ const index = [
     { type: "phrase", category: "weather", english: "I like fall.", jicarilla: "Daa‘kéé da shił hooyee.", audioFile: "p/weather/i_like_fall.wav" },
 
 
-
-
-
-
+    { type: "phrase", category: "weather", english: "text", jicarilla: "text", audioFile: "p/weather/text.wav" },
 
 
 
@@ -1494,8 +1631,6 @@ const index = [
     { type: "verb", category: "happy", english: "You are happy.", jicarilla: "Nłgozho.", audioFile: "v/happy/you_are_happy.wav" },
     { type: "verb", category: "happy", english: "He / She is happy.", jicarilla: "Mił gozho.", audioFile: "v/happy/he_is_happy.wav" },
     { type: "verb", category: "happy", english: "They are happy.", jicarilla: "Mił da gozho.", audioFile: "v/happy/they_are_happy.wav" },
-    
-    
 
 
 

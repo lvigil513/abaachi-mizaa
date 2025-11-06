@@ -5,7 +5,7 @@
 audioPlayer = new Audio
 
 
-var revisedDate = "10/14/25";
+var revisedDate = "10/18/25";
 
 
 var inputSearchDictionary = "";
@@ -15,11 +15,14 @@ var inputSearchPhrase = "";
 var displayType = "normal";
 
 
+var deviceType = "mobile";
+
+
 var currentType = "word";
 var currentCategory = "animals";
 
 
-var searchKeyword = "";
+var searchPhrase = "";
 
 
 var enableLightMode = false;
@@ -261,8 +264,6 @@ function categoryTitleFormat(input) {
 function loadCategories() {
 
 
-
-
     const root = document.getElementById('content-main');
 
 
@@ -286,20 +287,14 @@ function loadCategories() {
     })
 
 
-
-
     listCategories.forEach(item => {
-
-
-
-
-        var textCategory = item;
-
-
 
 
         const categoryMain = document.createElement('div');
         categoryMain.className = "content-list-category";
+
+
+        var textCategory = item;
 
 
         if (currentType == "word")
@@ -349,8 +344,32 @@ function loadCategories() {
 
     loadEntries();
 
+}
 
-    console.log(listCategories);
+
+
+
+
+
+
+///Load Content
+
+function loadContent() {
+
+
+    const input = document.getElementById('input-search');
+
+    if (input.value == "") {
+
+
+        loadCategories();
+
+    } else {
+
+
+        loadSearch();
+
+    }
 
 }
 
@@ -367,13 +386,7 @@ function loadEntries() {
     index.forEach(item => {
 
 
-
-
         const root = document.getElementById('index-' + item.category);
-        ///const root = document.querySelectorAll('index-' + item.category);
-
-
-        console.log(root);
 
 
         ///Normal
@@ -455,112 +468,73 @@ function loadEntries() {
 
 
 
+///Load Search
 
-
-///Load Entries
-
-function loadEntriesOld() {
-
-
-
-
-    index.forEach(item => {
+function loadSearch() {
 
 
 
 
-        ///Normal
-
-        if (displayType == "normal") {
+    const input = document.getElementById('input-search');
 
 
+    if (input.value != "") {
 
 
-            if (item.type == currentType) {
+        const root = document.getElementById('content-main');
 
 
+        const formattedText = input.value.toLowerCase().replaceAll(" ", "_");
 
 
-                const root = document.getElementById('list-content');
+        root.innerHTML = "";
 
 
-                const container = document.createElement('div');
-
-                const containerTextTitle = document.createElement('h2');
-                const containerTextTranslation = document.createElement('p');
+        searchPhrase = input.value;
 
 
-                container.className = "content-vocab";
-                containerTextTitle.innerHTML = item.english;
-                containerTextTitle.className = "text-indexcard-heading";
-                containerTextTranslation.innerHTML = item.jicarilla;
-                containerTextTranslation.className = "text-indexcard-body";
+        index.forEach(item => {
 
 
-                container.appendChild(containerTextTitle);
-                container.appendChild(containerTextTranslation);
-
-
-                root.appendChild(container);
-
-            }
-
-        }
-
-
-        ///Index Cards
-
-        if (displayType == "index-card") {
-
+            const formattedItem = item.english.toLowerCase().replaceAll(" ", "_");
 
             if (item.type == currentType) {
 
 
-                const container = document.createElement('div');
-
-                const containerTextTitle = document.createElement('h2');
-                const containerTextTranslation = document.createElement('p');
+                if (formattedItem.includes(formattedText)) {
 
 
-                container.className = "index-card";
+                    const container = document.createElement('div');
+
+                    const containerTextTitle = document.createElement('p');
+                    const containerTextTranslation = document.createElement('p');
 
 
-                containerTextTitle.innerHTML = item.english;
-                containerTextTitle.className = "text-indexcard-heading";
-                containerTextTranslation.innerHTML = item.jicarilla;
-                containerTextTranslation.className = "text-indexcard-body";
+                    container.className = "content";
+                    containerTextTitle.innerHTML = item.english;
+                    containerTextTitle.className = "text-content-heading";
+                    containerTextTranslation.innerHTML = item.jicarilla;
+                    containerTextTranslation.className = "text-content-body";
 
 
-                container.appendChild(containerTextTitle);
-                container.appendChild(containerTextTranslation);
+                    container.appendChild(containerTextTitle);
+                    container.appendChild(containerTextTranslation);
 
 
-                content.appendChild(container);
+                    root.appendChild(container);
+
+                }
 
             }
 
-        }
-
-    })
+        })
 
 
-    updateEntriesCount();
+        updateEntriesCount();
 
-}
-
-
-
-
-///Load Content
-
-function loadContent() {
-
-
-    loadCategories();
+    }
 
 }
-
-
 
 
 
@@ -576,7 +550,10 @@ function loadHeader() {
 
 
     const textDateRevised = document.getElementById('text-date-revised');
-    textDateRevised.innerHTML = "Last revised: " + revisedDate;
+
+
+    if (textDateRevised != null)
+        textDateRevised.innerHTML = "Last revised: " + revisedDate;
 
 
     const container_img = document.createElement('img');
@@ -628,6 +605,22 @@ function loadHeader() {
 }
 
 
+
+
+function clearSearch() {
+
+
+    const input = document.getElementById('input-search');
+    input.value = "";
+
+
+    loadContent();
+
+}
+
+
+
+
 ///Go to Page
 
 function openLink(input) {
@@ -636,6 +629,8 @@ function openLink(input) {
     window.location.href = input;
 
 }
+
+
 
 
 //Play Audio
@@ -647,143 +642,6 @@ function playAudio(url) {
 
 
         new Audio("assets/sounds/" + url).play();
-
-    }
-
-}
-
-
-///Toggle Sections
-
-function toggleSection(type, section) {
-
-
-    const element = document.getElementById('index-' + type + '-' + section);
-    const text = document.getElementById(input + '-toggle');
-
-    if (element.style.display === 'block') {
-
-
-        element.style.display = 'none';
-        text.innerText = '(expand)';
-
-    } else {
-
-
-        loadSectionDictionary(input);
-
-        element.style.display = 'block';
-        text.innerText = '(collapse)';
-
-    }
-
-}
-
-
-
-
-///Toggle Section Dictionary
-
-function toggleSectionDictionary(input) {
-
-
-    const element = document.getElementById(input);
-
-    if (element.style.display === 'block') {
-
-
-        element.style.display = 'none';
-
-    } else {
-
-
-        loadSectionDictionary(input);
-
-        element.style.display = 'block';
-
-    }
-
-}
-
-
-///Toggle Section Phrases
-
-function toggleSectionPhrases(input) {
-
-
-    const element = document.getElementById(input);
-
-    if (element.style.display === 'block') {
-
-
-        element.style.display = 'none';
-
-    } else {
-
-
-        loadSectionPhrases(input);
-
-        element.style.display = 'block';
-
-    }
-
-}
-
-
-
-
-///Check Text
-
-function inputText(id, out, prefix, suffix) {
-
-
-    const input = document.getElementById(id);
-    const output = document.getElementById("output");
-    const placeholder = "Enter text here...";
-    
-
-    input.addEventListener("input", () => {
-
-
-        if (input == "") {
-
-
-            output.textContent = placeholder;
-
-        } else {
-
-
-            output.textContent = prefix + input.value + suffix;
-
-        }
-
-    });
-
-}
-
-
-
-
-///Changes the display
-
-function changeDisplay() {
-
-
-    const button = document.getElementById('button-display');
-
-    if (displayType === "normal") {
-
-
-        button.innerHTML = "Change Display: Normal";
-        displayType = "index-card";
-        loadContent();
-
-    } else {
-
-
-        button.innerHTML = "Change Display: Index Card";
-        displayType = "normal";
-        loadContent();
 
     }
 
@@ -829,54 +687,11 @@ function countIndexList(input) {
 
 
 
-///Search
-
-function search() {
-
-
-    var input = document.getElementById('input-search').value;
-    const searchOutput = document.getElementById('data-index-count-current');
-
-
-    const buttons = document.querySelectorAll('input[name="searchIndex"]');
-
-
-    let selected = null;
-
-
-    for (const button of buttons) {
-
-
-        if (button.checked) {
-
-
-            selected = button.value;
-            break;
-
-        }
-
-    }
-
-
-    if (selected)
-        changeType = selected;
-
-
-    searchKeyword = input.toLowerCase().replaceAll(" ", "_");
-
-
-    if (searchOutput != null)
-        searchOutput.innerHTML = "Searching for: " + searchKeyword;
-
-
-}
-
-
-
-
 ///Update Entries Count
 
 function updateEntriesCount() {
+
+
 
 
     var indexAll = [];
@@ -920,6 +735,8 @@ function updateEntriesCount() {
 }
 
 
+
+
 ///Screen Size
 
 function getScreenSize() {
@@ -927,9 +744,22 @@ function getScreenSize() {
 
     const element = document.getElementById('output-screensize');
 
-    element.innerHTML = window.innerWidth + " / " + window.innerHeight;
+
+    if (element != null) {
+
+
+        if (window.innerWidth > 800)
+            deviceType = "";
+
+
+        if (window.innerWidth < 800)
+            deviceType = "mobile";
+
+    }
 
 }
+
+
 
 
 ///Run Functions
@@ -937,15 +767,12 @@ function getScreenSize() {
 window.onload = function () {
 
 
-    loadHeader();
-
-
     getScreenSize();
 
 
+    loadHeader();
+
+
     changeType(currentType);
-
-
-    ///loadContent();
 
 };

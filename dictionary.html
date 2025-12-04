@@ -30,6 +30,11 @@
 
         <h1 class="text-page-title">Dictionary</h1>
 
+        <div class="section-test">
+
+            <p id="output-screensize">text</p>
+
+        </div>
 
         <div class="section-categories">
 
@@ -82,7 +87,7 @@
             <div class="section-list-search">
 
 
-                <input id="input-search" class="input-searchfield" placeholder="Enter text to search..." />
+                <input id="input-search" class="input-searchfield" placeholder="Enter text to search..." onchange="loadContent()" />
 
                 <div class="button-search" onclick="clearSearch()">
 
@@ -180,6 +185,9 @@
 
 
     </footer>
+
+
+    <script src="js/main.js"></script>
 
 </body>
 

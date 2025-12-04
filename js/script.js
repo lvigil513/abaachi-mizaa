@@ -22,39 +22,40 @@ const listHeader = [
 
 function loadHeader() {
 
-
-
-
+    
     const root = document.getElementById('nav-header');
 
+    if (root != null){
 
-    root.innerHTML = "";
-
-
-    listHeader.forEach(item => {
-
-
-        const container = document.createElement('div');
-        const container_text = document.createElement('p');
+        
+        root.innerHTML = "";
+        
+        listHeader.forEach(item => {
 
 
-        container.className = "button-header";
-        container_text.className = "text-header";
-        container_text.innerHTML = item.page;
+            const container = document.createElement('div');
+            const container_text = document.createElement('p');
 
 
-        const newDiv = container;
+            container.className = "button-header";
+            container_text.className = "text-header";
+            container_text.innerHTML = item.page;
 
 
-        newDiv.setAttribute("onclick", "openLink('" + item.url + "')");
+            const newDiv = container;
 
 
-        newDiv.appendChild(container_text);
+            newDiv.setAttribute("onclick", "openLink('" + item.url + "')");
 
 
-        root.appendChild(newDiv);
+            newDiv.appendChild(container_text);
 
-    });
+
+            root.appendChild(newDiv);
+
+        });
+
+    }
 
 }
 

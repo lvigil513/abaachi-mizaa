@@ -401,7 +401,7 @@ const index = [
     { type: "word", category: "furniture", english: "Bookshelf", jicarilla: "naałtsoozii da na di jish ee", audioFile: "d/furniture/bookshelf.wav" },
     { type: "word", category: "furniture", english: "Bulletin Board", jicarilla: "iya de goni i da na gish ee", audioFile: "d/furniture/bulletin_board.wav" },
     { type: "word", category: "furniture", english: "Bunk Bed", jicarilla: "náaki kóoshké aya ii / kóoshké náaki", audioFile: "d/furniture/bunk_bed.wav" },
-    { type: "word", category: "furniture", english: "Cabinet", jicarilla: "text", audioFile: "d/furniture/text.wav" },
+    ///{ type: "word", category: "furniture", english: "Cabinet", jicarilla: "text", audioFile: "d/furniture/text.wav" },
     { type: "word", category: "furniture", english: "Chair", jicarilla: "k’edasdayii", audioFile: "d/furniture/chair.wav" },
     { type: "word", category: "furniture", english: "Clock", jicarilla: "jóona’ai", audioFile: "d/furniture/clock.wav" },
     { type: "word", category: "furniture", english: "Coat Rack", jicarilla: "é ntsaa i dana di gish ee", audioFile: "d/furniture/coat_rack.wav" },
@@ -410,17 +410,17 @@ const index = [
 
     { type: "word", category: "furniture", english: "Countertop", jicarilla: "kéłts’ai ya na gish i yi ka shi", audioFile: "d/furniture/countertop.wav" },
     { type: "word", category: "furniture", english: "Cupboard", jicarilla: "kéłts’ai ya na gish i yi ka shi / kéłts’ai miigha", audioFile: "d/furniture/cupboard.wav" },
-    { type: "word", category: "furniture", english: "Desk", jicarilla: "text", audioFile: "d/furniture/text.wav" },
-    { type: "word", category: "furniture", english: "Dining Table", jicarilla: "text", audioFile: "d/furniture/text.wav" },
-    { type: "word", category: "furniture", english: "Drawer", jicarilla: "text", audioFile: "d/furniture/text.wav" },
-    { type: "word", category: "furniture", english: "Dresser", jicarilla: "text", audioFile: "d/furniture/text.wav" },
+    ///{ type: "word", category: "furniture", english: "Desk", jicarilla: "text", audioFile: "d/furniture/text.wav" },
+    ///{ type: "word", category: "furniture", english: "Dining Table", jicarilla: "text", audioFile: "d/furniture/text.wav" },
+    ///{ type: "word", category: "furniture", english: "Drawer", jicarilla: "text", audioFile: "d/furniture/text.wav" },
+    ///{ type: "word", category: "furniture", english: "Dresser", jicarilla: "text", audioFile: "d/furniture/text.wav" },
     { type: "word", category: "furniture", english: "Entertainment Center", jicarilla: "máagina da shnił’ii’ii mika dasida'ii", audioFile: "d/furniture/entertainment_center.wav" },
     { type: "word", category: "furniture", english: "Filing Cabinet", jicarilla: "naałtsoozii da na di gish ee", audioFile: "d/furniture/filing_cabinet.wav" },
     { type: "word", category: "furniture", english: "Kitchen Cabinet", jicarilla: "kéłts’ai iye shi jai ii", audioFile: "d/furniture/kitchen_cabinet.wav" },
     { type: "word", category: "furniture", english: "Lamp", jicarilla: "mangáani mi ko", audioFile: "d/furniture/lamp.wav" },
     { type: "word", category: "furniture", english: "Mirror", jicarilla: "mee de n’nii’ii", audioFile: "d/furniture/mirror.wav" },
     { type: "word", category: "furniture", english: "Nightstand", jicarilla: "mika’da’ji’ya’ii ałts’iisde / kooshke yi'ye gha si a ii ya dee ye", audioFile: "d/furniture/nightstand.wav" },
-    { type: "word", category: "furniture", english: "Office Chair", jicarilla: "na’ji’zi'ee k’edasdayii", audioFile: "d/furniture/text.wav" },
+    { type: "word", category: "furniture", english: "Office Chair", jicarilla: "na’ji’zi'ee k’edasdayii", audioFile: "d/furniture/office_chair.wav" },
     { type: "word", category: "furniture", english: "Round Table", jicarilla: "mika’shi’da’ji’ya’ii hisbas’ii", audioFile: "d/furniture/round_table.wav" },
     { type: "word", category: "furniture", english: "Shelf", jicarilla: "iya dee da na ji gish ee", audioFile: "d/furniture/shelf.wav" },
     { type: "word", category: "furniture", english: "Sofa", jicarilla: "k’edasdayii ndees’ii", audioFile: "d/furniture/sofa.wav" },
@@ -761,7 +761,7 @@ const index = [
     { type: "word", category: "objects", english: "Window", jicarilla: "mandáana", audioFile: "d/objects/window.wav" },
 
 
-    { type: "word", category: "objects", english: "text", jicarilla: "text", audioFile: "d/objects/text.wav" },
+    ///{ type: "word", category: "objects", english: "text", jicarilla: "text", audioFile: "d/objects/text.wav" },
 
 
 
@@ -1004,7 +1004,7 @@ const index = [
 
     ///Phrases: Body Parts
 
-    { type: "phrase", category: "body-parts", english: "My head is aching.", jicarilla: "text", audioFile: "p/body_parts/text.wav" },
+    ///{ type: "phrase", category: "body-parts", english: "My head is aching.", jicarilla: "text", audioFile: "p/body_parts/text.wav" },
 
 
 
@@ -1053,6 +1053,7 @@ const index = [
     { type: "phrase", category: "clothing", english: "My shirt is big.", jicarilla: "Shi édih ntsaa. / Shi gamíisa ntsaa.", audioFile: "p/clothing/my_shirt_is_big.wav" },
     { type: "phrase", category: "clothing", english: "My gloves are small.", jicarilla: "Shi lazis áłts’íídé.", audioFile: "p/clothing/my_gloves_are_small.wav" },
     { type: "phrase", category: "clothing", english: "My socks are long.", jicarilla: "Shi keye’stsozii ndees. / Shi kézis ndees.", audioFile: "p/clothing/my_socks_are_long.wav" },
+    { type: "phrase", category: "clothing", english: "My pants are short.", jicarilla: "Shi tł'aazis ałdoode. / Shi tł'aats'izis ałdoode.", audioFile: "p/clothing/my_pants_are_short.wav" },
     { type: "phrase", category: "clothing", english: "My earrings are shiny.", jicarilla: "Shi jaatł’ółi k’ets’iłi.", audioFile: "p/clothing/my_earrings_are_shiny.wav" },
     { type: "phrase", category: "clothing", english: "My vest is black.", jicarilla: "Shi jaléego łizhi.", audioFile: "p/clothing/my_vest_is_black.wav" },
     { type: "phrase", category: "clothing", english: "My shoes are red and white.", jicarilla: "Shi kee łichi shii łigai.", audioFile: "p/clothing/my_shoes_are_red_and_white.wav" },
@@ -1101,18 +1102,18 @@ const index = [
 
     ///Phrases: Finances
 
-    { type: "phrase", category: "finance", english: "I have money.", jicarilla: "Shi zhaali goni.", audioFile: "p/finance/text.wav" },
-    { type: "phrase", category: "finance", english: "I don’t have money.", jicarilla: "Shi zhaali edi.", audioFile: "p/finance/text.wav" },
+    { type: "phrase", category: "finance", english: "I have money.", jicarilla: "Shi zhaali goni.", audioFile: "p/finance/i_have_money.wav" },
+    { type: "phrase", category: "finance", english: "I don’t have money.", jicarilla: "Shi zhaali edi.", audioFile: "p/finance/i_dont_have_money.wav" },
 
-    { type: "phrase", category: "finance", english: "Do you have money?", jicarilla: "Hee nzhaali goni?", audioFile: "p/finance/text.wav" },
-    { type: "phrase", category: "finance", english: "Does he / she have money?", jicarilla: "Hee mi zhaali goni?", audioFile: "p/finance/text.wav" },
+    { type: "phrase", category: "finance", english: "Do you have money?", jicarilla: "Hee nzhaali goni?", audioFile: "p/finance/do_you_have_money.wav" },
+    { type: "phrase", category: "finance", english: "Does he / she have money?", jicarilla: "Hee mi zhaali goni?", audioFile: "p/finance/does_he_have_money.wav" },
 
-    { type: "phrase", category: "finance", english: "Count your money.", jicarilla: "Nzhaali hoonł kai.", audioFile: "p/finance/text.wav" },
-    { type: "phrase", category: "finance", english: "Count your change.", jicarilla: "Nhéełya hoonł kai.", audioFile: "p/finance/text.wav" },
-    { type: "phrase", category: "finance", english: "Here’s your money.", jicarilla: "Kwee’yéh, zhaał.", audioFile: "p/finance/text.wav" },
-    { type: "phrase", category: "finance", english: "Here’s your change.", jicarilla: "Kwee’yéh, héełya.", audioFile: "p/finance/text.wav" },
-    { type: "phrase", category: "finance", english: "How much money do you have?", jicarilla: "Da’kwii na nzhaali?", audioFile: "p/finance/text.wav" },
-    { type: "phrase", category: "finance", english: "How much money does he / she have?", jicarilla: "Da’kwii na mi zhaali?", audioFile: "p/finance/text.wav" },
+    { type: "phrase", category: "finance", english: "Count your money.", jicarilla: "Nzhaali hoonł kai.", audioFile: "p/finance/count_your_money.wav" },
+    { type: "phrase", category: "finance", english: "Count your change.", jicarilla: "Nhéełya hoonł kai.", audioFile: "p/finance/count_your_change.wav" },
+    { type: "phrase", category: "finance", english: "Here’s your money.", jicarilla: "Kwee’yéh, zhaał.", audioFile: "p/finance/heres_your_money.wav" },
+    { type: "phrase", category: "finance", english: "Here’s your change.", jicarilla: "Kwee’yéh, héełya.", audioFile: "p/finance/heres_your_change.wav" },
+    { type: "phrase", category: "finance", english: "How much money do you have?", jicarilla: "Da’kwii na nzhaali?", audioFile: "p/finance/how_much_money_do_you_have.wav" },
+    { type: "phrase", category: "finance", english: "How much money does he / she have?", jicarilla: "Da’kwii na mi zhaali?", audioFile: "p/finance/how_much_money_does_he_Have.wav" },
 
     { type: "phrase", category: "finance", english: "How much does it cost?", jicarilla: "Da’kwii na ili?", audioFile: "p/finance/text.wav" },
     { type: "phrase", category: "finance", english: "How much is it?", jicarilla: "Da’kwii na ili?", audioFile: "p/finance/text.wav" },
@@ -1158,11 +1159,28 @@ const index = [
 
 
 
-    ///Phrases: Foods
+    ///Phrases: Food
 
-    { type: "phrase", category: "foods", english: "text", jicarilla: "text", audioFile: "p/foods/text.wav" },
+    { type: "phrase", category: "food", english: "I am eating food.", jicarilla: "Dáan hisha.", audioFile: "p/food/i_am_eating_food.wav" },
+    ///{ type: "phrase", category: "food", english: "You are eating food.", jicarilla: "text", audioFile: "p/food/you_are_eating_food.wav" },
+    { type: "phrase", category: "food", english: "He / She is eating food.", jicarilla: "Dáan yiyá.", audioFile: "p/food/he_is_eating_food.wav" },
 
-    { type: "phrase", category: "foods", english: "He / She is eating food.", jicarilla: "Dáan yiyá.", audioFile: "p/foods/he_is_eating_food.wav" },
+
+    { type: "phrase", category: "food", english: "I am boiling potatoes.", jicarilla: "Nigokats’i hishbesh. / Baba hishbesh.", audioFile: "p/food/i_am_boiling_potatoes.wav" },
+    { type: "phrase", category: "food", english: "You are boiling soup.", jicarilla: "Kaził nłbesh.", audioFile: "p/food/i_am_boiling_potatoes.wav" },
+    { type: "phrase", category: "food", english: "Are you boiling soup?", jicarilla: "Hee kaził nłbesh?", audioFile: "p/food/are_you_boiling_soup.wav" },
+    { type: "phrase", category: "food", english: "He / She is boiling beans.", jicarilla: "Naa’olee yiłbesh.", audioFile: "p/food/i_am_boiling_potatoes.wav" },
+    { type: "phrase", category: "food", english: "Is he / she boiling beans?", jicarilla: "Hee naa’olee yiłbesh?", audioFile: "p/food/i_am_boiling_potatoes.wav" },
+
+
+    { type: "phrase", category: "food", english: "I boiled potatoes.", jicarilla: "Nigokats’i sełbesh.", audioFile: "p/food/i_boiled_potatoes.wav" },
+    ///{ type: "phrase", category: "food", english: "You boiled potatoes.", jicarilla: "text", audioFile: "p/food/you_boiled_potatoes.wav" },
+    ///{ type: "phrase", category: "food", english: "Did you boil potatoes?", jicarilla: "text", audioFile: "p/food/did_you_boil_potatoes.wav" },
+
+
+    { type: "phrase", category: "food", english: "I am peeling potatoes.", jicarilla: "Nigokats’i mest'áás. / Baba mest'áás.", audioFile: "p/food/i_am_peeling_potatoes.wav" },
+    ///{ type: "phrase", category: "food", english: "You are peeling potatoes.", jicarilla: "text", audioFile: "p/food/you_are_peeling_potatoes.wav" },
+    ///{ type: "phrase", category: "food", english: "He / She is peeling potatoes.", jicarilla: "text", audioFile: "p/food/he_is_peeling_potatoes.wav" },
 
 
 
@@ -1190,46 +1208,46 @@ const index = [
 
     { type: "phrase", category: "hygiene", english: "He / She has soap.", jicarilla: "Mi hawóon goni. / Mi ich’anwosh goni.", audioFile: "p/hygiene/he_has_soap.wav" },
 
-    { type: "phrase", category: "hygiene", english: "I am brushing my hair.", jicarilla: "Shi tsii hishó.", audioFile: "p/hygiene/text.wav" },
-    { type: "phrase", category: "hygiene", english: "I am brushing my teeth.", jicarilla: "Shi woo na’ishdé.", audioFile: "p/hygiene/text.wav" },
-    { type: "phrase", category: "hygiene", english: "I am washing my face.", jicarilla: "Shi nii na’ishdé.", audioFile: "p/hygiene/text.wav" },
-    { type: "phrase", category: "hygiene", english: "I am washing my hair.", jicarilla: "Shi tsii na’ishdé.", audioFile: "p/hygiene/text.wav" },
-    { type: "phrase", category: "hygiene", english: "I am washing my hands.", jicarilla: "Shi lah na’ishdé.", audioFile: "p/hygiene/text.wav" },
-    { type: "phrase", category: "hygiene", english: "I am taking a bath / shower.", jicarilla: "Naashbéé.", audioFile: "p/hygiene/text.wav" },
+    { type: "phrase", category: "hygiene", english: "I am brushing my hair.", jicarilla: "Shi tsii hishó.", audioFile: "p/hygiene/i_am_brushing_my_hair.wav" },
+    { type: "phrase", category: "hygiene", english: "I am brushing my teeth.", jicarilla: "Shi woo na’ishdé.", audioFile: "p/hygiene/i_am_brushing_my_teeth.wav" },
+    { type: "phrase", category: "hygiene", english: "I am washing my face.", jicarilla: "Shi nii na’ishdé.", audioFile: "p/hygiene/i_am_washing_my_face.wav" },
+    { type: "phrase", category: "hygiene", english: "I am washing my hair.", jicarilla: "Shi tsii na’ishdé.", audioFile: "p/hygiene/i_am_washing_my_hair.wav" },
+    { type: "phrase", category: "hygiene", english: "I am washing my hands.", jicarilla: "Shi lah na’ishdé.", audioFile: "p/hygiene/i_am_washing_my_hands.wav" },
+    { type: "phrase", category: "hygiene", english: "I am taking a bath / shower.", jicarilla: "Naashbéé.", audioFile: "p/hygiene/i_am_taking_a_shower.wav" },
 
-    { type: "phrase", category: "hygiene", english: "I brushed my hair.", jicarilla: "Shi tsii heeshó.", audioFile: "p/hygiene/text.wav" },
-    { type: "phrase", category: "hygiene", english: "I brushed my teeth.", jicarilla: "Shi woo na’ééłdé.", audioFile: "p/hygiene/text.wav" },
-    { type: "phrase", category: "hygiene", english: "I washed my face.", jicarilla: "Shi nii na’ééłdé.", audioFile: "p/hygiene/text.wav" },
-    { type: "phrase", category: "hygiene", english: "I washed my hair.", jicarilla: "Shi tsii na’ééłdé.", audioFile: "p/hygiene/text.wav" },
-    { type: "phrase", category: "hygiene", english: "I washed my hands.", jicarilla: "Shi lah na’ééłdé.", audioFile: "p/hygiene/text.wav" },
+    { type: "phrase", category: "hygiene", english: "I brushed my hair.", jicarilla: "Shi tsii heeshó.", audioFile: "p/hygiene/i_brushed_my_hair.wav" },
+    { type: "phrase", category: "hygiene", english: "I brushed my teeth.", jicarilla: "Shi woo na’ééłdé.", audioFile: "p/hygiene/i_brushed_my_teeth.wav" },
+    { type: "phrase", category: "hygiene", english: "I washed my face.", jicarilla: "Shi nii na’ééłdé.", audioFile: "p/hygiene/i_washed_my_face.wav" },
+    { type: "phrase", category: "hygiene", english: "I washed my hair.", jicarilla: "Shi tsii na’ééłdé.", audioFile: "p/hygiene/i_washed_my_hair.wav" },
+    { type: "phrase", category: "hygiene", english: "I washed my hands.", jicarilla: "Shi lah na’ééłdé.", audioFile: "p/hygiene/i_washed_my_hands.wav" },
     { type: "phrase", category: "hygiene", english: "I took a shower.", jicarilla: "Naaseebéé.", audioFile: "p/hygiene/i_took_a_shower.wav" },
 
-    { type: "phrase", category: "hygiene", english: "Brush your hair.", jicarilla: "Ntsii nshó.", audioFile: "p/hygiene/text.wav" },
-    { type: "phrase", category: "hygiene", english: "Brush your teeth.", jicarilla: "Nwoo na’iłdé.", audioFile: "p/hygiene/text.wav" },
-    { type: "phrase", category: "hygiene", english: "Wash your face.", jicarilla: "Nnii na’iłdé.", audioFile: "p/hygiene/text.wav" },
-    { type: "phrase", category: "hygiene", english: "Wash your hair.", jicarilla: "Ntsii na’iłdé.", audioFile: "p/hygiene/text.wav" },
-    { type: "phrase", category: "hygiene", english: "Wash your hands.", jicarilla: "Nlah na’iłdé.", audioFile: "p/hygiene/text.wav" },
-    { type: "phrase", category: "hygiene", english: "Take a bath / shower.", jicarilla: "Naanbéé.", audioFile: "p/hygiene/text.wav" },
+    { type: "phrase", category: "hygiene", english: "Brush your hair.", jicarilla: "Ntsii nshó.", audioFile: "p/hygiene/brush_your_hair.wav" },
+    { type: "phrase", category: "hygiene", english: "Brush your teeth.", jicarilla: "Nwoo na’iłdé.", audioFile: "p/hygiene/brush_your_teeth.wav" },
+    { type: "phrase", category: "hygiene", english: "Wash your face.", jicarilla: "Nnii na’iłdé.", audioFile: "p/hygiene/wash_your_face.wav" },
+    { type: "phrase", category: "hygiene", english: "Wash your hair.", jicarilla: "Ntsii na’iłdé.", audioFile: "p/hygiene/wash_your_hair.wav" },
+    { type: "phrase", category: "hygiene", english: "Wash your hands.", jicarilla: "Nlah na’iłdé.", audioFile: "p/hygiene/wash_your_hands.wav" },
+    { type: "phrase", category: "hygiene", english: "Take a bath / shower.", jicarilla: "Naanbéé.", audioFile: "p/hygiene/take_a_shower.wav" },
 
-    { type: "phrase", category: "hygiene", english: "Did you brush your hair?", jicarilla: "Hee ntsii nshó?", audioFile: "p/hygiene/text.wav" },
-    { type: "phrase", category: "hygiene", english: "Did you brush your teeth?", jicarilla: "Hee nwoo na’nłdé?", audioFile: "p/hygiene/text.wav" },
-    { type: "phrase", category: "hygiene", english: "Did you wash your face?", jicarilla: "Hee nnii na’nłdé?", audioFile: "p/hygiene/text.wav" },
-    { type: "phrase", category: "hygiene", english: "Did you wash your hair?", jicarilla: "Hee ntsii na’nłdé?", audioFile: "p/hygiene/text.wav" },
-    { type: "phrase", category: "hygiene", english: "Did you wash your hands?", jicarilla: "Hee nlah na’nłdé?", audioFile: "p/hygiene/text.wav" },
-    { type: "phrase", category: "hygiene", english: "Did you take a bath / shower?", jicarilla: "Hee naasinbéé?", audioFile: "p/hygiene/text.wav" },
+    { type: "phrase", category: "hygiene", english: "Did you brush your hair?", jicarilla: "Hee ntsii nshó?", audioFile: "p/hygiene/did_you_brush_your_hair.wav" },
+    { type: "phrase", category: "hygiene", english: "Did you brush your teeth?", jicarilla: "Hee nwoo na’nłdé?", audioFile: "p/hygiene/did_you_brush_your_teeth.wav" },
+    { type: "phrase", category: "hygiene", english: "Did you wash your face?", jicarilla: "Hee nnii na’nłdé?", audioFile: "p/hygiene/did_you_wash_your_face.wav" },
+    { type: "phrase", category: "hygiene", english: "Did you wash your hair?", jicarilla: "Hee ntsii na’nłdé?", audioFile: "p/hygiene/did_you_wash_your_hair.wav" },
+    { type: "phrase", category: "hygiene", english: "Did you wash your hands?", jicarilla: "Hee nlah na’nłdé?", audioFile: "p/hygiene/did_you_wash_your_hands.wav" },
+    { type: "phrase", category: "hygiene", english: "Did you take a bath / shower?", jicarilla: "Hee naasinbéé?", audioFile: "p/hygiene/did_you_take_a_shower.wav" },
 
-    { type: "phrase", category: "hygiene", english: "He / She is brushing their hair.", jicarilla: "Mi tsii yishó.", audioFile: "p/hygiene/text.wav" },
-    { type: "phrase", category: "hygiene", english: "He / She is brushing their teeth.", jicarilla: "Mi woo na’iłdé.", audioFile: "p/hygiene/text.wav" },
-    { type: "phrase", category: "hygiene", english: "He / She is washing their face.", jicarilla: "Mi nii na’iłdé.", audioFile: "p/hygiene/text.wav" },
-    { type: "phrase", category: "hygiene", english: "He / She is washing their hair.", jicarilla: "Mi tsii na’iłdé.", audioFile: "p/hygiene/text.wav" },
-    { type: "phrase", category: "hygiene", english: "He / She is washing their hands.", jicarilla: "Mi lah na’iłdé.", audioFile: "p/hygiene/text.wav" },
+    { type: "phrase", category: "hygiene", english: "He / She is brushing their hair.", jicarilla: "Mi tsii yishó.", audioFile: "p/hygiene/he_is_brushing_their_hair.wav" },
+    { type: "phrase", category: "hygiene", english: "He / She is brushing their teeth.", jicarilla: "Mi woo na’iłdé.", audioFile: "p/hygiene/he_is_brushing_their_teeth.wav" },
+    { type: "phrase", category: "hygiene", english: "He / She is washing their face.", jicarilla: "Mi nii na’iłdé.", audioFile: "p/hygiene/he_is_washing_their_face.wav" },
+    { type: "phrase", category: "hygiene", english: "He / She is washing their hair.", jicarilla: "Mi tsii na’iłdé.", audioFile: "p/hygiene/he_is_washing_their_hair.wav" },
+    { type: "phrase", category: "hygiene", english: "He / She is washing their hands.", jicarilla: "Mi lah na’iłdé.", audioFile: "p/hygiene/he_is_washing_their_hands.wav" },
     { type: "phrase", category: "hygiene", english: "He / She is taking a bath / shower.", jicarilla: "Naabéé.", audioFile: "p/hygiene/he_is_taking_a_shower.wav" },
 
-    { type: "phrase", category: "hygiene", english: "He / She brushed their hair.", jicarilla: "Mi tsii yiishó.", audioFile: "p/hygiene/text.wav" },
-    { type: "phrase", category: "hygiene", english: "He / She brushed their teeth.", jicarilla: "Mi woo na’iłdé.", audioFile: "p/hygiene/text.wav" },
-    { type: "phrase", category: "hygiene", english: "He / She washed their face.", jicarilla: "Mi nii na’iłdé.", audioFile: "p/hygiene/text.wav" },
-    { type: "phrase", category: "hygiene", english: "He / She washed their hair.", jicarilla: "Mi tsii na’iłdé.", audioFile: "p/hygiene/text.wav" },
-    { type: "phrase", category: "hygiene", english: "He / She washed their hands.", jicarilla: "Mi lah na’iłdé.", audioFile: "p/hygiene/text.wav" },
+    { type: "phrase", category: "hygiene", english: "He / She brushed their hair.", jicarilla: "Mi tsii yiishó.", audioFile: "p/hygiene/he_brushed_their_hair.wav" },
+    { type: "phrase", category: "hygiene", english: "He / She brushed their teeth.", jicarilla: "Mi woo na’iłdé.", audioFile: "p/hygiene/he_brushed_their_teeth.wav" },
+    { type: "phrase", category: "hygiene", english: "He / She washed their face.", jicarilla: "Mi nii na’iłdé.", audioFile: "p/hygiene/he_washed_their_face.wav" },
+    { type: "phrase", category: "hygiene", english: "He / She washed their hair.", jicarilla: "Mi tsii na’iłdé.", audioFile: "p/hygiene/he_washed_their_hair.wav" },
+    { type: "phrase", category: "hygiene", english: "He / She washed their hands.", jicarilla: "Mi lah na’iłdé.", audioFile: "p/hygiene/he_washed_their_hands.wav" },
     { type: "phrase", category: "hygiene", english: "He / She took a bath / shower.", jicarilla: "Naasbéé.", audioFile: "p/hygiene/he_took_a_shower.wav" },
 
 
@@ -1247,33 +1265,30 @@ const index = [
     { type: "phrase", category: "interrogatives", english: "What’s up?", jicarilla: "Iyáná mee goni?", audioFile: "p/interrogatives/hello.wav" },
     { type: "phrase", category: "interrogatives", english: "What do you want?", jicarilla: "Iyáná hánt’íí?", audioFile: "p/interrogatives/hello.wav" },
     { type: "phrase", category: "interrogatives", english: "What do they want?", jicarilla: "Iyáná yííkát’íí?", audioFile: "p/interrogatives/hello.wav" },
-
-    { type: "phrase", category: "interrogatives", english: "What do you see?", jicarilla: "Iyáná híí’íí?", audioFile: "p/interrogatives/hello.wav" },
+    { type: "phrase", category: "interrogatives", english: "What do you see?", jicarilla: "Iyáná híí’íí?", audioFile: "p/interrogatives/what_do_you_see.wav" },
 
 
     { type: "phrase", category: "interrogatives", english: "Where are you from?", jicarilla: "Ha’shii nanda?", audioFile: "p/interrogatives/where_are_you_from.wav" },
-
+    ///{ type: "phrase", category: "interrogatives", english: "Where is he / she from?", jicarilla: "text", audioFile: "p/interrogatives/where_is_he_from.wav" },
     { type: "phrase", category: "interrogatives", english: "Where are you going?", jicarilla: "Ha’yeh (na) dínyá?", audioFile: "p/interrogatives/where_are_you_going.wav" },
+    ///{ type: "phrase", category: "interrogatives", english: "Where is he / she going?", jicarilla: "text", audioFile: "p/interrogatives/where_is_he_going.wav" },
     { type: "phrase", category: "interrogatives", english: "Where do you live?", jicarilla: "Ha’yeh (na) ngha?", audioFile: "p/interrogatives/where_do_you_live.wav" },
-
+    ///{ type: "phrase", category: "interrogatives", english: "Where does he / she live?", jicarilla: "text", audioFile: "p/interrogatives/where_does_he_live.wav" },
     { type: "phrase", category: "interrogatives", english: "Where did you go?", jicarilla: "Ha’yeh (na) nasínya?", audioFile: "p/interrogatives/where_did_you_go.wav" },
     { type: "phrase", category: "interrogatives", english: "Where did they go?", jicarilla: "Ha’yeh (na) naasyá?", audioFile: "p/interrogatives/where_did_they_go.wav" },
-
     { type: "phrase", category: "interrogatives", english: "Where do they work?", jicarilla: "Ha’yeh (na) na’iizii?", audioFile: "p/interrogatives/where_do_they_work.wav" },
 
 
-
-
     { type: "phrase", category: "interrogatives", english: "When are you going to eat?", jicarilla: "Ha’go (na) iya?", audioFile: "p/interrogatives/when_are_you_going_to_eat.wav" },
-    { type: "phrase", category: "interrogatives", english: "When is he / she going to eat?", jicarilla: "text", audioFile: "p/interrogatives/text.wav" },
-    { type: "phrase", category: "interrogatives", english: "When are they going to eat?", jicarilla: "text", audioFile: "p/interrogatives/text.wav" },
-    { type: "phrase", category: "interrogatives", english: "When are we going to eat?", jicarilla: "text", audioFile: "p/interrogatives/text.wav" },
+    ///{ type: "phrase", category: "interrogatives", english: "When is he / she going to eat?", jicarilla: "text", audioFile: "p/interrogatives/text.wav" },
+    ///{ type: "phrase", category: "interrogatives", english: "When are they going to eat?", jicarilla: "text", audioFile: "p/interrogatives/text.wav" },
+    ///{ type: "phrase", category: "interrogatives", english: "When are we going to eat?", jicarilla: "text", audioFile: "p/interrogatives/text.wav" },
 
-    { type: "phrase", category: "interrogatives", english: "When are you going there?", jicarilla: "Ha’go (na) dá’kwéé dínya?", audioFile: "p/interrogatives/text.wav" },
-    { type: "phrase", category: "interrogatives", english: "When is he / she going there?", jicarilla: "text", audioFile: "p/interrogatives/text.wav" },
-    { type: "phrase", category: "interrogatives", english: "When are we going there?", jicarilla: "text", audioFile: "p/interrogatives/text.wav" },
-    { type: "phrase", category: "interrogatives", english: "When are they going there?", jicarilla: "text", audioFile: "p/interrogatives/text.wav" },
-    { type: "phrase", category: "interrogatives", english: "When are you going to Chama?", jicarilla: "Ha’go (na) Chama’ye dínya?", audioFile: "p/interrogatives/text.wav" },
+    { type: "phrase", category: "interrogatives", english: "When are you going there?", jicarilla: "Ha’go (na) dá’kwéé dínya?", audioFile: "p/interrogatives/when_are_you_going_there.wav" },
+    ///{ type: "phrase", category: "interrogatives", english: "When is he / she going there?", jicarilla: "text", audioFile: "p/interrogatives/when_is_he_going_there.wav" },
+    ///{ type: "phrase", category: "interrogatives", english: "When are we going there?", jicarilla: "text", audioFile: "p/interrogatives/when_are_we_going_there.wav" },
+    ///{ type: "phrase", category: "interrogatives", english: "When are they going there?", jicarilla: "text", audioFile: "p/interrogatives/when_are_they_going_there.wav" },
+    { type: "phrase", category: "interrogatives", english: "When are you going to Chama?", jicarilla: "Ha’go (na) Chama’ye dínya?", audioFile: "p/interrogatives/when_are_you_going_to_chama.wav" },
     { type: "phrase", category: "interrogatives", english: "When are we going to Chama?", jicarilla: "text", audioFile: "p/interrogatives/text.wav" },
 
 
@@ -1322,14 +1337,6 @@ const index = [
     { type: "phrase", category: "introductions", english: "I work at the school.", jicarilla: "Isgwéela’ee na’isii.", audioFile: "p/introductions/i_work_at_the_school.wav" },
 
 
-    { type: "phrase", category: "introductions", english: "text", jicarilla: "text", audioFile: "p/introductions/text.wav" },
-    { type: "phrase", category: "introductions", english: "text", jicarilla: "text", audioFile: "p/introductions/text.wav" },
-    { type: "phrase", category: "introductions", english: "text", jicarilla: "text", audioFile: "p/introductions/text.wav" },
-    { type: "phrase", category: "introductions", english: "text", jicarilla: "text", audioFile: "p/introductions/text.wav" },
-    { type: "phrase", category: "introductions", english: "text", jicarilla: "text", audioFile: "p/introductions/text.wav" },
-    { type: "phrase", category: "introductions", english: "text", jicarilla: "text", audioFile: "p/introductions/text.wav" },
-
-
 
 
     ///Phrases: Months
@@ -1347,7 +1354,6 @@ const index = [
     { type: "phrase", category: "months", english: "This month is November.", jicarilla: "Dii shi’i Kajee Biłdaa’idá / Sho hiigai.", audioFile: "p/months/this_month_is_november.wav" },
     { type: "phrase", category: "months", english: "This month is December.", jicarilla: "Dii shi’i Zastsoh / Ochoweda / Gillismis.", audioFile: "p/months/this_month_is_december.wav" },
 
-
     { type: "phrase", category: "months", english: "Next month is January.", jicarilla: "Na na shi’i Koghánéé.", audioFile: "p/months/next_month_is_january.wav" },
     { type: "phrase", category: "months", english: "Next month is February.", jicarilla: "Na na shi’i Itsáizhaa.", audioFile: "p/months/next_month_is_february.wav" },
     { type: "phrase", category: "months", english: "Next month is March.", jicarilla: "Na na shi’i Minii Chííidn.", audioFile: "p/months/next_month_is_march.wav" },
@@ -1360,7 +1366,6 @@ const index = [
     { type: "phrase", category: "months", english: "Next month is October.", jicarilla: "Na na shi’i It’aa łitsoyéé / It’áánshchílíí.", audioFile: "p/months/next_month_is_october.wav" },
     { type: "phrase", category: "months", english: "Next month is November.", jicarilla: "Na na shi’i Kajee Biłdaa’idá / Sho hiigai.", audioFile: "p/months/next_month_is_november.wav" },
     { type: "phrase", category: "months", english: "Next month is December.", jicarilla: "Na na shi’i Zastsoh / Ochoweda / Gillismis.", audioFile: "p/months/next_month_is_december.wav" },
-
 
     { type: "phrase", category: "months", english: "Last month was January.", jicarilla: "Shi dako mi gha go zhish ii Koghánéé.", audioFile: "p/months/last_month_was_january.wav" },
     { type: "phrase", category: "months", english: "Last month was February.", jicarilla: "Shi dako mi gha go zhish ii Itsáizhaa.", audioFile: "p/months/last_month_was_february.wav" },
@@ -1389,9 +1394,20 @@ const index = [
 
 
 
+    ///Phrases: Picking
+
+    { type: "phrase", category: "picking", english: "I am picking Indian Tea.", jicarilla: "Tł’o déeh hishnosh.", audioFile: "p/picking/i_am_picking_indian_tea.wav" },
+    { type: "phrase", category: "picking", english: "I am picking Osha.", jicarilla: "Ha’ich’idéé hishnosh.", audioFile: "p/picking/i_am_picking_osha.wav" },
+    { type: "phrase", category: "picking", english: "I am picking Wild Parsley.", jicarilla: "Ch’ibaa’a hishnosh.", audioFile: "p/picking/i_am_picking_wild_parsley.wav" },
+
+    { type: "phrase", category: "picking", english: "I am picking Indian Tea.", jicarilla: "Hishbesh.", audioFile: "p/picking/i_am_picking_indian_tea.wav" },
+
+
+
+
     ///Phrases: Recreation
 
-    { type: "phrase", category: "recreation", english: "I am fishing.", jicarilla: "Text.", audioFile: "p/recreation/i_am_fishing.wav" },
+    ///{ type: "phrase", category: "recreation", english: "I am fishing.", jicarilla: "Text.", audioFile: "p/recreation/i_am_fishing.wav" },
 
 
 
@@ -1511,6 +1527,9 @@ const index = [
     { type: "phrase", category: "useful-phrases", english: "Thank you.", jicarilla: "Ihéedn.", audioFile: "p/useful_phrases/thank_you.wav" },
 
 
+    { type: "phrase", category: "useful-phrases", english: "How can I help you?", jicarilla: "Ha'dao (na) nch'ooshdee?", audioFile: "p/useful_phrases/how_can_i_help_you.wav" },
+
+
 
 
     ///Phrases: Weather
@@ -1534,7 +1553,6 @@ const index = [
     { type: "phrase", category: "weather", english: "I like fall.", jicarilla: "Daa‘kéé da shił hooyee.", audioFile: "p/weather/i_like_fall.wav" },
 
 
-    { type: "phrase", category: "weather", english: "text", jicarilla: "text", audioFile: "p/weather/text.wav" },
 
 
 
@@ -1544,8 +1562,6 @@ const index = [
     ///
     ///Verbs
     ///
-
-
 
 
     ///Verbs: Boil
@@ -1568,12 +1584,12 @@ const index = [
 
     ///Verbs: Buy
 
-    { type: "verb", category: "buy", english: "I am buying.", jicarilla: "Naméshchii.", audioFile: "v/buy/i_am_buying.wav" },
-    { type: "verb", category: "buy", english: "You are buying.", jicarilla: "", audioFile: "v/buy/you_are_buying.wav" },
-    { type: "verb", category: "buy", english: "He / She is buying.", jicarilla: "", audioFile: "v/buy/he_is_buying.wav" },
+    { type: "verb", category: "buy", english: "I am buying.", jicarilla: "Naméshchi.", audioFile: "v/buy/i_am_buying.wav" },
+    ///{ type: "verb", category: "buy", english: "You are buying.", jicarilla: "", audioFile: "v/buy/you_are_buying.wav" },
+    ///{ type: "verb", category: "buy", english: "He / She is buying.", jicarilla: "", audioFile: "v/buy/he_is_buying.wav" },
 
 
-    { type: "verb", category: "buy", english: "I bought.", jicarilla: "Naméshéłchii", audioFile: "v/buy/i_bought.wav" },
+    { type: "verb", category: "buy", english: "I bought.", jicarilla: "Naméshéłchi", audioFile: "v/buy/i_bought.wav" },
 
 
 
@@ -1581,8 +1597,8 @@ const index = [
     ///Verbs: Dig Up
 
     { type: "verb", category: "dig-up", english: "I am digging up.", jicarilla: "Hashgee.", audioFile: "v/dig_up/i_am_digging_up.wav" },
-    { type: "verb", category: "dig-up", english: "You are digging up.", jicarilla: "???", audioFile: "v/dig_up/you_are_digging_up.wav" },
-    { type: "verb", category: "dig-up", english: "He / She is digging up.", jicarilla: "???", audioFile: "v/dig_up/he_is_digging_up.wav" },
+    ///{ type: "verb", category: "dig-up", english: "You are digging up.", jicarilla: "???", audioFile: "v/dig_up/you_are_digging_up.wav" },
+    ///{ type: "verb", category: "dig-up", english: "He / She is digging up.", jicarilla: "???", audioFile: "v/dig_up/he_is_digging_up.wav" },
 
 
 
@@ -1590,12 +1606,14 @@ const index = [
     ///Verbs: Drink
 
     { type: "verb", category: "drink", english: "I am drinking.", jicarilla: "Hishgla.", audioFile: "v/drink/i_am_drinking.wav" },
-    { type: "verb", category: "drink", english: "You are drinking.", jicarilla: "text", audioFile: "v/drink/you_are_drinking.wav" },
-    { type: "verb", category: "drink", english: "He / She is drinking.", jicarilla: "text", audioFile: "v/drink/he_is_drinking.wav" },
+    ///{ type: "verb", category: "drink", english: "You are drinking.", jicarilla: "text", audioFile: "v/drink/you_are_drinking.wav" },
+    ///{ type: "verb", category: "drink", english: "He / She is drinking.", jicarilla: "text", audioFile: "v/drink/he_is_drinking.wav" },
+    ///{ type: "verb", category: "drink", english: "They are drinking.", jicarilla: "text", audioFile: "v/drink/they_are_drinking.wav" },
 
     { type: "verb", category: "drink", english: "I drank.", jicarilla: "Heegla.", audioFile: "v/drink/i_drank.wav" },
-    { type: "verb", category: "drink", english: "You drank.", jicarilla: "text", audioFile: "v/drink/you_drank.wav" },
-    { type: "verb", category: "drink", english: "He / She drank.", jicarilla: "text", audioFile: "v/drink/he_drank.wav" },
+    ///{ type: "verb", category: "drink", english: "You drank.", jicarilla: "text", audioFile: "v/drink/you_drank.wav" },
+    ///{ type: "verb", category: "drink", english: "He / She drank.", jicarilla: "text", audioFile: "v/drink/he_drank.wav" },
+    ///{ type: "verb", category: "drink", english: "They drank.", jicarilla: "text", audioFile: "v/drink/he_drank.wav" },
 
 
 
@@ -1608,7 +1626,7 @@ const index = [
     { type: "verb", category: "fry", english: "They are frying. (food)", jicarilla: "da iiłt'ees.", audioFile: "v/fry/they_are_boiling.wav" },
     { type: "verb", category: "fry", english: "We are frying. (food)", jicarilla: "da hiiłt'ees.", audioFile: "v/fry/we_are_boiling.wav" },
 
-    { type: "verb", category: "fry", english: "I fried. (food)", jicarilla: "text", audioFile: "v/fry/i_fried.wav" },
+    ///{ type: "verb", category: "fry", english: "I fried. (food)", jicarilla: "text", audioFile: "v/fry/i_fried.wav" },
 
 
 
@@ -1640,7 +1658,24 @@ const index = [
     { type: "verb", category: "hungry", english: "I am hungry.", jicarilla: "Chishiyéesi.", audioFile: "v/hungry/i_am_hungry.wav" },
     { type: "verb", category: "hungry", english: "You are hungry.", jicarilla: "Chinyéesi.", audioFile: "v/hungry/you_are_hungry.wav" },
     { type: "verb", category: "hungry", english: "He / She is hungry.", jicarilla: "Chimiyéesi.", audioFile: "v/hungry/he_is_hungry.wav" },
-    { type: "verb", category: "hungry", english: "They are hungry.", jicarilla: "???", audioFile: "v/hungry/they_are_hungry.wav" },
+    ///{ type: "verb", category: "hungry", english: "They are hungry.", jicarilla: "???", audioFile: "v/hungry/they_are_hungry.wav" },
+
+
+
+
+    ///Verbs: Lonely
+
+    { type: "verb", category: "lonely", english: "I am lonely.", jicarilla: "", audioFile: "v/lonely/i_am_lonely.wav" },
+    { type: "verb", category: "lonely", english: "You are lonely.", jicarilla: "", audioFile: "v/lonely/you_are_lonely.wav" },
+    { type: "verb", category: "lonely", english: "He / She is lonely.", jicarilla: "", audioFile: "v/lonely/he_is_lonely.wav" },
+    { type: "verb", category: "lonely", english: "They are lonely.", jicarilla: "", audioFile: "v/lonely/they_are_lonely.wav" },
+
+
+
+
+    ///Verbs: Peeling
+
+    { type: "verb", category: "peeling", english: "I am peeling.", jicarilla: "Mest'áás.", audioFile: "v/peeling/i_am_peeling.wav" },
 
 
 

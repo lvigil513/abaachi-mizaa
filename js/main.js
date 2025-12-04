@@ -5,7 +5,7 @@
 audioPlayer = new Audio
 
 
-var revisedDate = "10/18/25";
+var revisedDate = "12/3/25";
 
 
 var inputSearchDictionary = "";
@@ -29,6 +29,9 @@ var enableLightMode = false;
 
 
 var listCategories = [];
+
+
+const inputSearch = "input-search";
 
 
 ///List: Header
@@ -341,13 +344,9 @@ function loadCategories() {
     })
 
 
-
     loadEntries();
 
 }
-
-
-
 
 
 
@@ -381,24 +380,17 @@ function loadContent() {
 function loadEntries() {
 
 
-
-
     index.forEach(item => {
 
 
         const root = document.getElementById('index-' + item.category);
-
 
         ///Normal
 
         if (displayType == "normal") {
 
 
-
-
             if (item.type == currentType) {
-
-
 
 
                 const container = document.createElement('div');
@@ -408,6 +400,8 @@ function loadEntries() {
 
 
                 container.className = "content";
+                container.setAttribute('onclick', 'playAudio("' + item.audioFile + '")');
+
                 containerTextTitle.innerHTML = item.english;
                 containerTextTitle.className = "text-content-heading";
                 containerTextTranslation.innerHTML = item.jicarilla;
@@ -473,16 +467,13 @@ function loadEntries() {
 function loadSearch() {
 
 
-
-
     const input = document.getElementById('input-search');
-
+    const listFiltered = [];
 
     if (input.value != "") {
 
 
         const root = document.getElementById('content-main');
-
 
         const formattedText = input.value.toLowerCase().replaceAll(" ", "_");
 
@@ -511,8 +502,11 @@ function loadSearch() {
 
 
                     container.className = "content";
+                    container.setAttribute('onclick', 'playAudio("' + item.audioFile + '")');
+
                     containerTextTitle.innerHTML = item.english;
                     containerTextTitle.className = "text-content-heading";
+
                     containerTextTranslation.innerHTML = item.jicarilla;
                     containerTextTranslation.className = "text-content-body";
 
@@ -631,19 +625,12 @@ function openLink(input) {
 }
 
 
-
-
 //Play Audio
 
 function playAudio(url) {
 
 
-    if (audioPlayer().play == false) {
-
-
-        new Audio("assets/sounds/" + url).play();
-
-    }
+    new Audio("assets/sounds/" + url).play();
 
 }
 
@@ -742,18 +729,35 @@ function updateEntriesCount() {
 function getScreenSize() {
 
 
-    const element = document.getElementById('output-screensize');
+    const element = document.getElementById("output-screensize");
 
+    const info = window.innerWidth + ", " + window.innerHeight;
 
     if (element != null) {
 
 
-        if (window.innerWidth > 800)
+        if (window.innerWidth > 800) {
+
+
             deviceType = "";
+            console.log(info);
+            element.innerHTML = info;
+
+        }
+
+        if (window.innerWidth < 800) {
 
 
-        if (window.innerWidth < 800)
             deviceType = "mobile";
+            console.log(info);
+            element.innerHTML = info;
+
+        }
+
+    } else {
+
+
+        console.log("Element not found.")
 
     }
 

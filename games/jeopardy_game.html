@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jicarilla Jeopardy</title>
+    <link rel="stylesheet" href="css/style_game_jeopardy.css">
+    <link rel="stylesheet" href="css/style_game_shared.css">
+    <script src="../games/data/list_jeopardy.js"></script>
+    <script src="scripts/script_jeopardy.js"></script>
+</head>
+
+<body>
+
+
+    <div id="view-menu" class="section-main-menu">
+
+
+        <div class="text-title">Jicarilla Jeopardy</div>
+
+        <div class="section-menu-list">
+
+
+            <div class="button-menu-start" onclick="startGame()">Start</div>
+            <div class="button-menu-exit" onclick="exitGame()">Exit</div>
+
+        </div>
+
+    </div>
+
+    <div id="view-gamesetup" class="section-gamesetup">
+
+
+        <div class="text-title">Game Setup</div>
+
+        <div class="section-gamesetup-body">
+
+
+            <div class="text-subtitle">Choose Teams</div>
+
+            <div id="team-setup-list" class="section-gamesetup-body-teamsetup">
+
+
+                <div class="container-teamsetup">
+
+
+                    <p class="text-gamesetup">Team A Name</p>
+
+                    <input id="input-teama-name" type="text" name="text-teamAName" placeholder="Enter Team Name..." class="input-teamsetup-name">
+
+                    <div class="button-confirm" onclick="setTeamName()">Confirm</div>
+
+                </div>
+
+
+                <div class="container-teamsetup">
+
+
+                    <p class="text-gamesetup">Team B Name</p>
+
+                    <input id="input-teamb-name" type="text" name="text-teamBName" placeholder="Enter Team Name..." class="input-teamsetup-name">
+
+                    <div class="button-confirm" onclick="setTeamName()">Confirm</div>
+
+                </div>
+
+            </div>
+
+
+            <div class="section-gamesetup-body-gametype">
+
+
+                <div id="button-sheepmode" class="button-gamestart-sheep" onclick="toggleSheepMode()">🐑 Enable Sheep Mode 🐑</div>
+
+            </div>
+
+        </div>
+
+        <div class="section-gamesetup-footer">
+
+
+            <div class="button-gamestart" onclick="initGame()">Play Game</div>
+
+        </div>
+
+    </div>
+
+
+    <div id="view-gameboard" class="section-game-board">
+
+
+        <div class="gameboard">
+
+
+            <div class="gameboard-header">
+
+
+                <div id="category-a" class="content-category">Animals</div>
+                <div id="category-b" class="content-category">Days of the Week</div>
+                <div id="category-c" class="content-category">Fruits</div>
+                <div id="category-d" class="content-category">Time</div>
+                <div id="category-e" class="content-category">Weather</div>
+
+            </div>
+
+
+            <div class="gameboard-body">
+
+
+                <div id="gameboard-normal" class="section-gameboard">
+
+
+                    <div class="gameboard-category">
+
+
+                        <div id="A1-normal" class="content-word" value="1" onclick="selectQuestion('A1')">$200</div>
+                        <div id="A2-normal" class="content-word" value="2" onclick="selectQuestion('A2')">$400</div>
+                        <div id="A3-normal" class="content-word" value="3" onclick="selectQuestion('A3')">$600</div>
+                        <div id="A4-normal" class="content-word" value="4" onclick="selectQuestion('A4')">$800</div>
+                        <div id="A5-normal" class="content-word" value="5" onclick="selectQuestion('A5')">$1000</div>
+
+                    </div>
+
+                    <div class="gameboard-category">
+
+
+                        <div id="B1-normal" class="content-word" value="1" onclick="selectQuestion('B1')">$200</div>
+                        <div id="B2-normal" class="content-word" value="2" onclick="selectQuestion('B2')">$400</div>
+                        <div id="B3-normal" class="content-word" value="3" onclick="selectQuestion('B3')">$600</div>
+                        <div id="B4-normal" class="content-word" value="4" onclick="selectQuestion('B4')">$800</div>
+                        <div id="B5-normal" class="content-word" value="5" onclick="selectQuestion('B5')">$1000</div>
+
+                    </div>
+
+                    <div class="gameboard-category">
+
+
+                        <div id="C1-normal" class="content-word" value="1" onclick="selectQuestion('C1')">$200</div>
+                        <div id="C2-normal" class="content-word" value="2" onclick="selectQuestion('C2')">$400</div>
+                        <div id="C3-normal" class="content-word" value="3" onclick="selectQuestion('C3')">$600</div>
+                        <div id="C4-normal" class="content-word" value="4" onclick="selectQuestion('C4')">$800</div>
+                        <div id="C5-normal" class="content-word" value="5" onclick="selectQuestion('C5')">$1000</div>
+
+                    </div>
+
+                    <div class="gameboard-category">
+
+
+                        <div id="D1-normal" class="content-word" value="1" onclick="selectQuestion('D1')">$200</div>
+                        <div id="D2-normal" class="content-word" value="2" onclick="selectQuestion('D2')">$400</div>
+                        <div id="D3-normal" class="content-word" value="3" onclick="selectQuestion('D3')">$600</div>
+                        <div id="D4-normal" class="content-word" value="4" onclick="selectQuestion('D4')">$800</div>
+                        <div id="D5-normal" class="content-word" value="5" onclick="selectQuestion('D5')">$1000</div>
+
+                    </div>
+
+                    <div class="gameboard-category">
+
+
+                        <div id="E1-normal" class="content-word" value="1" onclick="selectQuestion('E1')">$200</div>
+                        <div id="E2-normal" class="content-word" value="2" onclick="selectQuestion('E2')">$400</div>
+                        <div id="E3-normal" class="content-word" value="3" onclick="selectQuestion('E3')">$600</div>
+                        <div id="E4-normal" class="content-word" value="4" onclick="selectQuestion('E4')">$800</div>
+                        <div id="E5-normal" class="content-word" value="5" onclick="selectQuestion('E5')">$1000</div>
+
+                    </div>
+
+                </div>
+
+
+                <div id="gameboard-sheep" class="section-gameboard">
+
+
+                    <div class="gameboard-category">
+
+
+                        <div id="A1-sheep" class="content-word" value="1" onclick="selectQuestion('A1')">1 🐑</div>
+                        <div id="A2-sheep" class="content-word" value="2" onclick="selectQuestion('A2')">2 🐑</div>
+                        <div id="A3-sheep" class="content-word" value="3" onclick="selectQuestion('A3')">3 🐑</div>
+                        <div id="A4-sheep" class="content-word" value="4" onclick="selectQuestion('A4')">4 🐑</div>
+                        <div id="A5-sheep" class="content-word" value="5" onclick="selectQuestion('A5')">5 🐑</div>
+
+                    </div>
+
+                    <div class="gameboard-category">
+
+
+                        <div id="B1-sheep" class="content-word" value="1" onclick="selectQuestion('B1')">1 🐑</div>
+                        <div id="B2-sheep" class="content-word" value="2" onclick="selectQuestion('B2')">2 🐑</div>
+                        <div id="B3-sheep" class="content-word" value="3" onclick="selectQuestion('B3')">3 🐑</div>
+                        <div id="B4-sheep" class="content-word" value="4" onclick="selectQuestion('B4')">4 🐑</div>
+                        <div id="B5-sheep" class="content-word" value="5" onclick="selectQuestion('B5')">5 🐑</div>
+
+                    </div>
+
+                    <div class="gameboard-category">
+
+
+                        <div id="C1-sheep" class="content-word" value="1" onclick="selectQuestion('C1')">1 🐑</div>
+                        <div id="C2-sheep" class="content-word" value="2" onclick="selectQuestion('C2')">2 🐑</div>
+                        <div id="C3-sheep" class="content-word" value="3" onclick="selectQuestion('C3')">3 🐑</div>
+                        <div id="C4-sheep" class="content-word" value="4" onclick="selectQuestion('C4')">4 🐑</div>
+                        <div id="C5-sheep" class="content-word" value="5" onclick="selectQuestion('C5')">5 🐑</div>
+
+                    </div>
+
+                    <div class="gameboard-category">
+
+
+                        <div id="D1-sheep" class="content-word" value="1" onclick="selectQuestion('D1')">1 🐑</div>
+                        <div id="D2-sheep" class="content-word" value="2" onclick="selectQuestion('D2')">2 🐑</div>
+                        <div id="D3-sheep" class="content-word" value="3" onclick="selectQuestion('D3')">3 🐑</div>
+                        <div id="D4-sheep" class="content-word" value="4" onclick="selectQuestion('D4')">4 🐑</div>
+                        <div id="D5-sheep" class="content-word" value="5" onclick="selectQuestion('D5')">5 🐑</div>
+
+                    </div>
+
+                    <div class="gameboard-category">
+
+
+                        <div id="E1-sheep" class="content-word" value="1" onclick="selectQuestion('E1')">1 🐑</div>
+                        <div id="E2-sheep" class="content-word" value="2" onclick="selectQuestion('E2')">2 🐑</div>
+                        <div id="E3-sheep" class="content-word" value="3" onclick="selectQuestion('E3')">3 🐑</div>
+                        <div id="E4-sheep" class="content-word" value="4" onclick="selectQuestion('E4')">4 🐑</div>
+                        <div id="E5-sheep" class="content-word" value="5" onclick="selectQuestion('E5')">5 🐑</div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="gameboard-footer">
+
+
+            <div class="text-team-info">
+
+                <div id="team-a-name" class="text-teamname">Team A</div>
+
+                <div id="team-a-score" class="text-teamname">Score</div>
+
+            </div>
+
+            <div class="text-team-info">
+
+                <div id="team-b-name" class="text-teamname">Team A</div>
+
+                <div id="team-b-score" class="text-teamname">Score</div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div id="view-question" class="section-question">
+
+
+        <div class="container-question">
+
+
+            <div id="game-question" class="text-question" onclick="revealAnswer()">What is the Jicarilla word for "Mansaana"?</div>
+
+        </div>
+
+
+        <div class="section-answer">
+
+
+            <div id="answer-controls" class="section-answer-controls">
+
+
+                <div class="section-question-team">
+
+
+                    <div id="text-teamA-name" class="button-team" onclick="teamAScored()">Team A</div>
+
+                    <div id="text-teamB-name" class="button-team" onclick="teamBScored()">Team B</div>
+
+                </div>
+
+                <div class="section-question-noanswer">
+
+
+                    <div class="button-noanswer" onclick="returnToBoard()">No Answer</div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div id="view-results" class="section-results">
+
+
+        <div class="text-title">Results</div>
+
+        <div id="text-team-winner" class="text-results">Text</div>
+
+        <div class="section-results-footer">
+
+
+            <div class="button-results-mainmenu" onclick="resetGame()">Return to Main Menu</div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>

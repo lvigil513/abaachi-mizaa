@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abáachi Lingo</title>
+    <link rel="stylesheet" href="css/style_game_guessing.css">
+    <link rel="stylesheet" href="css/style_game_shared.css">
+    <script src="../games/data/list_guessing.js"></script>
+    <script src="scripts/script_guessing.js"></script>
+</head>
+
+<body class="wrapper-main">
+
+
+    <div id="view-menu" class="section-menu">
+
+
+        <div class="text-title">Abáachi Lingo</div>
+
+        <div class="section-menu-list">
+
+
+            <div class="button-menu-start" onclick="startGame()">Start</div>
+            <div class="button-menu-exit" onclick="exitGame()">Exit</div>
+
+        </div>
+
+    </div>
+
+    <div id="view-game-setup" class="section-game-setup">
+
+
+        <div class="text-title">Select Category</div>
+
+        <div class="section-game-list">
+
+
+            <div class="button-menu-category" onclick="setGameCategory('Animals: Beginner I')">Animals: Beginner I</div>
+            <div class="button-menu-category" onclick="setGameCategory('Animals: Beginner II')">Animals: Beginner II</div>
+            <div class="button-menu-category" onclick="setGameCategory('Beverages')">Beverages</div>
+            <div class="button-menu-category" onclick="setGameCategory('Colors')">Colors</div>
+            <div class="button-menu-category" onclick="setGameCategory('Days of the Week')">Days of the Week</div>
+            <div class="button-menu-category" onclick="setGameCategory('Finance')">Finance</div>
+            <div class="button-menu-category" onclick="setGameCategory('Fruits')">Fruits</div>
+            <div class="button-menu-category" onclick="setGameCategory('Kinship')">Kinship</div>
+            <div class="button-menu-category" onclick="setGameCategory('Months')">Months</div>
+            <div class="button-menu-category" onclick="setGameCategory('Numbers 1-10')">Numbers 1-10</div>
+            <div class="button-menu-category" onclick="setGameCategory('Numbers 11-20')">Numbers 11-20</div>
+            <div class="button-menu-category" onclick="setGameCategory('Plants')">Plants</div>
+            <div class="button-menu-category" onclick="setGameCategory('Useful Phrases')">Useful Phrases</div>
+            <div class="button-menu-category" onclick="setGameCategory('Vegetables')">Vegetables</div>
+            <div class="button-menu-category" onclick="setGameCategory('Weather')">Weather</div>
+
+        </div>
+
+    </div>
+
+    <div id="view-gameboard" class="section-gameboard">
+
+
+        <div id="game-title" class="text-title">Jicarilla Hangman</div>
+
+        <div class="gameboard-main">
+
+
+            <div class="section-gameboard-display">
+
+
+                <div id="gameboardDisplay" class="gameboard-display"></div>
+
+            </div>
+
+            <div id="gameboard-currentword" class="section-gameboard-word"></div>
+
+            <div id="info-guesses" class="section-gameboard-guesses">Wrong guesses: 0 / 6</div>
+
+            <div class="gameboard-keyboard">
+
+
+                <div class="button-key" onclick="guessLetter('a')" id="button-a">A</div>
+
+                <div class="button-key" onclick="guessLetter('á')" id="button-á">Á</div>
+
+                <div class="button-key" onclick="guessLetter('b')" id="button-b">B</div>
+
+                <div class="button-key" onclick="guessLetter('c')" id="button-c">C</div>
+
+                <div class="button-key" onclick="guessLetter('d')" id="button-d">D</div>
+
+                <div class="button-key" onclick="guessLetter('e')" id="button-e">E</div>
+
+                <div class="button-key" onclick="guessLetter('é')" id="button-é">É</div>
+
+                <div class="button-key" onclick="guessLetter('g')" id="button-g">G</div>
+
+                <div class="button-key" onclick="guessLetter('h')" id="button-h">H</div>
+
+                <div class="button-key" onclick="guessLetter('i')" id="button-i">I</div>
+
+                <div class="button-key" onclick="guessLetter('í')" id="button-í">Í</div>
+
+                <div class="button-key" onclick="guessLetter('j')" id="button-j">J</div>
+
+                <div class="button-key" onclick="guessLetter('k')" id="button-k">K</div>
+
+                <div class="button-key" onclick="guessLetter('l')" id="button-l">L</div>
+
+                <div class="button-key" onclick="guessLetter('ł')" id="button-ł">Ł</div>
+
+                <div class="button-key" onclick="guessLetter('m')" id="button-m">M</div>
+
+                <div class="button-key" onclick="guessLetter('n')" id="button-n">N</div>
+
+                <div class="button-key" onclick="guessLetter('o')" id="button-o">O</div>
+
+                <div class="button-key" onclick="guessLetter('ó')" id="button-ó">Ó</div>
+
+                <div class="button-key" onclick="guessLetter('s')" id="button-s">S</div>
+
+                <div class="button-key" onclick="guessLetter('t')" id="button-t">T</div>
+
+                <div class="button-key" onclick="guessLetter('w')" id="button-w">W</div>
+
+                <div class="button-key" onclick="guessLetter('y')" id="button-y">Y</div>
+
+                <div class="button-key" onclick="guessLetter('z')" id="button-z">Z</div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="view-results" class="section-results">
+
+
+        <div class="text-title">Results</div>
+
+        <div class="game-results">
+
+
+            <p class="text-gameresults-title" id="info-results-gametitle"></p>
+
+            <p class="text-gameresults" id="info-results-currentEntry">Text</p>
+            <p class="text-gameresults" id="info-results-wrongGuesses">Text</p>
+
+        </div>
+
+        <div class="button-reset" onclick="resetGame()">New Game</div>
+
+    </div>
+
+</body>
+
+</html>

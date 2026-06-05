@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jicarilla Matching Game</title>
+    <link rel="stylesheet" href="css/style_game_matching.css">
+    <link rel="stylesheet" href="css/style_game_shared.css">
+    <script src="../games/data/list_matching.js"></script>
+    <script src="scripts/script_matching.js"></script>
+</head>
+
+<body class="wrapper-main">
+
+
+    <div id="view-menu" class="section-menu">
+
+
+        <div class="text-title">Jicarilla Matching Game</div>
+
+        <div class="section-menu-list">
+
+
+            <div class="button-menu-start" onclick="startGame()">Start</div>
+            <div class="button-menu-exit" onclick="exitGame()">Exit</div>
+
+        </div>
+
+    </div>
+
+    <div id="view-game-setup" class="section-game-setup">
+
+
+        <div class="text-title">Select Category</div>
+
+        <div class="section-game-list">
+
+
+            <div class="button-menu-category" onclick="setGameCategory('Animals: Beginner I')">Animals: Beginner I</div>
+            <div class="button-menu-category" onclick="setGameCategory('Animals: Beginner II')">Animals: Beginner II</div>
+            <div class="button-menu-category" onclick="setGameCategory('Beverages')">Beverages</div>
+            <div class="button-menu-category" onclick="setGameCategory('Colors')">Colors</div>
+            <div class="button-menu-category" onclick="setGameCategory('Days of the Week')">Days of the Week</div>
+            <div class="button-menu-category" onclick="setGameCategory('Finance')">Finance</div>
+            <div class="button-menu-category" onclick="setGameCategory('Fruits')">Fruits</div>
+            <div class="button-menu-category" onclick="setGameCategory('Kinship')">Kinship</div>
+            <div class="button-menu-category" onclick="setGameCategory('Months')">Months</div>
+            <div class="button-menu-category" onclick="setGameCategory('Numbers 1-10')">Numbers 1-10</div>
+            <div class="button-menu-category" onclick="setGameCategory('Numbers 11-20')">Numbers 11-20</div>
+            <div class="button-menu-category" onclick="setGameCategory('Plants')">Plants</div>
+            <div class="button-menu-category" onclick="setGameCategory('Test')">Test</div>
+            <div class="button-menu-category" onclick="setGameCategory('Vegetables')">Vegetables</div>
+            <div class="button-menu-category" onclick="setGameCategory('Weather')">Weather</div>
+
+        </div>
+
+    </div>
+
+    <div id="view-gameboard" class="section-gameboard">
+
+
+        <div class="text-title-game" id="game-title">Title</div>
+
+        <div class="game-board" id="gameBoard"></div>
+
+    </div>
+
+    <div id="view-results" class="section-results">
+
+
+        <div class="text-title">Results</div>
+
+        <div class="game-results">
+
+
+            <p class="text-gameresults-title" id="info-game-title"></p>
+
+            <p class="text-gameresults" id="info-cards-flipped">Text</p>
+            <p class="text-gameresults" id="info-card-streak">Text</p>
+
+        </div>
+
+        <div class="button-reset" onclick="resetGame()">New Game</div>
+
+    </div>
+
+</body>
+
+</html>

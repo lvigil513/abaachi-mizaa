@@ -1,6 +1,10 @@
 html {
     scroll-behavior: smooth;
     font-family: Outfit, sans-serif;
+    background-image: url("../assets/backgrounds/background_game_hangman.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
 body {
@@ -65,62 +69,6 @@ button {
     padding: 10px;
 }
 
-
-.button-menu-start {
-    width: 400px;
-    height: 40px;
-    color: black;
-    background-color: white;
-    place-content: center;
-    font-size: 1.5rem;
-    border-radius: 10px;
-    cursor: pointer;
-    transition-duration: 0.1s;
-    margin: 10px;
-    padding: 10px;
-}
-
-    .button-menu-start:hover {
-        width: 400px;
-        height: 40px;
-        color: white;
-        background-color: rgb(0, 200, 0);
-        place-content: center;
-        font-size: 1.5rem;
-        border-radius: 10px;
-        cursor: pointer;
-        margin: 10px;
-        padding: 10px;
-    }
-
-.button-menu-exit {
-    width: 400px;
-    height: 40px;
-    color: black;
-    background-color: white;
-    place-content: center;
-    font-size: 1.5rem;
-    border-radius: 10px;
-    cursor: pointer;
-    transition-duration: 0.1s;
-    margin: 10px;
-    padding: 10px;
-}
-
-    .button-menu-exit:hover {
-        width: 400px;
-        height: 40px;
-        color: white;
-        background-color: rgb(200, 0, 0);
-        place-content: center;
-        font-size: 1.5rem;
-        border-radius: 10px;
-        cursor: pointer;
-        margin: 10px;
-        padding: 10px;
-    }
-
-
 .button-menu-category {
     width: 300px;
     height: 100px;
@@ -145,22 +93,88 @@ button {
 .button-reset {
     width: 400px;
     min-height: 60px;
-    color: rgb(200, 0, 0);
+    color: red;
     background-color: white;
     place-content: center;
     font-size: 1.5rem;
     border-radius: 10px;
     cursor: pointer;
-    transition-duration: 0.1s;
     margin: 10px;
     padding: 10px;
 }
 
-    .button-reset:hover {
-        color: white;
-        background-color: rgb(200, 0, 0);
-    }
+.gameboard-keyboard {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(8, auto);
+    gap: 8px;
+    place-content: center;
+    margin: 0px;
+    padding: 0px;
+}
 
+.gameboard-main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.gameboard-word {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    color: white;
+    border-bottom-width: 4px;
+    border-bottom-style: solid;
+    border-bottom-color: white;
+    place-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.gameboard-word-space {
+    display: flex;
+    width: 30px;
+    height: 40px;
+    color: white;
+    place-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.gameboard-word-apostrophe {
+    display: flex;
+    width: 10px;
+    height: 40px;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.gameboard-word-period {
+    display: flex;
+    width: 10px;
+    height: 40px;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.section-gameboard-word {
+    width: auto;
+    min-height: 100px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    place-items: center;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+}
 
 .game-results {
     width: 100%;
@@ -169,9 +183,48 @@ button {
     padding: 0px;
 }
 
+.section-gameboard {
+    width: 100vw;
+    height: 100vh;
+    height: 100dvh;
+    display: none;
+    flex-direction: column;
+}
+
+.section-gameboard-display {
+    width: 100%;
+    min-height: 40vh;
+    margin: 0px;
+    padding: 0px;
+}
+
+.gameboard-display {
+    width: 100%;
+    height: 100%;
+    background-image: url("../assets/hangman/gameboard_hangman0.png");
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.section-gameboard-guesses {
+    width: 100%;
+    min-height: 60px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 400;
+    place-content: center;
+}
+
 .section-game-setup {
     width: 100%;
     height: 100vh;
+    display: none;
     flex-direction: column;
 }
 
@@ -188,23 +241,14 @@ button {
 .section-menu {
     width: 100vw;
     height: 100vh;
-    flex-direction: column;
-}
-
-.section-menu-list {
-    width: 100%;
-    height: 100vh;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    place-content: center;
-    margin: 0px;
-    padding: 0px;
 }
 
 .section-results {
     width: 100%;
-    height: 100%;
+    height: 100vh;
+    display: none;
     flex-direction: column;
     align-items: center;
 }
@@ -232,17 +276,13 @@ button {
     padding: 0px;
 }
 
-.text-title {
-    width: 100%;
-    min-height: 100px;
-    color: white;
-    font-size: 3rem;
-    font-weight: 500;
-    place-content: center;
-}
-
 .wrapper-main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
     background-color: rgba(20, 20, 20, 0.75);
+    margin: 0px;
+    padding: 0px;
 }
 
 @font-face {

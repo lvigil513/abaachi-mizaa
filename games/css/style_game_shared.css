@@ -279,6 +279,7 @@ button {
 .wrapper-main {
     width: 100vw;
     height: 100vh;
+    height: 100dvh;
     display: flex;
     background-color: rgba(20, 20, 20, 0.75);
     margin: 0px;

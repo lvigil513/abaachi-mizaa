@@ -32,9 +32,9 @@ button {
     padding: 0px;
 }
 
-    .button-key:hover {
-        scale: 1.1;
-    }
+.button-key:hover {
+    scale: 1.1;
+}
 
 .button-key-pressed {
     width: 80px;
@@ -77,14 +77,14 @@ button {
     padding: 0px;
 }
 
-    .button-menu-start:hover {
-        color: white;
-        background-color: rgb(0, 200, 0);
-        place-content: center;
-        font-size: 1.5rem;
-        border-radius: 10px;
-        cursor: pointer;
-    }
+.button-menu-start:hover {
+    color: white;
+    background-color: rgb(0, 200, 0);
+    place-content: center;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
 
 .button-menu-exit {
     width: 40vw;
@@ -100,22 +100,22 @@ button {
     padding: 0px;
 }
 
-    .button-menu-exit:hover {
-        color: white;
-        background-color: rgb(200, 0, 0);
-        place-content: center;
-        font-size: 1.5rem;
-        border-radius: 10px;
-        cursor: pointer;
-    }
+.button-menu-exit:hover {
+    color: white;
+    background-color: rgb(200, 0, 0);
+    place-content: center;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
 
 .button-menu-category {
-    width: 20vw;
-    height: 14vh;
+    width: 30vw;
+    height: 15vh;
     color: rgb(200, 50, 50);
     background-color: white;
     place-content: center;
-    font-size: 1.5rem;
+    font-size: 1.5vw;
     border-radius: 10px;
     cursor: pointer;
     scale: 1;
@@ -124,11 +124,11 @@ button {
     padding: 0px;
 }
 
-    .button-menu-category:hover {
-        scale: 1.02;
-        background-color: rgb(200, 50, 50);
-        color: white;
-    }
+.button-menu-category:hover {
+    scale: 1.02;
+    background-color: rgb(200, 50, 50);
+    color: white;
+}
 
 .button-reset {
     width: 400px;
@@ -144,10 +144,10 @@ button {
     padding: 10px;
 }
 
-    .button-reset:hover {
-        color: white;
-        background-color: rgb(200, 0, 0);
-    }
+.button-reset:hover {
+    color: white;
+    background-color: rgb(200, 0, 0);
+}
 
 .game-results {
     width: 100%;
@@ -225,7 +225,7 @@ button {
     width: 100%;
     min-height: 100px;
     color: white;
-    font-size: 2.5rem;
+    font-size: 3vw;
     font-weight: 500;
     place-content: center;
 }

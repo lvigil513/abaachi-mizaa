@@ -1,19 +1,9 @@
 html {
     scroll-behavior: smooth;
-    font-family: Outfit, sans-serif;
     background-image: url("../assets/backgrounds/background_game_hangman.png");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-}
-
-body {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    text-align: center;
-    margin: 0px;
-    padding: 0px;
 }
 
 button {
@@ -21,135 +11,10 @@ button {
     height: 30px;
 }
 
-.button-key {
-    width: 80px;
-    height: 40px;
-    background-color: white;
-    color: rgb(200, 50, 50);
-    cursor: pointer;
-    font-size: 1rem;
-    font-weight: 500;
-    border-radius: 10px;
-    place-content: center;
-    transition-duration: 0.1s;
-    scale: 1;
-    margin: 0px;
-    padding: 0px;
-}
-
-.button-key:hover {
-    scale: 1.1;
-}
-
-
-.button-key-pressed {
-    width: 80px;
-    height: 40px;
-    background-color: rgb(200, 50, 50);
-    color: white;
-    cursor: not-allowed;
-    font-size: 1rem;
-    font-weight: 500;
-    border-radius: 10px;
-    place-content: center;
-    margin: 0px;
-    padding: 0px;
-}
-
 .button-menu {
     width: 400px;
     height: 40px;
     color: black;
-    background-color: white;
-    place-content: center;
-    font-size: 1.5rem;
-    border-radius: 10px;
-    cursor: pointer;
-    margin: 10px;
-    padding: 10px;
-}
-
-
-.button-menu-start {
-    width: 400px;
-    height: 40px;
-    color: black;
-    background-color: white;
-    place-content: center;
-    font-size: 1.5rem;
-    border-radius: 10px;
-    cursor: pointer;
-    transition-duration: 0.1s;
-    margin: 10px;
-    padding: 10px;
-}
-
-    .button-menu-start:hover {
-        width: 400px;
-        height: 40px;
-        color: white;
-        background-color: rgb(0, 200, 0);
-        place-content: center;
-        font-size: 1.5rem;
-        border-radius: 10px;
-        cursor: pointer;
-        margin: 10px;
-        padding: 10px;
-    }
-
-.button-menu-exit {
-    width: 400px;
-    height: 40px;
-    color: black;
-    background-color: white;
-    place-content: center;
-    font-size: 1.5rem;
-    border-radius: 10px;
-    cursor: pointer;
-    transition-duration: 0.1s;
-    margin: 10px;
-    padding: 10px;
-}
-
-    .button-menu-exit:hover {
-        width: 400px;
-        height: 40px;
-        color: white;
-        background-color: rgb(200, 0, 0);
-        place-content: center;
-        font-size: 1.5rem;
-        border-radius: 10px;
-        cursor: pointer;
-        margin: 10px;
-        padding: 10px;
-    }
-
-
-.button-menu-category {
-    width: 300px;
-    height: 100px;
-    color: rgb(200, 50, 50);
-    background-color: white;
-    place-content: center;
-    font-size: 1.5rem;
-    border-radius: 10px;
-    cursor: pointer;
-    scale: 1;
-    transition-duration: 0.1s;
-    margin: 0px;
-    padding: 0px;
-}
-
-    .button-menu-category:hover {
-        scale: 1.02;
-        background-color: rgb(200, 50, 50);
-        color: white;
-    }
-
-.button-reset {
-    width: 400px;
-    min-height: 60px;
-    color: red;
     background-color: white;
     place-content: center;
     font-size: 1.5rem;
@@ -232,16 +97,10 @@ button {
     padding: 0px;
 }
 
-.game-results {
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-}
-
 .section-gameboard {
-    width: 100%;
+    width: 100vw;
     height: 100vh;
+    height: 100dvh;
     display: none;
     flex-direction: column;
 }
@@ -271,89 +130,15 @@ button {
     display: flex;
     flex-direction: column;
     color: white;
-    font-size: 1rem;
-    font-weight: 500;
-    place-content: center;
-}
-
-.section-game-setup {
-    width: 100%;
-    height: 100vh;
-    display: none;
-    flex-direction: column;
-}
-
-.section-game-list {
-    display: grid;
-    grid-template-columns: repeat(3, auto);
-    gap: 10px;
-    place-content: center;
-    overflow-y: scroll;
-    margin: 10px;
-    padding: 10px;
-}
-
-.section-menu {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
-
-.section-menu-list {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    place-content: center;
-    margin: 0px;
-    padding: 0px;
-}
-
-.section-results {
-    width: 100%;
-    height: 100vh;
-    display: none;
-    flex-direction: column;
-    align-items: center;
-}
-
-.text-gameresults {
-    width: 100%;
-    height: 120px;
-    color: white;
-    font-size: 2rem;
-    font-weight: 200;
-    place-content: center;
-    margin: 0px;
-    padding: 0px;
-}
-
-.text-gameresults-title {
-    width: 100%;
-    height: 200px;
-    color: white;
-    font-size: 2.5rem;
-    font-weight: 500;
-    text-decoration: underline;
-    place-content: center;
-    margin: 0px;
-    padding: 0px;
-}
-
-.text-title {
-    width: 100%;
-    min-height: 100px;
-    color: white;
-    font-size: 3rem;
-    font-weight: 500;
+    font-size: 1.25rem;
+    font-weight: 400;
     place-content: center;
 }
 
 .wrapper-main {
     width: 100vw;
     height: 100vh;
+    height: 100dvh;
     display: flex;
     background-color: rgba(20, 20, 20, 0.75);
     margin: 0px;

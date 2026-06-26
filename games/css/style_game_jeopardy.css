@@ -84,33 +84,6 @@ html {
     padding: 10px;
 }
 
-.button-menu-exit {
-    width: 400px;
-    height: 40px;
-    color: black;
-    background-color: white;
-    place-content: center;
-    font-size: 1.5rem;
-    border-radius: 10px;
-    cursor: pointer;
-    transition-duration: 0.1s;
-    margin: 10px;
-    padding: 10px;
-}
-
-    .button-menu-exit:hover {
-        width: 400px;
-        height: 40px;
-        color: white;
-        background-color: rgb(200, 0, 0);
-        place-content: center;
-        font-size: 1.5rem;
-        border-radius: 10px;
-        cursor: pointer;
-        margin: 10px;
-        padding: 10px;
-    }
-
 .button-noanswer {
     width: 100%;
     min-height: 20px;
